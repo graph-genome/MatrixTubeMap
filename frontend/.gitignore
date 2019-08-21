@@ -5,3 +5,4 @@ node_modules
 .vscode
 build/
 *.swp
+./backend/src/node_modules

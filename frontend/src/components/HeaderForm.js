@@ -232,6 +232,7 @@ class HeaderForm extends Component {
   };
 
   setUpWebsocket = () => {
+    console.log(BACKEND_URL);
     this.ws = new WebSocket(BACKEND_URL.replace(/^http/, 'ws'));
     this.ws.onmessage = message => {
       this.getMountedFilenames();

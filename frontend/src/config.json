@@ -1,5 +1,5 @@
 {
-  "BACKEND_URL": false,
+  "BACKEND_URL": "http://localhost:3001",
   "DATA_SOURCES": [
     {
       "name": "snp1kg-BRCA1",
@@ -27,6 +27,6 @@
     }
   ],
   "vgPath": "",
-  "dataPath": "./exampleData/",
-  "internalDataPath": "./exampleData/"
+  "dataPath": "../../exampleData/",
+  "internalDataPath": "../../exampleData/"
 }
