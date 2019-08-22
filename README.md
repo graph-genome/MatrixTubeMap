@@ -109,10 +109,10 @@ PATH=/<your_path_to_vg>:$PATH
   ```
 - If the node server is running on your local machine, open a browser tab and go to `localhost:3001`.
 - If the node server is running on a different machine, open a local browser tab and go to the server's URL on port 3001 `http://<your server's IP or URL>:3001/`.
-  If you cannot access the server's port 3000 from the browser, instead of configuring firewall rules etc., it's probably easiest to set up an SSH tunnel.
+  If you cannot access the server's port 3001 from the browser, instead of configuring firewall rules etc., it's probably easiest to set up an SSH tunnel.
 
 ```
-ssh -N -L 3000:localhost:3001 <your username>@<your server>
+ssh -N -L 3001:localhost:3001 <your username>@<your server>
 ```
 
 #### Adding your own data:
