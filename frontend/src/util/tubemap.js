@@ -383,6 +383,12 @@ function createTubeMap() {
     generateTrackIndexSequences(reads);
     placeReads();
     tracks = tracks.concat(reads);
+  } else {
+    nodes.forEach(node => {
+       node.incomingReads = [];
+       node.outgoingReads = [];
+       node.internalReads = [];
+    });
   }
 
   generateSVGShapesFromPath(nodes, tracks);
