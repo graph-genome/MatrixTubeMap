@@ -7,6 +7,7 @@ import DataPositionFormRow from './DataPositionFormRow';
 import MountedDataFormRow from './MountedDataFormRow';
 import FileUploadFormRow from './FileUploadFormRow';
 import ExampleSelectButtons from './ExampleSelectButtons';
+import SparqlDataFormRow from "./SparqlDataFormRow";
 
 const BACKEND_URL = config.BACKEND_URL || `http://${window.location.host}`;
 const DATA_SOURCES = config.DATA_SOURCES;
@@ -15,7 +16,8 @@ const dataTypes = {
   BUILT_IN: 'built-in',
   FILE_UPLOAD: 'file-upload',
   MOUNTED_FILES: 'mounted files',
-  EXAMPLES: 'examples'
+  EXAMPLES: 'examples',
+  SPARQL: 'sparql'
 };
 
 class HeaderForm extends Component {
@@ -31,6 +33,8 @@ class HeaderForm extends Component {
 
     pathSelectOptions: ['none'],
     pathSelect: 'none',
+
+    sparqlSelect: 'http://localhost:8088/sparql/',
 
     xgFile: 'snp1kg-BRCA1.vg.xg',
     gbwtFile: '',
@@ -88,6 +92,29 @@ class HeaderForm extends Component {
       console.log('POST to /getFilenames failed');
     }
   };
+  
+  updatePathNamesFromSparql = async () => {
+    try {
+        const fetchedData = await fetch (`${this.state.sparqlSelect}?format=srj&query=PREFIX vg:<http://biohackathon.org/resource/vg%23> SELECT DISTINCT ?pathname WHERE { ?step vg:path ?pathname } ORDER BY ?pathname`);
+        const fetchedJson = await fetchedData.json();
+        const lpso = fetchedJson.results.bindings.map(p => p.pathname.value);
+        console.log(lpso);
+
+        this.setState(state => {
+            const pathSelect = lpso.includes(state.pathSelect)
+                ? state.pathSelect
+                : lpso[0];
+            return {
+                pathSelectOptions: lpso,
+                pathSelect,
+                anchorTrackName: pathSelect
+            };
+        });
+    } catch (error) {
+      console.log(error);
+      console.log('GETTING sparql path names failed');
+    }
+  }
 
   getPathNames = async (xgFile, isUploadedFile) => {
     try {
@@ -161,6 +188,19 @@ class HeaderForm extends Component {
       });
     } else if (value === 'syntheticExamples') {
       this.setState({ dataType: dataTypes.EXAMPLES });
+    } else if (value === 'sparqlBackend') {  
+      this.updatePathNamesFromSparql();
+      this.props.setDataOrigin( dataOriginTypes.SPARQL);
+      this.setState(state => {
+        return {
+          dataOrigin: dataTypes.sparql,
+          dataType: dataTypes.SPARQL,
+          anchorTrackName: state.pathSelect,
+          dataPath: 'sparql',
+          distance: '10',
+          byNode: 'true',
+        };
+      });
     }
   };
 
@@ -177,7 +217,8 @@ class HeaderForm extends Component {
       gbwtFile: this.state.gbwtFile,
       gamFile: this.state.gamFile,
       anchorTrackName: this.state.anchorTrackName,
-      dataPath: this.state.dataPath
+      dataPath: this.state.dataPath,
+      sparqlSelect: this.state.sparqlSelect
     };
     this.props.setFetchParams(fetchParams);
   };
@@ -262,12 +303,16 @@ class HeaderForm extends Component {
       </option>,
       <option value="customMounted" key="customMounted">
         custom (mounted files)
+      </option>,
+      <option value="sparqlBackend" key="sparqlBackend">
+        SPARQL Backend
       </option>
     );
 
     const mountedFilesFlag = this.state.dataType === dataTypes.MOUNTED_FILES;
     const uploadFilesFlag = this.state.dataType === dataTypes.FILE_UPLOAD;
     const examplesFlag = this.state.dataType === dataTypes.EXAMPLES;
+    const sparqlFlag = this.state.dataType === dataTypes.SPARQL;
 
     return (
       <div>
@@ -315,6 +360,15 @@ class HeaderForm extends Component {
                     handleFileUpload={this.handleFileUpload}
                     showFileSizeAlert={this.showFileSizeAlert}
                     setUploadInProgress={this.setUploadInProgress}
+                  />
+                )}
+                {sparqlFlag && (
+                  <SparqlDataFormRow
+                    sparqlSelect={this.state.sparqlSelect}
+                    pathSelect={this.state.pathSelect}
+                    getPathNames={this.updatePathNamesFromSparql}
+                    pathSelectOptions={this.state.pathSelectOptions}
+                    handleInputChange={this.handleInputChange}
                   />
                 )}
               </Form>

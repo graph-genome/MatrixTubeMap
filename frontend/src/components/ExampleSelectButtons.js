@@ -77,6 +77,15 @@ class ExampleSelectButtons extends Component {
         >
           Blocks
         </Button>
+        <Button
+          color="primary"
+          id="example8"
+          onClick={() =>
+            this.handleClick(dataOriginTypes.EXAMPLE_8, 'greys', 'reds')
+          }
+        >
+          SPARQL
+        </Button>
       </Form>
     );
   }
