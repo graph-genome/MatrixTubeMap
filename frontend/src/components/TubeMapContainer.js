@@ -72,21 +72,22 @@ class TubeMapContainer extends Component {
        depthSp=depthSp+depth;
     }
     const queryForNodes=`PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns%23> PREFIX vg:<http://biohackathon.org/resource/vg%23> PREFIX f2f:<http://biohackathon.org/resource/vg%23linksForwardToForward> SELECT DISTINCT ?node ?sequence WHERE { BIND (<http://example.org/vg/node/${this.props.fetchParams.nodeId}> AS ?originalNode) . ?originalNode f2f:${depthSp} ?node . ?node rdf:value ?sequence . }`;
-    const queryForPaths=`PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns%23> PREFIX vg:<http://biohackathon.org/resource/vg%23> PREFIX f2f:<http://biohackathon.org/resource/vg%23linksForwardToForward> SELECT ?rank ?path ?node WHERE { BIND (<http://example.org/vg/node/${this.props.fetchParams.nodeId}> AS ?originalNode) . ?originalNode f2f:${depthSp} ?node . ?step vg:node ?node ; vg:path ?path ; vg:rank ?rank . } ORDER BY ?rank`;
+    const queryForPaths=`PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns%23> PREFIX vg:<http://biohackathon.org/resource/vg%23> PREFIX f2f:<http://biohackathon.org/resource/vg%23linksForwardToForward> SELECT DISTINCT ?rank ?path ?node ?position WHERE { BIND (<http://example.org/vg/node/${this.props.fetchParams.nodeId}> AS ?originalNode) . ?originalNode f2f:${depthSp} ?node . ?step vg:node ?node ; vg:path ?path ; vg:rank ?rank ; vg:position ?position . } ORDER BY ?rank`;
     try {
       const responseForNodes = await fetch (`http://localhost:8088/sparql/?format=srj&query=${queryForNodes}`);
       const responseForPaths = await fetch (`http://localhost:8088/sparql/?format=srj&query=${queryForPaths}`);
       const jsonNodes = await responseForNodes.json();
-      const nodes = jsonNodes.results.bindings.map(o => {const v=o.node.value; return { "id" : v.substr(v.lastIndexOf('/')+1), "sequence" : o.sequence.value};});
-      console.log(nodes);
+      const nodes = jsonNodes.results.bindings.map(o => {const v=o.node.value; return { "name" : v.substr(v.lastIndexOf('/')+1), "seq" : o.sequence.value, "sequenceLength" : o.sequence.value.length };});
       const jsonPaths = await responseForPaths.json();
-      console.log(jsonPaths);
       const tracks = new Map();
       jsonPaths.results.bindings.forEach(p => {
             var currentTrack = tracks.get(p.path.value);
             if (currentTrack === undefined) {
-                currentTrack = {"id": p.path.value , "sequence": []};
-                tracks.set(currentTrack.id, currentTrack);
+                currentTrack = {"id": tracks.size+1 , "sequence": []};
+                if (tracks.size === 0 ) {
+                    currentTrack.indexOfFirstBase=1;
+                }
+                tracks.set(p.path.value, currentTrack);
             }
             const v=p.node.value;
             const nodeId=v.substr(v.lastIndexOf('/')+1);
@@ -94,7 +95,6 @@ class TubeMapContainer extends Component {
       });
       const trackArray = Array.from(tracks.values());
       const reads2 = { "tracks" : []};
-      console.log(trackArray);
       return { "tracks" : trackArray , "nodes" : nodes, "reads" : reads2};
     } catch (error) {
         console.log(error);
@@ -143,11 +143,14 @@ class TubeMapContainer extends Component {
         tracks = data.inputTracks1;
         break;
       case dataOriginTypes.EXAMPLE_7:
-        this.props.fetchParams.nodeId=1
-        this.props.fetchParams.distance=5
+        this.props.fetchParams.nodeId=100
+        this.props.fetchParams.distance=10
         const data2= await this.getNodesFromSparql();
         nodes = data2.nodes;
         tracks = data2.tracks;
+        console.log(data2);
+        console.log(nodes);
+    
         //reads = data.reads;
         break;
       case dataOriginTypes.EXAMPLE_2:
