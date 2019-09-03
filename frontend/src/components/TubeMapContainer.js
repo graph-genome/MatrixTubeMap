@@ -64,6 +64,48 @@ class TubeMapContainer extends Component {
       </div>
     );
   }
+  getNodesFromSparql = async () => {
+    this.setState({ isLoading: true, error: null });
+    const depth="/(f2f:)?";
+    var i;
+    var depthSp="";
+    for (i = 0; i < this.props.fetchParams.distance; i++) { 
+       depthSp=depthSp+depth;
+    }
+    const queryForNodes=`PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns%23> PREFIX vg:<http://biohackathon.org/resource/vg%23> PREFIX f2f:<http://biohackathon.org/resource/vg%23linksForwardToForward> SELECT DISTINCT ?node ?sequence WHERE { BIND (<http://example.org/vg/node/${this.props.fetchParams.nodeId}> AS ?originalNode) . ?originalNode f2f:${depthSp} ?node . ?node rdf:value ?sequence . }`;
+    const queryForPaths=`PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns%23> PREFIX vg:<http://biohackathon.org/resource/vg%23> PREFIX f2f:<http://biohackathon.org/resource/vg%23linksForwardToForward> SELECT ?rank ?path ?node WHERE { BIND (<http://example.org/vg/node/${this.props.fetchParams.nodeId}> AS ?originalNode) . ?originalNode f2f:${depthSp} ?node . ?step vg:node ?node ; vg:path ?path ; vg:rank ?rank . } ORDER BY ?rank`;
+    try {
+      const responseForNodes = await fetch (`http://localhost:8088/sparql/?format=srj&query=${queryForNodes}`);
+      const responseForPaths = await fetch (`http://localhost:8088/sparql/?format=srj&query=${queryForPaths}`);
+      const jsonNodes = await responseForNodes.json();
+      const nodes = jsonNodes.results.bindings.map(o => {const v=o.node.value; return { "id" : v.substr(v.lastIndexOf('/')+1), "sequence" : o.node.sequence.value};});
+      console.log(nodes);
+      const jsonPaths = await responseForPaths.json();
+      console.log(jsonPaths);
+      const tracks = new Map();
+      jsonPaths.results.bindings.forEach(p => {
+            var currentTrack = tracks.get(p.path.value);
+            if (currentTrack === undefined) {
+                currentTrack = {"id": p.path.value , "sequence": []};
+                tracks.put(currentTrack);
+            }
+            const v=p.node.value;
+            const nodeId=v.substr(v.lastIndexOf('/')+1);
+            currentTrack.sequence.push(nodeId); 
+      });
+      const trackArray = Array.from(tracks.values());
+      const reads2 = {};
+      console.log(trackArray);
+      //this.setState({
+      //    isLoading: false,
+      //    nodes,
+       //   trackArray,
+       //   reads2
+      //  });
+    } catch (error) {
+        this.setState({ error: error, isLoading: false });
+    }
+  }
 
   getRemoteTubeMapData = async () => {
     this.setState({ isLoading: true, error: null });
