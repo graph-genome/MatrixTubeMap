@@ -65,7 +65,6 @@ class TubeMapContainer extends Component {
     );
   }
   getNodesFromSparql = async () => {
-    //this.setState({ isLoading: true, error: null });
     const depth="/(f2f:)?";
     var i;
     var depthSp="";
@@ -94,14 +93,8 @@ class TubeMapContainer extends Component {
             currentTrack.sequence.push(nodeId); 
       });
       const trackArray = Array.from(tracks.values());
-      const reads2 = {};
+      const reads2 = { "tracks" : []};
       console.log(trackArray);
-      //this.setState({
-      //    isLoading: false,
-      //    nodes,
-       //   trackArray,
-       //   reads2
-      //  });
       return { "tracks" : trackArray , "nodes" : nodes, "reads" : reads2};
     } catch (error) {
         console.log(error);
@@ -142,17 +135,20 @@ class TubeMapContainer extends Component {
 
   getExampleData = async () => {
     this.setState({ isLoading: true, error: null });
-    let nodes, tracks, reads;
+    let  tracks, reads;
     const data = await import('../util/demo-data');
-    nodes = data.inputNodes;
+    var nodes = data.inputNodes;
     switch (this.props.dataOrigin) {
       case dataOriginTypes.EXAMPLE_1:
+        tracks = data.inputTracks1;
+        break;
+      case dataOriginTypes.EXAMPLE_7:
         this.props.fetchParams.nodeId=1
         this.props.fetchParams.distance=5
-        const data = await this.getNodesFromSparql();
-        nodes = data.nodes;
-        tracks = data.tracks;
-        reads = data.reads;
+        const data2= await this.getNodesFromSparql();
+        nodes = data2.nodes;
+        tracks = data2.tracks;
+        //reads = data.reads;
         break;
       case dataOriginTypes.EXAMPLE_2:
         tracks = data.inputTracks2;
