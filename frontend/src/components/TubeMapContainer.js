@@ -65,7 +65,7 @@ class TubeMapContainer extends Component {
     );
   }
   getNodesFromSparql = async () => {
-    this.setState({ isLoading: true, error: null });
+    //this.setState({ isLoading: true, error: null });
     const depth="/(f2f:)?";
     var i;
     var depthSp="";
@@ -78,7 +78,7 @@ class TubeMapContainer extends Component {
       const responseForNodes = await fetch (`http://localhost:8088/sparql/?format=srj&query=${queryForNodes}`);
       const responseForPaths = await fetch (`http://localhost:8088/sparql/?format=srj&query=${queryForPaths}`);
       const jsonNodes = await responseForNodes.json();
-      const nodes = jsonNodes.results.bindings.map(o => {const v=o.node.value; return { "id" : v.substr(v.lastIndexOf('/')+1), "sequence" : o.node.sequence.value};});
+      const nodes = jsonNodes.results.bindings.map(o => {const v=o.node.value; return { "id" : v.substr(v.lastIndexOf('/')+1), "sequence" : o.sequence.value};});
       console.log(nodes);
       const jsonPaths = await responseForPaths.json();
       console.log(jsonPaths);
@@ -87,7 +87,7 @@ class TubeMapContainer extends Component {
             var currentTrack = tracks.get(p.path.value);
             if (currentTrack === undefined) {
                 currentTrack = {"id": p.path.value , "sequence": []};
-                tracks.put(currentTrack);
+                tracks.set(currentTrack.id, currentTrack);
             }
             const v=p.node.value;
             const nodeId=v.substr(v.lastIndexOf('/')+1);
@@ -102,8 +102,10 @@ class TubeMapContainer extends Component {
        //   trackArray,
        //   reads2
       //  });
+      return { "tracks" : trackArray , "nodes" : nodes, "reads" : reads2};
     } catch (error) {
-        this.setState({ error: error, isLoading: false });
+        console.log(error);
+        //this.setState({ error: error, isLoading: false });
     }
   }
 
@@ -147,8 +149,11 @@ class TubeMapContainer extends Component {
       case dataOriginTypes.EXAMPLE_1:
         this.props.fetchParams.nodeId=1
         this.props.fetchParams.distance=5
-        this.getNodesFromSparql();
-        return;
+        const data = await this.getNodesFromSparql();
+        nodes = data.nodes;
+        tracks = data.tracks;
+        reads = data.reads;
+        break;
       case dataOriginTypes.EXAMPLE_2:
         tracks = data.inputTracks2;
         break;
