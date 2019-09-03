@@ -145,8 +145,10 @@ class TubeMapContainer extends Component {
     nodes = data.inputNodes;
     switch (this.props.dataOrigin) {
       case dataOriginTypes.EXAMPLE_1:
-        tracks = data.inputTracks1;
-        break;
+        this.props.fetchParams.nodeId=1
+        this.props.fetchParams.distance=5
+        this.getNodesFromSparql();
+        return;
       case dataOriginTypes.EXAMPLE_2:
         tracks = data.inputTracks2;
         break;
