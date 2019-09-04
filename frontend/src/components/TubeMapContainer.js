@@ -68,7 +68,7 @@ class TubeMapContainer extends Component {
     const depth="/(f2f:)?";
     var i;
     var depthSp="";
-    for (i = 0; i < this.props.fetchParams.distance; i++) { 
+    for (i = 0; i < this.props.fetchParams.distance; i++) {
        depthSp=depthSp+depth;
     }
     const queryForNodes=`PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns%23> PREFIX vg:<http://biohackathon.org/resource/vg%23> PREFIX f2f:<http://biohackathon.org/resource/vg%23linksForwardToForward> SELECT DISTINCT ?node ?sequence WHERE { BIND (<http://example.org/vg/node/${this.props.fetchParams.nodeId}> AS ?originalNode) . ?originalNode f2f:${depthSp} ?node . ?node rdf:value ?sequence . }`;
@@ -91,7 +91,7 @@ class TubeMapContainer extends Component {
             }
             const v=p.node.value;
             const nodeId=v.substr(v.lastIndexOf('/')+1);
-            currentTrack.sequence.push(nodeId); 
+            currentTrack.sequence.push(nodeId);
       });
       const trackArray = Array.from(tracks.values());
       const reads2 = { "tracks" : []};
@@ -143,14 +143,14 @@ class TubeMapContainer extends Component {
         tracks = data.inputTracks1;
         break;
       case dataOriginTypes.EXAMPLE_7:
-        this.props.fetchParams.nodeId=100
-        this.props.fetchParams.distance=10
+        this.props.fetchParams.nodeId=263217893;
+        this.props.fetchParams.distance=10;
         const data2= await this.getNodesFromSparql();
         nodes = data2.nodes;
         tracks = data2.tracks;
         console.log(data2);
         console.log(nodes);
-    
+
         //reads = data.reads;
         break;
       case dataOriginTypes.EXAMPLE_2:

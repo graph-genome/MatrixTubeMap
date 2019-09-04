@@ -7,6 +7,7 @@ import DataPositionFormRow from './DataPositionFormRow';
 import MountedDataFormRow from './MountedDataFormRow';
 import FileUploadFormRow from './FileUploadFormRow';
 import ExampleSelectButtons from './ExampleSelectButtons';
+import SparqlDataFormRow from "./SparqlDataFormRow";
 
 const BACKEND_URL = config.BACKEND_URL || `http://${window.location.host}`;
 const DATA_SOURCES = config.DATA_SOURCES;
@@ -15,7 +16,8 @@ const dataTypes = {
   BUILT_IN: 'built-in',
   FILE_UPLOAD: 'file-upload',
   MOUNTED_FILES: 'mounted files',
-  EXAMPLES: 'examples'
+  EXAMPLES: 'examples',
+  SPARQL: 'sparql'
 };
 
 class HeaderForm extends Component {
@@ -31,6 +33,9 @@ class HeaderForm extends Component {
 
     pathSelectOptions: ['none'],
     pathSelect: 'none',
+
+    sparqlBackend: 'http://localhost:8080',
+    sparqlSelect: 'http://localhost:8080',
 
     xgFile: 'snp1kg-BRCA1.vg.xg',
     gbwtFile: '',
@@ -161,6 +166,14 @@ class HeaderForm extends Component {
       });
     } else if (value === 'syntheticExamples') {
       this.setState({ dataType: dataTypes.EXAMPLES });
+    } else if (value === 'sparqlBackend') {
+      this.setState(state => {
+        return {
+          dataType: dataTypes.SPARQL,
+          anchorTrackName: state.pathSelect,
+          dataPath: 'sparql',
+        };
+      });
     }
   };
 
@@ -262,12 +275,16 @@ class HeaderForm extends Component {
       </option>,
       <option value="customMounted" key="customMounted">
         custom (mounted files)
+      </option>,
+      <option value="sparqlBackend" key="sparqlBackend">
+        SPARQL Backend
       </option>
     );
 
     const mountedFilesFlag = this.state.dataType === dataTypes.MOUNTED_FILES;
     const uploadFilesFlag = this.state.dataType === dataTypes.FILE_UPLOAD;
     const examplesFlag = this.state.dataType === dataTypes.EXAMPLES;
+    const sparqlFlag = this.state.dataType === dataTypes.SPARQL;
 
     return (
       <div>
@@ -315,6 +332,13 @@ class HeaderForm extends Component {
                     handleFileUpload={this.handleFileUpload}
                     showFileSizeAlert={this.showFileSizeAlert}
                     setUploadInProgress={this.setUploadInProgress}
+                  />
+                )}
+                {sparqlFlag && (
+                  <SparqlDataFormRow
+                    pathSelect={this.state.pathSelect}
+                    pathSelectOptions={this.state.pathSelectOptions}
+                    handleInputChange={this.handleInputChange}
                   />
                 )}
               </Form>
