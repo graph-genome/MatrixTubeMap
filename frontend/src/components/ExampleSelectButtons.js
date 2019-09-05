@@ -68,6 +68,15 @@ class ExampleSelectButtons extends Component {
         >
           Aligned Reads
         </Button>
+        <Button
+          color="primary"
+          id="example7"
+          onClick={() =>
+            this.handleClick(dataOriginTypes.EXAMPLE_7, 'greys', 'reds')
+          }
+        >
+          Blocks
+        </Button>
       </Form>
     );
   }
