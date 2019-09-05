@@ -17,12 +17,12 @@ const config = require('./config.json');
 const VG_PATH = config.vgPath;
 const MOUNTED_DATA_PATH = config.dataPath;
 const INTERNAL_DATA_PATH = config.internalDataPath;
-const SERVER_PORT = 3000
+const SERVER_PORT = 3001;
 
 
 var storage = multer.diskStorage({
   destination: function(req, file, cb) {
-    cb(null, 'uploads/');
+    cb(null, '../../uploads/');
   },
   filename: function(req, file, cb) {
     let ext = file.originalname.substring(
@@ -58,7 +58,7 @@ app.use((req, res, next) => {
   next();
 });
 
-app.use(express.static('./build'));
+app.use(express.static('../frontend/build'));
 
 app.post('/xgFileSubmission', upload.single('xgFile'), (req, res) => {
   console.log('/xgFileSubmission');

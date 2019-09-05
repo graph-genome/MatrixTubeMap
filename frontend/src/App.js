@@ -20,18 +20,19 @@ class App extends Component {
         anchorTrackName: '17',
         dataPath: 'default'
       },
-      dataOrigin: dataOriginTypes.API,
+      dataOrigin: dataOriginTypes.EXAMPLE_7,
       visOptions: {
-        removeRedundantNodes: true,
+        removeRedundantNodes: false,
         compressedView: false,
-        transparentNodes: false,
+        transparentNodes: true,
         showReads: true,
         showSoftClips: true,
         haplotypeColors: 'greys',
         forwardReadColors: 'reds',
         reverseReadColors: 'blues',
         colorReadsByMappingQuality: false,
-        mappingQualityCutoff: 0
+        mappingQualityCutoff: 0,
+        blocks: false
       }
     };
   }

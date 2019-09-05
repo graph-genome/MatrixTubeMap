@@ -4,6 +4,24 @@
 
 ### A JavaScript module for the visualization of genomic sequence graphs. It automatically generates a "tube map"-like visualization of sequence graphs which have been created with [vg](https://github.com/vgteam/vg).
 
+##Running Frontend and Backend Separately
+This branch's aim is to separate the server side code from the client side code. This involves a slightly different server start.
+Run once when you clone the repo:
+```
+cd backend
+npm install
+cd ../frontend
+npm install
+```
+Run every time:
+```
+cd frontend
+npm start
+
+cd backend 
+node src/server.js
+```
+
 ### Link to working demo: [https://vgteam.github.io/sequenceTubeMap/](https://vgteam.github.io/sequenceTubeMap/)
 
 ## Biological Background
@@ -51,7 +69,7 @@ If you are using vg and want visualize the graphs it generates, the online versi
 
 #### Prerequisites:
 
-yarn or npm, nodejs, and [vg](https://github.com/vgteam/vg) (vg can be tricky to compile. If you run into problems, there are docker images for vg at [https://github.com/vgteam/vg_docker](https://github.com/vgteam/vg_docker).)
+yarn or npm, nodejs, and [vg](https://github.com/vgteam/vg) (vg can be tricky to compile. If you run into problems, there are docker images for vg at [https://github.com/vgteam/vg_docker](https://github.com/vgteam/vg_docker).) Or just download the latest [release](https://github.com/vgteam/vg/releases).
 
 The directory containing the vg executable needs to be added to your environment path:
 
@@ -63,10 +81,22 @@ PATH=/<your_path_to_vg>:$PATH
 
 - Clone the repo:
   ```
-  git clone https://github.com/vgteam/sequenceTubeMap.git
+  git clone https://github.com/subwaystation/sequenceTubeMap.git
   ```
-- Switch to the `sequenceTubeMap` folder
-- Install npm dependencies:
+- Switch to the `sequenceTubeMap` folder and checkout the `split` branch:
+  ```
+  cd sequenceTubeMap
+  git checkout split
+  ```
+- Switch to the `backend` folder and install dependencies:
+  ```
+  cd backend
+  npm i
+  ```
+- Switch to the `frontend` folder and install npm dependencies:
+  ```
+  cd ../frontend
+  ```
   ```
   yarn install
   ```
@@ -93,12 +123,12 @@ PATH=/<your_path_to_vg>:$PATH
   ```
   npm run serve
   ```
-- If the node server is running on your local machine, open a browser tab and go to `localhost:3000`.
-- If the node server is running on a different machine, open a local browser tab and go to the server's URL on port 3000 `http://<your server's IP or URL>:3000/`.
-  If you cannot access the server's port 3000 from the browser, instead of configuring firewall rules etc., it's probably easiest to set up an SSH tunnel.
+- If the node server is running on your local machine, open a browser tab and go to `localhost:3001`.
+- If the node server is running on a different machine, open a local browser tab and go to the server's URL on port 3001 `http://<your server's IP or URL>:3001/`.
+  If you cannot access the server's port 3001 from the browser, instead of configuring firewall rules etc., it's probably easiest to set up an SSH tunnel.
 
 ```
-ssh -N -L 3000:localhost:3000 <your username>@<your server>
+ssh -N -L 3001:localhost:3001 <your username>@<your server>
 ```
 
 #### Adding your own data:
@@ -115,7 +145,7 @@ ssh -N -L 3000:localhost:3000 <your username>@<your server>
   ./prepare_gam.sh <gam_file>
   ```
   `<gam_file>` is the file name of your gam file including path information.
-- The output files will be generated in the same folder as the original files. To tell Sequence Tube Maps this location, edit `sequenceTubeMpas/src/config.json` and modify the entry for `dataPath`:
+- The output files will be generated in the same folder as the original files. To tell Sequence Tube Maps this location, edit `sequenceTubeMpas/backendsrc/config.json` and modify the entry for `dataPath`:
   ```
   "dataPath": "<path to my data folder>/",
   ```

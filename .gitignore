@@ -1,7 +1,9 @@
-node_modules
+frontend/node_modules
 .tmp
 .DS_store
 .publish
 .vscode
 build/
 *.swp
+./backend/src/node_modules
+.idea/
