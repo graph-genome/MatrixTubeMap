@@ -484,18 +484,23 @@ function assignReadsToNodes() {
   });
   reads.forEach((read, idx) => {
     read.width = 7;
-    if (read.path.length === 1) {
-      nodes[read.path[0].node].internalReads.push(idx);
-    } else {
-      read.path.forEach((element, pathIdx) => {
-        if (pathIdx === 0) {
-          nodes[read.path[0].node].outgoingReads.push([idx, pathIdx]);
-        } else if (read.path[pathIdx].node !== null) {
-          nodes[read.path[pathIdx].node].incomingReads.push([idx, pathIdx]);
-        }
-      });
-    }
-  });
+    read.path.forEach((element, pathIdx) => {
+      nodes[read.path[pathIdx].node].incomingReads.push([idx, pathIdx]);
+    });
+    // if {read.path.length === 1) {
+    //   nodes[read.path[0].node].internalReads.push(idx);
+    // } else {
+    //   read.path.forEach((element, pathIdx) => {
+    //     if (pathIdx === 0) {
+    //       nodes[read.path[0].node].outgoingReads.push([idx, pathIdx]);
+    //     } else if (read.path[pathIdx].node !== null) {
+    //       nodes[read.path[pathIdx].node].incomingReads.push([idx, pathIdx]);
+    //     }
+    //   }
+    //   );
+    // }
+  }
+  );
 }
 
 function removeNonPathNodesFromReads() {
@@ -524,7 +529,7 @@ function placeReads() {
   // iterate over all nodes
   sortedNodes.forEach(node => {
     // sort incoming reads
-    node.incomingReads.sort(compareReadIncomingSegmentsByComingFrom);
+    // node.incomingReads.sort(compareReadIncomingSegmentsByComingFrom);
 
     // place incoming reads
     let currentY = node.y + node.contentHeight;
@@ -543,7 +548,7 @@ function placeReads() {
     let maxY = currentY;
 
     // sort outgoing reads
-    node.outgoingReads.sort(compareReadOutgoingSegmentsByGoingTo);
+    // node.outgoingReads.sort(compareReadOutgoingSegmentsByGoingTo);
 
     // place outgoing reads
     const occupiedFrom = new Map();
@@ -582,7 +587,7 @@ function placeReads() {
     });
 
     // sort internal reads
-    node.internalReads.sort(compareInternalReads);
+    // node.internalReads.sort(compareInternalReads);
 
     // place internal reads
     node.internalReads.forEach(readIdx => {
