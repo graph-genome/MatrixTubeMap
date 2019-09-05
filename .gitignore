@@ -6,3 +6,4 @@ frontend/node_modules
 build/
 *.swp
 ./backend/src/node_modules
+.idea/
