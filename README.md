@@ -4,6 +4,23 @@
 
 ### A JavaScript module for the visualization of genomic sequence graphs. It automatically generates a "tube map"-like visualization of sequence graphs which have been created with [vg](https://github.com/vgteam/vg).
 
+##Running Frontend and Backend Separately
+Run once when you clone:
+```
+cd backend
+npm install
+cd ../frontend
+npm install
+```
+Run every time:
+```
+cd frontend
+npm start
+
+cd backend 
+node src/server.js
+```
+
 ### Link to working demo: [https://vgteam.github.io/sequenceTubeMap/](https://vgteam.github.io/sequenceTubeMap/)
 
 ### This branch's aim is to separate the server side code from the client side code.
