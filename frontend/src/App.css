@@ -40,6 +40,15 @@ input[type='file'] {
   max-height: 75vh;
 }
 
+#svg path {
+    /*Hide Node rendering*/
+    display: none;
+}
+#svg path[trackID] {
+    /*Don't hide curvey path connectors*/
+    display: block;
+}
+
 /* contains the spinning loader */
 #loaderContainer {
   margin: 0 auto;
