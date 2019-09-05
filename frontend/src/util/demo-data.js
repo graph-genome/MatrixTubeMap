@@ -141,9 +141,9 @@ export const blocks_tiny = `
   ],
   "reads": [
     {
-      "id": 1,
+      "id": 2,
       "sequence": [
-        "1"
+        "1", "2"
       ],
       "sequenceNew": [
         {
@@ -151,20 +151,28 @@ export const blocks_tiny = `
           "mismatches": [
             {
               "type": "substitution",
-              "pos": 10,
-              "seq": "C"
+              "pos": 20,
+              "seq": "X"
+            }
+          ],
+          "nodeName": "2",
+          "mismatches": [
+            {
+              "type": "substitution",
+              "pos": 20,
+              "seq": "Y"
             }
           ]
         }
       ],
       "type": "read",
-      "firstNodeOffset": 0,
+      "firstNodeOffset": 30,
       "finalNodeCoverLength": 42,
       "mapping_quality": 552,
       "is_secondary": false
     },
     {
-      "id": 2,
+      "id": 1,
       "sequence": [
         "1",
         "2"
@@ -265,6 +273,29 @@ export const blocks_tiny = `
       "firstNodeOffset": 50,
       "finalNodeCoverLength": 50,
       "mapping_quality": 629,
+      "is_secondary": false
+    },
+    {
+      "id": 2,
+      "sequence": [
+        "1"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "1",
+          "mismatches": [
+            {
+              "type": "substitution",
+              "pos": 20,
+              "seq": "C"
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 42,
+      "mapping_quality": 552,
       "is_secondary": false
     }
   ]
