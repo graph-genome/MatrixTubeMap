@@ -98,7 +98,7 @@ class HeaderForm extends Component {
       'Accept': 'application/sparql-results+json'
     };
     try {
-        const fetchedData = await fetch (`${this.state.sparqlSelect}?format=srj&query=PREFIX vg:<http://biohackathon.org/resource/vg%23> SELECT DISTINCT ?pathname WHERE { ?step vg:path ?pathname } ORDER BY ?pathname`, { headers: sparqlAcceptHeader });
+        const fetchedData = await fetch (`${this.state.sparqlSelect}?query=PREFIX vg:<http://biohackathon.org/resource/vg%23> SELECT DISTINCT ?pathname WHERE { ?step vg:path ?pathname } ORDER BY ?pathname`, { headers: sparqlAcceptHeader });
         const fetchedJson = await fetchedData.json();
         const lpso = fetchedJson.results.bindings.map(p => p.pathname.value);
         console.log(lpso);
