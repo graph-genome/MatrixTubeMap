@@ -12,9 +12,6 @@ class TubeMapContainer extends Component {
     isLoading: true,
     error: null
   };
-  sparlAcceptHeader = new Headers({
-    'Accept': 'application/sparql-results+json'
-  });
 
   componentDidMount() {
     // this.getRemoteTubeMapData();
@@ -72,9 +69,12 @@ class TubeMapContainer extends Component {
   }
 
   runSparqlQueries = async(queryForNodes, queryForPaths) => {
+  const sparqlAcceptHeader = {
+    'Accept': 'application/sparql-results+json'
+  };
     try {
-      const responseForNodes = await fetch (`${this.props.fetchParams.sparqlSelect}?format=srj&query=${queryForNodes}`, {headers: this.sparqlAcceptHeader });
-      const responseForPaths = await fetch (`${this.props.fetchParams.sparqlSelect}?format=srj&query=${queryForPaths}`, {headers: this.sparqlAcceptHeader });
+      const responseForNodes = await fetch (`${this.props.fetchParams.sparqlSelect}?format=srj&query=${queryForNodes}`, {headers: sparqlAcceptHeader });
+      const responseForPaths = await fetch (`${this.props.fetchParams.sparqlSelect}?format=srj&query=${queryForPaths}`, {headers: sparqlAcceptHeader });
       const jsonNodes = await responseForNodes.json();
       const nodes = jsonNodes.results.bindings.map(o => {const v=o.node.value; return { "name" : v.substr(v.lastIndexOf('/')+1), "seq" : o.sequence.value, "sequenceLength" : o.sequence.value.length };});
       const jsonPaths = await responseForPaths.json();
