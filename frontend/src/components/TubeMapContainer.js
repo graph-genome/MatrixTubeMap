@@ -4,6 +4,7 @@ import config from '../config.json';
 import { Container, Row, Alert } from 'reactstrap';
 import * as tubeMap from '../util/tubemap';
 import { dataOriginTypes } from '../enums';
+import toshiyuki from './matrix_no_replication.json';
 
 const BACKEND_URL = config.BACKEND_URL || `http://${window.location.host}`;
 
@@ -234,10 +235,9 @@ WHERE {
         );*/
         break;
       case dataOriginTypes.EXAMPLE_7:
-        const demon = JSON.parse(data.blocks_tiny);
-        nodes = demon.nodes;
-        tracks = demon.tracks;
-        reads = demon.reads;
+        nodes = toshiyuki.nodes;
+        tracks = toshiyuki.tracks;
+        reads = toshiyuki.reads;
         break;
       case dataOriginTypes.EXAMPLE_8:
         this.props.fetchParams.nodeID=2600;

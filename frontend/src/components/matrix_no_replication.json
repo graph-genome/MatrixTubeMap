@@ -1,0 +1,7473 @@
+{
+  "nodes": [
+    {
+      "name": "1",
+      "sequenceLength": 100
+    },
+    {
+      "name": "2",
+      "sequenceLength": 100
+    },
+    {
+      "name": "3",
+      "sequenceLength": 100
+    },
+    {
+      "name": "4",
+      "sequenceLength": 100
+    },
+    {
+      "name": "5",
+      "sequenceLength": 100
+    },
+    {
+      "name": "6",
+      "sequenceLength": 100
+    },
+    {
+      "name": "7",
+      "sequenceLength": 100
+    },
+    {
+      "name": "8",
+      "sequenceLength": 100
+    },
+    {
+      "name": "9",
+      "sequenceLength": 100
+    },
+    {
+      "name": "10",
+      "sequenceLength": 100
+    },
+    {
+      "name": "11",
+      "sequenceLength": 100
+    },
+    {
+      "name": "12",
+      "sequenceLength": 100
+    },
+    {
+      "name": "13",
+      "sequenceLength": 100
+    },
+    {
+      "name": "14",
+      "sequenceLength": 100
+    },
+    {
+      "name": "15",
+      "sequenceLength": 100
+    },
+    {
+      "name": "16",
+      "sequenceLength": 100
+    },
+    {
+      "name": "17",
+      "sequenceLength": 100
+    },
+    {
+      "name": "18",
+      "sequenceLength": 100
+    },
+    {
+      "name": "19",
+      "sequenceLength": 100
+    },
+    {
+      "name": "20",
+      "sequenceLength": 100
+    }
+  ],
+  "tracks": [
+    {
+      "id": 0,
+      "name": "REF",
+      "sequence": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20"
+      ]
+    }
+  ],
+  "reads": [
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "1"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "1",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815592:32578768-32589835",
+      "id": 0
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "1"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "1",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 2
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815592:32578768-32589835",
+      "id": 0
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "1"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "1",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 2
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815592:32578768-32589835",
+      "id": 0
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "1",
+        "2"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "1",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 17
+            }
+          ]
+        },
+        {
+          "nodeName": "2",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 1
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815592:32578768-32589835",
+      "id": 0
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "2"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "2",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 1
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815592:32578768-32589835",
+      "id": 0
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "2",
+          "mismatches": []
+        },
+        {
+          "nodeName": "3",
+          "mismatches": []
+        },
+        {
+          "nodeName": "4",
+          "mismatches": []
+        },
+        {
+          "nodeName": "5",
+          "mismatches": []
+        },
+        {
+          "nodeName": "6",
+          "mismatches": []
+        },
+        {
+          "nodeName": "7",
+          "mismatches": []
+        },
+        {
+          "nodeName": "8",
+          "mismatches": []
+        },
+        {
+          "nodeName": "9",
+          "mismatches": []
+        },
+        {
+          "nodeName": "10",
+          "mismatches": []
+        },
+        {
+          "nodeName": "11",
+          "mismatches": []
+        },
+        {
+          "nodeName": "12",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 14
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815592:32578768-32589835",
+      "id": 0
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "14",
+        "15",
+        "16",
+        "17"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "14",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 12
+            }
+          ]
+        },
+        {
+          "nodeName": "15",
+          "mismatches": []
+        },
+        {
+          "nodeName": "16",
+          "mismatches": []
+        },
+        {
+          "nodeName": "17",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 1
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815592:32578768-32589835",
+      "id": 0
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "1"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "1",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815529:3998044-4011446",
+      "id": 1
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "1"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "1",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 2
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815529:3998044-4011446",
+      "id": 1
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "1"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "1",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 2
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815529:3998044-4011446",
+      "id": 1
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "1",
+        "2"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "1",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 17
+            }
+          ]
+        },
+        {
+          "nodeName": "2",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 1
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815529:3998044-4011446",
+      "id": 1
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "2"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "2",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 1
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815529:3998044-4011446",
+      "id": 1
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "2"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "2",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 17
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815529:3998044-4011446",
+      "id": 1
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "2",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 17
+            }
+          ]
+        },
+        {
+          "nodeName": "3",
+          "mismatches": []
+        },
+        {
+          "nodeName": "4",
+          "mismatches": []
+        },
+        {
+          "nodeName": "5",
+          "mismatches": []
+        },
+        {
+          "nodeName": "6",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 17
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815529:3998044-4011446",
+      "id": 1
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "6",
+        "7",
+        "8"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "6",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 17
+            }
+          ]
+        },
+        {
+          "nodeName": "7",
+          "mismatches": []
+        },
+        {
+          "nodeName": "8",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 17
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815529:3998044-4011446",
+      "id": 1
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "8",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 19
+            }
+          ]
+        },
+        {
+          "nodeName": "9",
+          "mismatches": []
+        },
+        {
+          "nodeName": "10",
+          "mismatches": []
+        },
+        {
+          "nodeName": "11",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 14
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815529:3998044-4011446",
+      "id": 1
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "11"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "11",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 20
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815529:3998044-4011446",
+      "id": 1
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "11"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "11",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 12
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815529:3998044-4011446",
+      "id": 1
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "11"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "11",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 12
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815529:3998044-4011446",
+      "id": 1
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "11"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "11",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 12
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815529:3998044-4011446",
+      "id": 1
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "11",
+        "12"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "11",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 12
+            }
+          ]
+        },
+        {
+          "nodeName": "12",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 11
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815529:3998044-4011446",
+      "id": 1
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "12"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "12",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 11
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815529:3998044-4011446",
+      "id": 1
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "12"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "12",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 11
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815529:3998044-4011446",
+      "id": 1
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "12"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "12",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 11
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815529:3998044-4011446",
+      "id": 1
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "12"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "12",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 14
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815529:3998044-4011446",
+      "id": 1
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "14"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "14",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 11
+            },
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 19
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815529:3998044-4011446",
+      "id": 1
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "14",
+        "15",
+        "16",
+        "17"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "14",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 12
+            }
+          ]
+        },
+        {
+          "nodeName": "15",
+          "mismatches": []
+        },
+        {
+          "nodeName": "16",
+          "mismatches": []
+        },
+        {
+          "nodeName": "17",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 2
+            },
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 2
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815529:3998044-4011446",
+      "id": 1
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "17"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "17",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 6
+            },
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 6
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815529:3998044-4011446",
+      "id": 1
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "17"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "17",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 8
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815529:3998044-4011446",
+      "id": 1
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "17",
+        "18",
+        "19"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "17",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 1
+            }
+          ]
+        },
+        {
+          "nodeName": "18",
+          "mismatches": []
+        },
+        {
+          "nodeName": "19",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 8
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815529:3998044-4011446",
+      "id": 1
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "19",
+        "20"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "19",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 14
+            }
+          ]
+        },
+        {
+          "nodeName": "20",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 11
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815529:3998044-4011446",
+      "id": 1
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "1",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 20
+            }
+          ]
+        },
+        {
+          "nodeName": "2",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 17
+            }
+          ]
+        },
+        {
+          "nodeName": "3",
+          "mismatches": []
+        },
+        {
+          "nodeName": "4",
+          "mismatches": []
+        },
+        {
+          "nodeName": "5",
+          "mismatches": []
+        },
+        {
+          "nodeName": "6",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 17
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815551:3814534-3830133",
+      "id": 2
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "6",
+        "7",
+        "8"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "6",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 17
+            }
+          ]
+        },
+        {
+          "nodeName": "7",
+          "mismatches": []
+        },
+        {
+          "nodeName": "8",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 17
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815551:3814534-3830133",
+      "id": 2
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "8",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 19
+            }
+          ]
+        },
+        {
+          "nodeName": "9",
+          "mismatches": []
+        },
+        {
+          "nodeName": "10",
+          "mismatches": []
+        },
+        {
+          "nodeName": "11",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 14
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815551:3814534-3830133",
+      "id": 2
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "11"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "11",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 20
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815551:3814534-3830133",
+      "id": 2
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "11"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "11",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 14
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815551:3814534-3830133",
+      "id": 2
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "11"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "11",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 12
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815551:3814534-3830133",
+      "id": 2
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "11",
+        "12"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "11",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 12
+            }
+          ]
+        },
+        {
+          "nodeName": "12",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815551:3814534-3830133",
+      "id": 2
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "12"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "12",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 11
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815551:3814534-3830133",
+      "id": 2
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "12"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "12",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 11
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815551:3814534-3830133",
+      "id": 2
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "12",
+        "13",
+        "14"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "12",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 14
+            }
+          ]
+        },
+        {
+          "nodeName": "13",
+          "mismatches": []
+        },
+        {
+          "nodeName": "14",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 11
+            },
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 19
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815551:3814534-3830133",
+      "id": 2
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "14"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "14",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 11
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815551:3814534-3830133",
+      "id": 2
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "14",
+        "15",
+        "16",
+        "17"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "14",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 12
+            }
+          ]
+        },
+        {
+          "nodeName": "15",
+          "mismatches": []
+        },
+        {
+          "nodeName": "16",
+          "mismatches": []
+        },
+        {
+          "nodeName": "17",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 20
+            },
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 2
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815551:3814534-3830133",
+      "id": 2
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "17"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "17",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 6
+            },
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 6
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815551:3814534-3830133",
+      "id": 2
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "17"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "17",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 8
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815551:3814534-3830133",
+      "id": 2
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "17",
+        "18",
+        "19"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "17",
+          "mismatches": []
+        },
+        {
+          "nodeName": "18",
+          "mismatches": []
+        },
+        {
+          "nodeName": "19",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 8
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815551:3814534-3830133",
+      "id": 2
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "19",
+        "20"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "19",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 14
+            }
+          ]
+        },
+        {
+          "nodeName": "20",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 1
+            },
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 17
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815551:3814534-3830133",
+      "id": 2
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "20"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "20",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 11
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815551:3814534-3830133",
+      "id": 2
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "1",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 20
+            }
+          ]
+        },
+        {
+          "nodeName": "2",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 17
+            }
+          ]
+        },
+        {
+          "nodeName": "3",
+          "mismatches": []
+        },
+        {
+          "nodeName": "4",
+          "mismatches": []
+        },
+        {
+          "nodeName": "5",
+          "mismatches": []
+        },
+        {
+          "nodeName": "6",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 17
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815561:3988942-4004531",
+      "id": 3
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "6",
+        "7",
+        "8"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "6",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 17
+            }
+          ]
+        },
+        {
+          "nodeName": "7",
+          "mismatches": []
+        },
+        {
+          "nodeName": "8",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 17
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815561:3988942-4004531",
+      "id": 3
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "8",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 19
+            }
+          ]
+        },
+        {
+          "nodeName": "9",
+          "mismatches": []
+        },
+        {
+          "nodeName": "10",
+          "mismatches": []
+        },
+        {
+          "nodeName": "11",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 14
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815561:3988942-4004531",
+      "id": 3
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "11"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "11",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 20
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815561:3988942-4004531",
+      "id": 3
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "11"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "11",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 14
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815561:3988942-4004531",
+      "id": 3
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "11"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "11",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 12
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815561:3988942-4004531",
+      "id": 3
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "11",
+        "12"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "11",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 12
+            }
+          ]
+        },
+        {
+          "nodeName": "12",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815561:3988942-4004531",
+      "id": 3
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "12"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "12",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 11
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815561:3988942-4004531",
+      "id": 3
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "12"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "12",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 11
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815561:3988942-4004531",
+      "id": 3
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "12",
+        "13",
+        "14"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "12",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 14
+            }
+          ]
+        },
+        {
+          "nodeName": "13",
+          "mismatches": []
+        },
+        {
+          "nodeName": "14",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 11
+            },
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 19
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815561:3988942-4004531",
+      "id": 3
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "14"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "14",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 11
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815561:3988942-4004531",
+      "id": 3
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "14",
+        "15",
+        "16",
+        "17"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "14",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 12
+            }
+          ]
+        },
+        {
+          "nodeName": "15",
+          "mismatches": []
+        },
+        {
+          "nodeName": "16",
+          "mismatches": []
+        },
+        {
+          "nodeName": "17",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 20
+            },
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 2
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815561:3988942-4004531",
+      "id": 3
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "17"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "17",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 6
+            },
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 6
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815561:3988942-4004531",
+      "id": 3
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "17"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "17",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 8
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815561:3988942-4004531",
+      "id": 3
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "17",
+        "18",
+        "19"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "17",
+          "mismatches": []
+        },
+        {
+          "nodeName": "18",
+          "mismatches": []
+        },
+        {
+          "nodeName": "19",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 8
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815561:3988942-4004531",
+      "id": 3
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "19",
+        "20"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "19",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 14
+            }
+          ]
+        },
+        {
+          "nodeName": "20",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 1
+            },
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 17
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815561:3988942-4004531",
+      "id": 3
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "20"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "20",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 11
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815561:3988942-4004531",
+      "id": 3
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "1"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "1",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815567:3779003-3792415",
+      "id": 4
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "1"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "1",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 2
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815567:3779003-3792415",
+      "id": 4
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "1"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "1",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 2
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815567:3779003-3792415",
+      "id": 4
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "1",
+        "2"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "1",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 17
+            }
+          ]
+        },
+        {
+          "nodeName": "2",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 1
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815567:3779003-3792415",
+      "id": 4
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "2"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "2",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 1
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815567:3779003-3792415",
+      "id": 4
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "2"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "2",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 17
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815567:3779003-3792415",
+      "id": 4
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "2",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 17
+            }
+          ]
+        },
+        {
+          "nodeName": "3",
+          "mismatches": []
+        },
+        {
+          "nodeName": "4",
+          "mismatches": []
+        },
+        {
+          "nodeName": "5",
+          "mismatches": []
+        },
+        {
+          "nodeName": "6",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 17
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815567:3779003-3792415",
+      "id": 4
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "6",
+        "7",
+        "8"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "6",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 17
+            }
+          ]
+        },
+        {
+          "nodeName": "7",
+          "mismatches": []
+        },
+        {
+          "nodeName": "8",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 17
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815567:3779003-3792415",
+      "id": 4
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "8",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 19
+            }
+          ]
+        },
+        {
+          "nodeName": "9",
+          "mismatches": []
+        },
+        {
+          "nodeName": "10",
+          "mismatches": []
+        },
+        {
+          "nodeName": "11",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 14
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815567:3779003-3792415",
+      "id": 4
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "11"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "11",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 20
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815567:3779003-3792415",
+      "id": 4
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "11"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "11",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 12
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815567:3779003-3792415",
+      "id": 4
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "11"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "11",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 12
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815567:3779003-3792415",
+      "id": 4
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "11"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "11",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 12
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815567:3779003-3792415",
+      "id": 4
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "11",
+        "12"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "11",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 12
+            }
+          ]
+        },
+        {
+          "nodeName": "12",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 11
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815567:3779003-3792415",
+      "id": 4
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "12"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "12",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 11
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815567:3779003-3792415",
+      "id": 4
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "12"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "12",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 11
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815567:3779003-3792415",
+      "id": 4
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "12"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "12",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 11
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815567:3779003-3792415",
+      "id": 4
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "12"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "12",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 14
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815567:3779003-3792415",
+      "id": 4
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "14"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "14",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 11
+            },
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 19
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815567:3779003-3792415",
+      "id": 4
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "14",
+        "15",
+        "16",
+        "17"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "14",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 12
+            }
+          ]
+        },
+        {
+          "nodeName": "15",
+          "mismatches": []
+        },
+        {
+          "nodeName": "16",
+          "mismatches": []
+        },
+        {
+          "nodeName": "17",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 2
+            },
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 2
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815567:3779003-3792415",
+      "id": 4
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "17"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "17",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 6
+            },
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 6
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815567:3779003-3792415",
+      "id": 4
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "17"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "17",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 8
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815567:3779003-3792415",
+      "id": 4
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "17",
+        "18",
+        "19"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "17",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 1
+            }
+          ]
+        },
+        {
+          "nodeName": "18",
+          "mismatches": []
+        },
+        {
+          "nodeName": "19",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 8
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815567:3779003-3792415",
+      "id": 4
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "19",
+        "20"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "19",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 14
+            }
+          ]
+        },
+        {
+          "nodeName": "20",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 11
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815567:3779003-3792415",
+      "id": 4
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "1"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "1",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 20
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815569:3979127-3993865",
+      "id": 5
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "1",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 17
+            }
+          ]
+        },
+        {
+          "nodeName": "2",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 17
+            }
+          ]
+        },
+        {
+          "nodeName": "3",
+          "mismatches": []
+        },
+        {
+          "nodeName": "4",
+          "mismatches": []
+        },
+        {
+          "nodeName": "5",
+          "mismatches": []
+        },
+        {
+          "nodeName": "6",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 13
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815569:3979127-3993865",
+      "id": 5
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "6"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "6",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 14
+            },
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 17
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815569:3979127-3993865",
+      "id": 5
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "6",
+        "7",
+        "8"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "6",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 17
+            }
+          ]
+        },
+        {
+          "nodeName": "7",
+          "mismatches": []
+        },
+        {
+          "nodeName": "8",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 17
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815569:3979127-3993865",
+      "id": 5
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "8",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 19
+            }
+          ]
+        },
+        {
+          "nodeName": "9",
+          "mismatches": []
+        },
+        {
+          "nodeName": "10",
+          "mismatches": []
+        },
+        {
+          "nodeName": "11",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 14
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815569:3979127-3993865",
+      "id": 5
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "11"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "11",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 20
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815569:3979127-3993865",
+      "id": 5
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "11",
+        "12"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "11",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 12
+            }
+          ]
+        },
+        {
+          "nodeName": "12",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 11
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815569:3979127-3993865",
+      "id": 5
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "12",
+        "13",
+        "14"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "12",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 14
+            }
+          ]
+        },
+        {
+          "nodeName": "13",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 6
+            }
+          ]
+        },
+        {
+          "nodeName": "14",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 6
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815569:3979127-3993865",
+      "id": 5
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "14"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "14",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 11
+            },
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 19
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815569:3979127-3993865",
+      "id": 5
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "14",
+        "15",
+        "16",
+        "17"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "14",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 12
+            }
+          ]
+        },
+        {
+          "nodeName": "15",
+          "mismatches": []
+        },
+        {
+          "nodeName": "16",
+          "mismatches": []
+        },
+        {
+          "nodeName": "17",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 20
+            },
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 2
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815569:3979127-3993865",
+      "id": 5
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "17"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "17",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 6
+            },
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 6
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815569:3979127-3993865",
+      "id": 5
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "17"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "17",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 8
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815569:3979127-3993865",
+      "id": 5
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "17",
+        "18",
+        "19"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "17",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 1
+            }
+          ]
+        },
+        {
+          "nodeName": "18",
+          "mismatches": []
+        },
+        {
+          "nodeName": "19",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 8
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815569:3979127-3993865",
+      "id": 5
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "19",
+        "20"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "19",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 14
+            }
+          ]
+        },
+        {
+          "nodeName": "20",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 1
+            },
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 17
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815569:3979127-3993865",
+      "id": 5
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "20"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "20",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 11
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|568815569:3979127-3993865",
+      "id": 5
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "1"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "1",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 17
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|345525392:5000-18402",
+      "id": 6
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "1"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "1",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 2
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|345525392:5000-18402",
+      "id": 6
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "1"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "1",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 2
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|345525392:5000-18402",
+      "id": 6
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "1",
+        "2"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "1",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 2
+            }
+          ]
+        },
+        {
+          "nodeName": "2",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 3
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|345525392:5000-18402",
+      "id": 6
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "2"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "2",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 3
+            },
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 17
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|345525392:5000-18402",
+      "id": 6
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "2"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "2",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 17
+            },
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 1
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|345525392:5000-18402",
+      "id": 6
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "2"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "2",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 1
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|345525392:5000-18402",
+      "id": 6
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "2",
+        "3"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "2",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 1
+            }
+          ]
+        },
+        {
+          "nodeName": "3",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 4
+            },
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 2
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|345525392:5000-18402",
+      "id": 6
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "3",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 2
+            }
+          ]
+        },
+        {
+          "nodeName": "4",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 5
+            },
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 3
+            }
+          ]
+        },
+        {
+          "nodeName": "5",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 6
+            },
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 4
+            }
+          ]
+        },
+        {
+          "nodeName": "6",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 7
+            },
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 17
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|345525392:5000-18402",
+      "id": 6
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "6",
+        "7"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "6",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 17
+            },
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 5
+            }
+          ]
+        },
+        {
+          "nodeName": "7",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 8
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|345525392:5000-18402",
+      "id": 6
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "7",
+        "8"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "7",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 8
+            },
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 6
+            }
+          ]
+        },
+        {
+          "nodeName": "8",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 9
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|345525392:5000-18402",
+      "id": 6
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "8"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "8",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 9
+            },
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 19
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|345525392:5000-18402",
+      "id": 6
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "8"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "8",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 17
+            },
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 7
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|345525392:5000-18402",
+      "id": 6
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "8",
+        "9"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "8",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 7
+            }
+          ]
+        },
+        {
+          "nodeName": "9",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 10
+            },
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 8
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|345525392:5000-18402",
+      "id": 6
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "9",
+        "10"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "9",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 8
+            }
+          ]
+        },
+        {
+          "nodeName": "10",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 11
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|345525392:5000-18402",
+      "id": 6
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "10",
+        "11"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "10",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 11
+            },
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 9
+            }
+          ]
+        },
+        {
+          "nodeName": "11",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 12
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|345525392:5000-18402",
+      "id": 6
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "11"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "11",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 12
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|345525392:5000-18402",
+      "id": 6
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "11"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "11",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 12
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|345525392:5000-18402",
+      "id": 6
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "11"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "11",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 12
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|345525392:5000-18402",
+      "id": 6
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "11"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "11",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 12
+            },
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 20
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|345525392:5000-18402",
+      "id": 6
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "11"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "11",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 14
+            },
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 10
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|345525392:5000-18402",
+      "id": 6
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "11",
+        "12"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "11",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 10
+            }
+          ]
+        },
+        {
+          "nodeName": "12",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 14
+            },
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 11
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|345525392:5000-18402",
+      "id": 6
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "12"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "12",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 11
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|345525392:5000-18402",
+      "id": 6
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "12"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "12",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 11
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|345525392:5000-18402",
+      "id": 6
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "12"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "12",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 11
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|345525392:5000-18402",
+      "id": 6
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "12"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "12",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 11
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|345525392:5000-18402",
+      "id": 6
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "14"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "14",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 15
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|345525392:5000-18402",
+      "id": 6
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "14"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "14",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 15
+            },
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 12
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|345525392:5000-18402",
+      "id": 6
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "14",
+        "15"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "14",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 19
+            },
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 11
+            }
+          ]
+        },
+        {
+          "nodeName": "15",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 16
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|345525392:5000-18402",
+      "id": 6
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "15"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "15",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 16
+            },
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 14
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|345525392:5000-18402",
+      "id": 6
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "15",
+        "16"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "15",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 14
+            }
+          ]
+        },
+        {
+          "nodeName": "16",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 17
+            },
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 15
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|345525392:5000-18402",
+      "id": 6
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "16",
+        "17"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "16",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 15
+            }
+          ]
+        },
+        {
+          "nodeName": "17",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 1
+            },
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 16
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|345525392:5000-18402",
+      "id": 6
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "17"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "17",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 18
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|345525392:5000-18402",
+      "id": 6
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "17"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "17",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 18
+            },
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 8
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|345525392:5000-18402",
+      "id": 6
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "17"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "17",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 6
+            },
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 6
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|345525392:5000-18402",
+      "id": 6
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "17",
+        "18"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "17",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 2
+            },
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 2
+            }
+          ]
+        },
+        {
+          "nodeName": "18",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 19
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|345525392:5000-18402",
+      "id": 6
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "18"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "18",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 19
+            },
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 17
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|345525392:5000-18402",
+      "id": 6
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "18",
+        "19"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "18",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 17
+            }
+          ]
+        },
+        {
+          "nodeName": "19",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 20
+            },
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 14
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|345525392:5000-18402",
+      "id": 6
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "19"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "19",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 8
+            },
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 18
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|345525392:5000-18402",
+      "id": 6
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "19",
+        "20"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "19",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 18
+            }
+          ]
+        },
+        {
+          "nodeName": "20",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 11
+            },
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 19
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|345525392:5000-18402",
+      "id": 6
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "1"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "1",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "gi|29124352:124254-137656",
+      "id": 7
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "1"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "1",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 2
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|29124352:124254-137656",
+      "id": 7
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "1"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "1",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 2
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|29124352:124254-137656",
+      "id": 7
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "1",
+        "2"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "1",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 17
+            }
+          ]
+        },
+        {
+          "nodeName": "2",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 1
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|29124352:124254-137656",
+      "id": 7
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "2"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "2",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 1
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|29124352:124254-137656",
+      "id": 7
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "2"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "2",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 17
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|29124352:124254-137656",
+      "id": 7
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "2",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 17
+            }
+          ]
+        },
+        {
+          "nodeName": "3",
+          "mismatches": []
+        },
+        {
+          "nodeName": "4",
+          "mismatches": []
+        },
+        {
+          "nodeName": "5",
+          "mismatches": []
+        },
+        {
+          "nodeName": "6",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 17
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|29124352:124254-137656",
+      "id": 7
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "6",
+        "7",
+        "8"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "6",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 17
+            }
+          ]
+        },
+        {
+          "nodeName": "7",
+          "mismatches": []
+        },
+        {
+          "nodeName": "8",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 17
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|29124352:124254-137656",
+      "id": 7
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "8",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 19
+            }
+          ]
+        },
+        {
+          "nodeName": "9",
+          "mismatches": []
+        },
+        {
+          "nodeName": "10",
+          "mismatches": []
+        },
+        {
+          "nodeName": "11",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 14
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|29124352:124254-137656",
+      "id": 7
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "11"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "11",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 20
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|29124352:124254-137656",
+      "id": 7
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "11"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "11",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 12
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|29124352:124254-137656",
+      "id": 7
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "11"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "11",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 12
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|29124352:124254-137656",
+      "id": 7
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "11"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "11",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 12
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|29124352:124254-137656",
+      "id": 7
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "11",
+        "12"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "11",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 12
+            }
+          ]
+        },
+        {
+          "nodeName": "12",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 11
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|29124352:124254-137656",
+      "id": 7
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "12"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "12",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 11
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|29124352:124254-137656",
+      "id": 7
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "12"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "12",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 11
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|29124352:124254-137656",
+      "id": 7
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "12"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "12",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 11
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|29124352:124254-137656",
+      "id": 7
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "12"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "12",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 14
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|29124352:124254-137656",
+      "id": 7
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "14"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "14",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 11
+            },
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 19
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|29124352:124254-137656",
+      "id": 7
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "14",
+        "15",
+        "16",
+        "17"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "14",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 12
+            }
+          ]
+        },
+        {
+          "nodeName": "15",
+          "mismatches": []
+        },
+        {
+          "nodeName": "16",
+          "mismatches": []
+        },
+        {
+          "nodeName": "17",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 2
+            },
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 2
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|29124352:124254-137656",
+      "id": 7
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "17"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "17",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 6
+            },
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 6
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|29124352:124254-137656",
+      "id": 7
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "17"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "17",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 8
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|29124352:124254-137656",
+      "id": 7
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "17",
+        "18",
+        "19"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "17",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 1
+            }
+          ]
+        },
+        {
+          "nodeName": "18",
+          "mismatches": []
+        },
+        {
+          "nodeName": "19",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 8
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|29124352:124254-137656",
+      "id": 7
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "19",
+        "20"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "19",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 14
+            }
+          ]
+        },
+        {
+          "nodeName": "20",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 11
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|29124352:124254-137656",
+      "id": 7
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "1"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "1",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "gi|28212469:126036-137103",
+      "id": 8
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "1"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "1",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 2
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|28212469:126036-137103",
+      "id": 8
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "1"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "1",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 2
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|28212469:126036-137103",
+      "id": 8
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "1",
+        "2"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "1",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 17
+            }
+          ]
+        },
+        {
+          "nodeName": "2",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 1
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|28212469:126036-137103",
+      "id": 8
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "2"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "2",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 1
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|28212469:126036-137103",
+      "id": 8
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "2",
+          "mismatches": []
+        },
+        {
+          "nodeName": "3",
+          "mismatches": []
+        },
+        {
+          "nodeName": "4",
+          "mismatches": []
+        },
+        {
+          "nodeName": "5",
+          "mismatches": []
+        },
+        {
+          "nodeName": "6",
+          "mismatches": []
+        },
+        {
+          "nodeName": "7",
+          "mismatches": []
+        },
+        {
+          "nodeName": "8",
+          "mismatches": []
+        },
+        {
+          "nodeName": "9",
+          "mismatches": []
+        },
+        {
+          "nodeName": "10",
+          "mismatches": []
+        },
+        {
+          "nodeName": "11",
+          "mismatches": []
+        },
+        {
+          "nodeName": "12",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 14
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|28212469:126036-137103",
+      "id": 8
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "14",
+        "15",
+        "16",
+        "17"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "14",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 12
+            }
+          ]
+        },
+        {
+          "nodeName": "15",
+          "mismatches": []
+        },
+        {
+          "nodeName": "16",
+          "mismatches": []
+        },
+        {
+          "nodeName": "17",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 1
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|28212469:126036-137103",
+      "id": 8
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "1"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "1",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 20
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|28212470:131613-146345",
+      "id": 9
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "1",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 17
+            }
+          ]
+        },
+        {
+          "nodeName": "2",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 17
+            }
+          ]
+        },
+        {
+          "nodeName": "3",
+          "mismatches": []
+        },
+        {
+          "nodeName": "4",
+          "mismatches": []
+        },
+        {
+          "nodeName": "5",
+          "mismatches": []
+        },
+        {
+          "nodeName": "6",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 13
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|28212470:131613-146345",
+      "id": 9
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "6"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "6",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 14
+            },
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 17
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|28212470:131613-146345",
+      "id": 9
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "6"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "6",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 17
+            },
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 17
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|28212470:131613-146345",
+      "id": 9
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "6",
+        "7",
+        "8"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "6",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 17
+            }
+          ]
+        },
+        {
+          "nodeName": "7",
+          "mismatches": []
+        },
+        {
+          "nodeName": "8",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 17
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|28212470:131613-146345",
+      "id": 9
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "8",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 19
+            }
+          ]
+        },
+        {
+          "nodeName": "9",
+          "mismatches": []
+        },
+        {
+          "nodeName": "10",
+          "mismatches": []
+        },
+        {
+          "nodeName": "11",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 14
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|28212470:131613-146345",
+      "id": 9
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "11"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "11",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 20
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|28212470:131613-146345",
+      "id": 9
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "11",
+        "12"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "11",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 12
+            }
+          ]
+        },
+        {
+          "nodeName": "12",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 11
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|28212470:131613-146345",
+      "id": 9
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "12",
+        "13",
+        "14"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "12",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 14
+            }
+          ]
+        },
+        {
+          "nodeName": "13",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 6
+            }
+          ]
+        },
+        {
+          "nodeName": "14",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 6
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|28212470:131613-146345",
+      "id": 9
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "14"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "14",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 11
+            },
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 19
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|28212470:131613-146345",
+      "id": 9
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "14",
+        "15",
+        "16",
+        "17"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "14",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 12
+            }
+          ]
+        },
+        {
+          "nodeName": "15",
+          "mismatches": []
+        },
+        {
+          "nodeName": "16",
+          "mismatches": []
+        },
+        {
+          "nodeName": "17",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 20
+            },
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 2
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|28212470:131613-146345",
+      "id": 9
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "17"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "17",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 6
+            },
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 6
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|28212470:131613-146345",
+      "id": 9
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "17"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "17",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 6
+            },
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 6
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|28212470:131613-146345",
+      "id": 9
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "17"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "17",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 8
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|28212470:131613-146345",
+      "id": 9
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "17",
+        "18",
+        "19"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "17",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 1
+            }
+          ]
+        },
+        {
+          "nodeName": "18",
+          "mismatches": []
+        },
+        {
+          "nodeName": "19",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 8
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|28212470:131613-146345",
+      "id": 9
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "19",
+        "20"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "19",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 14
+            }
+          ]
+        },
+        {
+          "nodeName": "20",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 1
+            },
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 17
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|28212470:131613-146345",
+      "id": 9
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "20"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "20",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 11
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|28212470:131613-146345",
+      "id": 9
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "1"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "1",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "gi|528476637:32549024-32560088",
+      "id": 10
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "1"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "1",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 2
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|528476637:32549024-32560088",
+      "id": 10
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "1"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "1",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 2
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|528476637:32549024-32560088",
+      "id": 10
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "1",
+        "2"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "1",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 17
+            }
+          ]
+        },
+        {
+          "nodeName": "2",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 1
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|528476637:32549024-32560088",
+      "id": 10
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "2"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "2",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 1
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|528476637:32549024-32560088",
+      "id": 10
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "2",
+          "mismatches": []
+        },
+        {
+          "nodeName": "3",
+          "mismatches": []
+        },
+        {
+          "nodeName": "4",
+          "mismatches": []
+        },
+        {
+          "nodeName": "5",
+          "mismatches": []
+        },
+        {
+          "nodeName": "6",
+          "mismatches": []
+        },
+        {
+          "nodeName": "7",
+          "mismatches": []
+        },
+        {
+          "nodeName": "8",
+          "mismatches": []
+        },
+        {
+          "nodeName": "9",
+          "mismatches": []
+        },
+        {
+          "nodeName": "10",
+          "mismatches": []
+        },
+        {
+          "nodeName": "11",
+          "mismatches": []
+        },
+        {
+          "nodeName": "12",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 14
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|528476637:32549024-32560088",
+      "id": 10
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "14",
+        "15",
+        "16",
+        "17"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "14",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 12
+            }
+          ]
+        },
+        {
+          "nodeName": "15",
+          "mismatches": []
+        },
+        {
+          "nodeName": "16",
+          "mismatches": []
+        },
+        {
+          "nodeName": "17",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 1
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|528476637:32549024-32560088",
+      "id": 10
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "1",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 20
+            }
+          ]
+        },
+        {
+          "nodeName": "2",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 17
+            }
+          ]
+        },
+        {
+          "nodeName": "3",
+          "mismatches": []
+        },
+        {
+          "nodeName": "4",
+          "mismatches": []
+        },
+        {
+          "nodeName": "5",
+          "mismatches": []
+        },
+        {
+          "nodeName": "6",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 17
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|157702218:147985-163915",
+      "id": 11
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "6",
+        "7",
+        "8"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "6",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 17
+            }
+          ]
+        },
+        {
+          "nodeName": "7",
+          "mismatches": []
+        },
+        {
+          "nodeName": "8",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 17
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|157702218:147985-163915",
+      "id": 11
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "8",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 19
+            }
+          ]
+        },
+        {
+          "nodeName": "9",
+          "mismatches": []
+        },
+        {
+          "nodeName": "10",
+          "mismatches": []
+        },
+        {
+          "nodeName": "11",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 14
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|157702218:147985-163915",
+      "id": 11
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "11"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "11",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 20
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|157702218:147985-163915",
+      "id": 11
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "11"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "11",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 14
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|157702218:147985-163915",
+      "id": 11
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "11"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "11",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 12
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|157702218:147985-163915",
+      "id": 11
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "11",
+        "12"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "11",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 12
+            }
+          ]
+        },
+        {
+          "nodeName": "12",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "gi|157702218:147985-163915",
+      "id": 11
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "12"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "12",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 11
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|157702218:147985-163915",
+      "id": 11
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "12"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "12",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 11
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|157702218:147985-163915",
+      "id": 11
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "12",
+        "13",
+        "14"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "12",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 14
+            }
+          ]
+        },
+        {
+          "nodeName": "13",
+          "mismatches": []
+        },
+        {
+          "nodeName": "14",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 11
+            },
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 19
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|157702218:147985-163915",
+      "id": 11
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "14"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "14",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 11
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|157702218:147985-163915",
+      "id": 11
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "14",
+        "15",
+        "16",
+        "17"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "14",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 12
+            }
+          ]
+        },
+        {
+          "nodeName": "15",
+          "mismatches": []
+        },
+        {
+          "nodeName": "16",
+          "mismatches": []
+        },
+        {
+          "nodeName": "17",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 20
+            },
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 2
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|157702218:147985-163915",
+      "id": 11
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "17"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "17",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 6
+            },
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 6
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|157702218:147985-163915",
+      "id": 11
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "17"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "17",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 8
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|157702218:147985-163915",
+      "id": 11
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "17",
+        "18",
+        "19"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "17",
+          "mismatches": []
+        },
+        {
+          "nodeName": "18",
+          "mismatches": []
+        },
+        {
+          "nodeName": "19",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 8
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|157702218:147985-163915",
+      "id": 11
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "19",
+        "20"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "19",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 14
+            }
+          ]
+        },
+        {
+          "nodeName": "20",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 0,
+              "seq": "L",
+              "query": 1
+            },
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 17
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|157702218:147985-163915",
+      "id": 11
+    },
+    {
+      "firstNodeOffset": 0,
+      "finalNodeCoverLength": 101,
+      "mapping_quality": 60,
+      "is_secondary": false,
+      "sequence": [
+        "20"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "20",
+          "mismatches": [
+            {
+              "type": "link",
+              "pos": 100,
+              "seq": "L",
+              "query": 11
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "gi|157702218:147985-163915",
+      "id": 11
+    }
+  ]
+}

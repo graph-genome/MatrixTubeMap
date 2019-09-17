@@ -930,7 +930,7 @@ function reverseReversedReads() {
       seqLength =
         nodes[nodeMap.get(read.sequence[read.sequence.length - 1])]
           .sequenceLength;
-      read.finalNodeCoverLength = seqLength - temp;
+      read.finalNodeCoverLength = Math.max(1, seqLength - temp); //never negative
     }
   });
 }
@@ -2293,7 +2293,7 @@ function getReadXEnd(read) {
   // read ends in backward direction
   return getXCoordinateOfBaseWithinNode(
     node,
-    node.sequenceLength - read.finalNodeCoverLength
+    Math.max(1, node.sequenceLength - read.finalNodeCoverLength)
   );
 }
 
@@ -3467,8 +3467,8 @@ function compareReadsByLeftEnd(a, b) {
   if (a.sequence[0].charAt(0) === '-') {
     if (a.sequence[a.sequence.length - 1].charAt(0) === '-') {
       leftNodeA = a.sequence[a.sequence.length - 1].substr(1);
-      leftIndexA =
-        nodes[nodeMap.get(leftNodeA)].sequenceLength - a.finalNodeCoverLength;
+      leftIndexA = Math.max(0,
+        nodes[nodeMap.get(leftNodeA)].sequenceLength - a.finalNodeCoverLength);
     } else {
       leftNodeA = a.sequence[a.sequence.length - 1];
       leftIndexA = 0;
@@ -3481,8 +3481,8 @@ function compareReadsByLeftEnd(a, b) {
   if (b.sequence[0].charAt(0) === '-') {
     if (b.sequence[b.sequence.length - 1].charAt(0) === '-') {
       leftNodeB = b.sequence[b.sequence.length - 1].substr(1);
-      leftIndexB =
-        nodes[nodeMap.get(leftNodeB)].sequenceLength - b.finalNodeCoverLength;
+      leftIndexB =Math.max(0,
+        nodes[nodeMap.get(leftNodeB)].sequenceLength - b.finalNodeCoverLength);
     } else {
       leftNodeB = b.sequence[b.sequence.length - 1];
       leftIndexB = 0;
