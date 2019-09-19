@@ -20,7 +20,7 @@ class App extends Component {
         anchorTrackName: '17',
         dataPath: 'default'
       },
-      dataOrigin: dataOriginTypes.EXAMPLE_7,
+      dataOrigin: dataOriginTypes.DRB1,
       visOptions: {
         removeRedundantNodes: false,
         compressedView: false,

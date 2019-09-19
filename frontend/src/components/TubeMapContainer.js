@@ -4,7 +4,8 @@ import config from '../config.json';
 import { Container, Row, Alert } from 'reactstrap';
 import * as tubeMap from '../util/tubemap';
 import { dataOriginTypes } from '../enums';
-import toshiyuki from './matrix_no_replication.json';
+import DRB1 from '../odgi_data/DRB1-3123.og.bin10.json';
+// import yeast from '../../odgi_data/'
 
 const BACKEND_URL = config.BACKEND_URL || `http://${window.location.host}`;
 
@@ -234,12 +235,12 @@ WHERE {
           this.readsFromStringToArray(data.demoReads)
         );*/
         break;
-      case dataOriginTypes.EXAMPLE_7:
-        nodes = toshiyuki.nodes;
-        tracks = toshiyuki.tracks;
-        reads = toshiyuki.reads;
+      case dataOriginTypes.DRB1:
+        nodes = DRB1.nodes;
+        tracks = DRB1.tracks;
+        reads = DRB1.reads;
         break;
-      case dataOriginTypes.EXAMPLE_8:
+      case dataOriginTypes.SPARQL:
         this.props.fetchParams.nodeID=2600;
         this.props.fetchParams.distance=10;
         const data2= await this.getDataFromSparqlByNodes();
@@ -247,9 +248,14 @@ WHERE {
         tracks = data2.tracks;
         console.log(data2);
         console.log(nodes);
-
         //reads = data.reads;
         break;
+      // case dataOriginTypes.EXAMPLE_9:
+      //   nodes = yeast.nodes;
+      //   tracks = yeast.tracks;
+      //   reads = yeast.reads;
+      //   break;
+
       default:
         console.log('invalid data origin type');
     }
