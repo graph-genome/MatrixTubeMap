@@ -8,6 +8,7 @@
 /* eslint no-loop-func: "off" */
 /* eslint no-unused-vars: "off" */
 /* eslint no-return-assign: "off" */
+//This file is reverted to the original SequenceTubemap version in order to identify why reads have the wrong x coordinates.
 import * as d3 from 'd3';
 import 'd3-selection-multi';
 
@@ -95,7 +96,7 @@ let extraRight = []; // info whether nodes have to be moved further apart becaus
 let maxOrder; // horizontal order of the rightmost node
 
 const config = {
-  mergeNodesFlag: false,
+  mergeNodesFlag: true,
   transparentNodesFlag: false,
   clickableNodesFlag: false,
   showExonsFlag: false,
@@ -484,23 +485,18 @@ function assignReadsToNodes() {
   });
   reads.forEach((read, idx) => {
     read.width = 7;
-    read.path.forEach((element, pathIdx) => {
-      nodes[read.path[pathIdx].node].incomingReads.push([idx, pathIdx]);
-    });
-    // if {read.path.length === 1) {
-    //   nodes[read.path[0].node].internalReads.push(idx);
-    // } else {
-    //   read.path.forEach((element, pathIdx) => {
-    //     if (pathIdx === 0) {
-    //       nodes[read.path[0].node].outgoingReads.push([idx, pathIdx]);
-    //     } else if (read.path[pathIdx].node !== null) {
-    //       nodes[read.path[pathIdx].node].incomingReads.push([idx, pathIdx]);
-    //     }
-    //   }
-    //   );
-    // }
-  }
-  );
+    if (read.path.length === 1) {
+      nodes[read.path[0].node].internalReads.push(idx);
+    } else {
+      read.path.forEach((element, pathIdx) => {
+        if (pathIdx === 0) {
+          nodes[read.path[0].node].outgoingReads.push([idx, pathIdx]);
+        } else if (read.path[pathIdx].node !== null) {
+          nodes[read.path[pathIdx].node].incomingReads.push([idx, pathIdx]);
+        }
+      });
+    }
+  });
 }
 
 function removeNonPathNodesFromReads() {
@@ -529,7 +525,7 @@ function placeReads() {
   // iterate over all nodes
   sortedNodes.forEach(node => {
     // sort incoming reads
-    // node.incomingReads.sort(compareReadIncomingSegmentsByComingFrom);
+    node.incomingReads.sort(compareReadIncomingSegmentsByComingFrom);
 
     // place incoming reads
     let currentY = node.y + node.contentHeight;
@@ -548,7 +544,7 @@ function placeReads() {
     let maxY = currentY;
 
     // sort outgoing reads
-    // node.outgoingReads.sort(compareReadOutgoingSegmentsByGoingTo);
+    node.outgoingReads.sort(compareReadOutgoingSegmentsByGoingTo);
 
     // place outgoing reads
     const occupiedFrom = new Map();
@@ -587,7 +583,7 @@ function placeReads() {
     });
 
     // sort internal reads
-    // node.internalReads.sort(compareInternalReads);
+    node.internalReads.sort(compareInternalReads);
 
     // place internal reads
     node.internalReads.forEach(readIdx => {
@@ -930,7 +926,7 @@ function reverseReversedReads() {
       seqLength =
         nodes[nodeMap.get(read.sequence[read.sequence.length - 1])]
           .sequenceLength;
-      read.finalNodeCoverLength = Math.max(1, seqLength - temp); //never negative
+      read.finalNodeCoverLength = seqLength - temp;
     }
   });
 }
@@ -2197,9 +2193,6 @@ function calculateTrackWidth() {
       if (track.hasOwnProperty('type') && track.type === 'read') {
         track.width = 4;
       }
-      if (track.hasOwnProperty('name') && track.name === 'REF') {
-          track.width = 0;
-      }
     }
     if (track.width !== 4) {
       allAreFour = false;
@@ -2293,7 +2286,7 @@ function getReadXEnd(read) {
   // read ends in backward direction
   return getXCoordinateOfBaseWithinNode(
     node,
-    Math.max(1, node.sequenceLength - read.finalNodeCoverLength)
+    node.sequenceLength - read.finalNodeCoverLength
   );
 }
 
@@ -3345,18 +3338,6 @@ function nodeDoubleClick() {
   }
 }
 
-// extract info about nodes from blocks-json
-export function blocksExtractNodes(blocks) {
-  const result = [];
-  blocks.node.forEach(node => {
-    result.push({
-      name: `${node.id}`,
-      sequenceLength: node.sequenceLength,
-    });
-  });
-  return result;
-}
-
 // extract info about nodes from vg-json
 export function vgExtractNodes(vg) {
   const result = [];
@@ -3403,7 +3384,7 @@ function generateNodeWidth() {
               .attr('x', 0)
               .attr('y', 100)
               .attr('id', 'dummytext')
-              .text(node.seq.substr(1))
+              .text(node.seq ? node.seq.substr(1) : "")
               .attr('font-family', 'Courier, "Lucida Console", monospace')
               .attr('font-size', '14px')
               .attr('fill', 'black')
@@ -3420,10 +3401,6 @@ function generateNodeWidth() {
 
 // extract track info from vg-json
 export function vgExtractTracks(vg) {
-  let filtered_paths = vg.path.filter(function(value, index, arr) {
-    return value.hasOwnProperty('mapping');
-  });
-  vg.path = filtered_paths;
   const result = [];
   vg.path.forEach((path, index) => {
     const sequence = [];
@@ -3467,8 +3444,8 @@ function compareReadsByLeftEnd(a, b) {
   if (a.sequence[0].charAt(0) === '-') {
     if (a.sequence[a.sequence.length - 1].charAt(0) === '-') {
       leftNodeA = a.sequence[a.sequence.length - 1].substr(1);
-      leftIndexA = Math.max(0,
-        nodes[nodeMap.get(leftNodeA)].sequenceLength - a.finalNodeCoverLength);
+      leftIndexA =
+        nodes[nodeMap.get(leftNodeA)].sequenceLength - a.finalNodeCoverLength;
     } else {
       leftNodeA = a.sequence[a.sequence.length - 1];
       leftIndexA = 0;
@@ -3481,8 +3458,8 @@ function compareReadsByLeftEnd(a, b) {
   if (b.sequence[0].charAt(0) === '-') {
     if (b.sequence[b.sequence.length - 1].charAt(0) === '-') {
       leftNodeB = b.sequence[b.sequence.length - 1].substr(1);
-      leftIndexB =Math.max(0,
-        nodes[nodeMap.get(leftNodeB)].sequenceLength - b.finalNodeCoverLength);
+      leftIndexB =
+        nodes[nodeMap.get(leftNodeB)].sequenceLength - b.finalNodeCoverLength;
     } else {
       leftNodeB = b.sequence[b.sequence.length - 1];
       leftIndexB = 0;
