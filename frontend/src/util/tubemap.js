@@ -3854,6 +3854,7 @@ function mergeableWithSucc(index, pred, succ) {
 }
 
 function drawMismatches() {
+  let linkCount = 0;
   tracks.forEach((read, trackIdx) => {
     if (read.type === 'read') {
       read.sequenceNew.forEach((element, i) => {
@@ -3891,7 +3892,12 @@ function drawMismatches() {
                 node,
                 mm.pos + mm.seq.length
             );
-            drawLink(x + 1, x2, y + 7, node.y, mm.seq, mm.query);
+            //restricted them to long range links and capped the quantity.
+            let linkDistance = Math.abs(Number(mm.query) - mm.pos);
+            if(linkCount < 1000 && linkDistance > 100){
+              drawLink(x + 1, x2, y + 7, node.y, mm.seq, mm.query);
+              linkCount++;
+            }
           }
         });
       });
@@ -3943,13 +3949,25 @@ function drawLink(x1, x2, y, nodeY, seq, query) {
       .attr('fill', 'black')
       .attr('nodeY', nodeY)
       .attr('rightX', x2)
-      .on('mouseover', substitutionMouseOver)
+      .on('mouseover', linkMouseOver)
       .on('mouseout', substitutionMouseOut)
       .on('click', linkMouseClick);
 }
 
-function linkMouseClick() {
-  window.open(this.getAttribute('query'));
+function linkMouseClick(){
+  /*Click updates the URL*/
+  window.history.pushState('link', 'MatrixTubemap', this.getAttribute('query'))
+}
+
+function linkMouseOver() {
+  let targetX = this.getAttribute('query');
+  /* jshint validthis: true */
+  d3.select(this).attr('fill', 'red');
+  const x1 = getXCoordinateOfBaseWithinNode(nodes[0], targetX)+1;
+  const x2 = Number(d3.select(this).attr('x'));
+  const y = 100;//Number(d3.select(this).attr('y'));
+  const yTop = Number(d3.select(this).attr('nodeY'));
+  highlightPointX(x1, y, yTop, x2, "red");
 }
 
 function drawDeletion(x1, x2, y, nodeY) {
@@ -4011,13 +4029,7 @@ function deletionMouseOver() {
     .attr('stroke', 'black');
 }
 
-function substitutionMouseOver() {
-  /* jshint validthis: true */
-  d3.select(this).attr('fill', 'red');
-  const x1 = Number(d3.select(this).attr('x'));
-  const x2 = Number(d3.select(this).attr('rightX'));
-  const y = Number(d3.select(this).attr('y'));
-  const yTop = Number(d3.select(this).attr('nodeY'));
+function highlightPointX(x1, y, yTop, x2, color) {
   svg
     .append('line')
     .attr('class', 'substitutionHighlight')
@@ -4026,7 +4038,7 @@ function substitutionMouseOver() {
     .attr('x2', x1 - 1)
     .attr('y2', yTop + 5)
     .attr('stroke-width', 1)
-    .attr('stroke', 'black');
+    .attr('stroke', color);
   svg
     .append('line')
     .attr('class', 'substitutionHighlight')
@@ -4035,7 +4047,18 @@ function substitutionMouseOver() {
     .attr('x2', x2 + 1)
     .attr('y2', yTop + 5)
     .attr('stroke-width', 1)
-    .attr('stroke', 'black');
+    .attr('stroke', color);
+}
+
+function substitutionMouseOver() {
+  /* Mouseover draws a red line at both locations.  */
+  /* jshint validthis: true */
+  d3.select(this).attr('fill', 'red');
+  const x1 = Number(d3.select(this).attr('x'));
+  const x2 = Number(d3.select(this).attr('rightX'));
+  const y = Number(d3.select(this).attr('y'));
+  const yTop = Number(d3.select(this).attr('nodeY'));
+  highlightPointX(x1, y, yTop, x2, "black");
 }
 
 function insertionMouseOut() {
