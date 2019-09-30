@@ -113,7 +113,7 @@ const config = {
   reverseReadColors: 'blues',
   exonColors: 'lightColors',
   hideLegendFlag: false,
-  colorReadsByMappingQuality: false,
+  colorReadsByMappingQuality: true,
   mappingQualityCutoff: 0,
   blocks: false,
   node_width: 1
@@ -520,12 +520,12 @@ function placeReads() {
 
   // sort nodes by order, then by y-coordinate
   const sortedNodes = nodes.slice();
-  sortedNodes.sort(compareNodesByOrder);
+  //sortedNodes.sort(compareNodesByOrder);
 
   // iterate over all nodes
   sortedNodes.forEach(node => {
     // sort incoming reads
-    node.incomingReads.sort(compareReadIncomingSegmentsByComingFrom);
+    //node.incomingReads.sort(compareReadIncomingSegmentsByComingFrom);
 
     // place incoming reads
     let currentY = node.y + node.contentHeight;
@@ -544,7 +544,7 @@ function placeReads() {
     let maxY = currentY;
 
     // sort outgoing reads
-    node.outgoingReads.sort(compareReadOutgoingSegmentsByGoingTo);
+    //node.outgoingReads.sort(compareReadOutgoingSegmentsByGoingTo);
 
     // place outgoing reads
     const occupiedFrom = new Map();
@@ -583,7 +583,7 @@ function placeReads() {
     });
 
     // sort internal reads
-    node.internalReads.sort(compareInternalReads);
+    //node.internalReads.sort(compareInternalReads);
 
     // place internal reads
     node.internalReads.forEach(readIdx => {
@@ -620,7 +620,7 @@ function placeReads() {
       }
     });
   });
-  elementsWithoutNode.sort(compareNoNodeReadsByPreviousY);
+  //elementsWithoutNode.sort(compareNoNodeReadsByPreviousY);
   elementsWithoutNode.forEach(element => {
     const segment = reads[element.readIndex].path[element.pathIndex];
     segment.y = bottomY[segment.order];
@@ -1565,7 +1565,7 @@ function generateNodeXCoords() {
   let nextX = 20;
   let currentOrder = -1;
   const sortedNodes = nodes.slice();
-  sortedNodes.sort(compareNodesByOrder);
+  //sortedNodes.sort(compareNodesByOrder);
   const extra = calculateExtraSpace();
 
   sortedNodes.forEach(node => {
@@ -1987,7 +1987,7 @@ function generateSingleLaneAssignment(assignment, order) {
   let prevTrack = -1;
 
   getIdealLanesAndCoords(assignment, order);
-  assignment.sort(compareByIdealLane);
+  //assignment.sort(compareByIdealLane);
 
   assignment.forEach(node => {
     if (node.node !== null) {
@@ -2002,7 +2002,7 @@ function generateSingleLaneAssignment(assignment, order) {
       prevNameIsNull = true;
     }
 
-    node.tracks.sort(compareByIdealLane);
+    //node.tracks.sort(compareByIdealLane);
     node.tracks.forEach(track => {
       track.lane = currentLane;
       if (track.trackID === prevTrack && node.node === null && prevNameIsNull) {
@@ -2530,7 +2530,7 @@ function createFeatureRectangle(
     nodeWidth = nodes[node.node].width;
   }
 
-  node.features.sort((a, b) => a.start - b.start);
+  //node.features.sort((a, b) => a.start - b.start);
   node.features.forEach(feature => {
     if (currentHighlight !== feature.type) {
       // finish incoming rectangle
@@ -3199,7 +3199,7 @@ function drawTrackCurves(type) {
     filterObjectByAttribute('type', type)
   );
 
-  myTrackCurves.sort(compareCurvesByLineChanges);
+  //myTrackCurves.sort(compareCurvesByLineChanges);
 
   myTrackCurves.forEach(curve => {
     const xMiddle = (curve.xStart + curve.xEnd) / 2;
@@ -3722,7 +3722,7 @@ function mergeNodes() {
   if (reads && config.showReads) {
     // sort nodes by order, then by y-coordinate
     const sortedNodes = nodes.slice();
-    sortedNodes.sort(compareNodesByOrder);
+    //sortedNodes.sort(compareNodesByOrder);
 
     // iterate over all nodes and calculate their position within the new merged node
     const mergeOffset = new Map();
