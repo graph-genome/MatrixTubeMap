@@ -4,10 +4,11 @@ import config from '../config.json';
 import { Container, Row, Alert } from 'reactstrap';
 import * as tubeMap from '../util/tubemap';
 import { dataOriginTypes } from '../enums';
-// import DRB1 from '../odgi_data/DRB1-3123.og.bin10.json';
-import yeast from '../odgi_data/recent-yeast.json';
-let DRB1 = {};
-// let yeast = {};
+import DRB1 from '../odgi_data/DRB1-3123.og.bin10.json';
+// import yeast from '../odgi_data/recent-yeast.json';
+import sixref from '../odgi_data/sixref_Chr4.og.10000.tile.json'
+// let DRB1 = {};
+let yeast = {};
 const BACKEND_URL = config.BACKEND_URL || `http://${window.location.host}`;
 
 class TubeMapContainer extends Component {
@@ -246,6 +247,11 @@ WHERE {
         tracks = yeast.tracks;
         reads = yeast.reads;
         break;
+      case dataOriginTypes.sixref:
+        nodes = sixref.nodes;
+        tracks = sixref.tracks;
+        reads = sixref.reads;
+        break;
       case dataOriginTypes.SPARQL:
         this.props.fetchParams.nodeID=2600;
         this.props.fetchParams.distance=10;
@@ -256,12 +262,6 @@ WHERE {
         console.log(nodes);
         //reads = data.reads;
         break;
-      // case dataOriginTypes.EXAMPLE_9:
-      //   nodes = yeast.nodes;
-      //   tracks = yeast.tracks;
-      //   reads = yeast.reads;
-      //   break;
-
       default:
         console.log('invalid data origin type');
     }

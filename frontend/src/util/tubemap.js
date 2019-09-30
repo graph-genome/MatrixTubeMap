@@ -3894,7 +3894,7 @@ function drawMismatches() {
             );
             //restricted them to long range links and capped the quantity.
             let linkDistance = Math.abs(Number(mm.query) - mm.pos);
-            if(linkCount < 10000 && linkDistance > 200){
+            if (linkCount < 1000 && linkDistance > 200) {
               drawLink(x + 1, x2, y + 7, node.y, mm.seq, mm.query);
               linkCount++;
             }
@@ -3934,7 +3934,6 @@ function drawSubstitution(x1, x2, y, nodeY, seq) {
     .attr('rightX', x2)
     .on('mouseover', substitutionMouseOver)
     .on('mouseout', substitutionMouseOut)
-    .on('click', linkMouseClick);
 }
 
 function drawLink(x1, x2, y, nodeY, seq, query) {
@@ -3963,9 +3962,9 @@ function linkMouseOver() {
   let targetX = this.getAttribute('query');
   /* jshint validthis: true */
   d3.select(this).attr('fill', 'red');
-  const x1 = getXCoordinateOfBaseWithinNode(nodes[0], targetX)+1;
+  const x1 = getXCoordinateOfBaseWithinNode(nodes[0], targetX) + 1;
   const x2 = Number(d3.select(this).attr('x'));
-  const y = 100;//Number(d3.select(this).attr('y'));
+  const y = 100 * 12;//Number(d3.select(this).attr('y'));
   const yTop = Number(d3.select(this).attr('nodeY'));
   highlightPointX(x1, y, yTop, x2, "red");
 }

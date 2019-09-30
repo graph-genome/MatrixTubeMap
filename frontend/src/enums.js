@@ -8,5 +8,6 @@ export const dataOriginTypes = {
   EXAMPLE_5: 'example 5',
   EXAMPLE_6: 'example 6',
   DRB1: 'DRB1',
-  yeast: 'yeast'
+  yeast: 'yeast',
+  sixref: 'sixref'
 };
