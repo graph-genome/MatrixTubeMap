@@ -3894,7 +3894,7 @@ function drawMismatches() {
             );
             //restricted them to long range links and capped the quantity.
             let linkDistance = Math.abs(Number(mm.query) - mm.pos);
-            if(linkCount < 1000 && linkDistance > 100){
+            if(linkCount < 10000 && linkDistance > 200){
               drawLink(x + 1, x2, y + 7, node.y, mm.seq, mm.query);
               linkCount++;
             }
@@ -3943,7 +3943,7 @@ function drawLink(x1, x2, y, nodeY, seq, query) {
       .attr('x', x1)
       .attr('y', y)
       .attr('query', query)
-      .text(seq)
+      .text(seq)  // this is the slow render line
       .attr('font-family', 'Courier, "Lucida Console", monospace')
       .attr('font-size', '12px')
       .attr('fill', 'black')

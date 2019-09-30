@@ -4,9 +4,10 @@ import config from '../config.json';
 import { Container, Row, Alert } from 'reactstrap';
 import * as tubeMap from '../util/tubemap';
 import { dataOriginTypes } from '../enums';
-import DRB1 from '../odgi_data/DRB1-3123.og.bin10.json';
-// import yeast from '../../odgi_data/'
-
+// import DRB1 from '../odgi_data/DRB1-3123.og.bin10.json';
+import yeast from '../odgi_data/recent-yeast.json';
+let DRB1 = {};
+// let yeast = {};
 const BACKEND_URL = config.BACKEND_URL || `http://${window.location.host}`;
 
 class TubeMapContainer extends Component {
@@ -102,8 +103,8 @@ class TubeMapContainer extends Component {
         //this.setState({ error: error, isLoading: false });
         throw error;
     }
-  }; 
- 
+  };
+
   getDataFromSparqlByNodes = async () => {
     const depth="/(f2f:)?";
     var i;
@@ -239,6 +240,11 @@ WHERE {
         nodes = DRB1.nodes;
         tracks = DRB1.tracks;
         reads = DRB1.reads;
+        break;
+      case dataOriginTypes.yeast:
+        nodes = yeast.nodes;
+        tracks = yeast.tracks;
+        reads = yeast.reads;
         break;
       case dataOriginTypes.SPARQL:
         this.props.fetchParams.nodeID=2600;
