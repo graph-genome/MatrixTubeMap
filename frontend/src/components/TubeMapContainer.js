@@ -6,7 +6,7 @@ import * as tubeMap from '../util/tubemap';
 import { dataOriginTypes } from '../enums';
 import DRB1 from '../odgi_data/DRB1-3123.og.bin10.json';
 // import yeast from '../odgi_data/recent-yeast.json';
-import sixref from '../odgi_data/sixref_Chr4.og.10000.tile.json'
+import sixref from '../odgi_data/sixref_Chr4.og.1000.tile.json'
 // let DRB1 = {};
 let yeast = {};
 const BACKEND_URL = config.BACKEND_URL || `http://${window.location.host}`;

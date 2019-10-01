@@ -40,7 +40,7 @@ input[type='file'] {
   max-height: 75vh;
 }
 
-#svg path {
+#svg path#Layout {
     /*Hide Node rendering*/
     display: none;
 }

@@ -109,11 +109,11 @@ const config = {
   showReads: true,
   showSoftClips: true,
   haplotypeColors: 'greys',
-  forwardReadColors: 'reds',
-  reverseReadColors: 'blues',
+  forwardReadColors: 'plainColors',
+  reverseReadColors: 'plainColors',
   exonColors: 'lightColors',
   hideLegendFlag: false,
-  colorReadsByMappingQuality: true,
+  colorReadsByMappingQuality: false,
   mappingQualityCutoff: 0,
   blocks: false,
   node_width: 1
@@ -1035,12 +1035,14 @@ function alignSVG() {
     // vertical adjustment so that top of graph is at top of svg
     // otherwise would violate translateExtent, which leads to graph "jumping" on next pan
     transform.y = (25 - minYCoordinate) * transform.k;
-    svg.attr('transform', transform);
+    //manual override for x-axis only zooming and pan
+    svg.attr('transform', `translate(${transform.x}, 0) scale(${transform.k}, 1)`);
+    //svg.attr('transform', transform);
     const svg2 = d3.select(svgID);
     // adjust height, so that vertical scroll bar is shown when necessary
     svg2.attr(
       'height',
-      (maxYCoordinate - minYCoordinate + 50) * d3.event.transform.k
+      (maxYCoordinate - minYCoordinate + 50)// * d3.event.transform.k
     );
     // adjust width to compensate for verical scroll bar appearing
     svg2.attr('width', document.getElementById('tubeMapSVG').clientWidth);
@@ -1053,7 +1055,7 @@ function alignSVG() {
   );
   zoom = d3
     .zoom()
-    .scaleExtent([minZoom, 8])
+    .scaleExtent([minZoom, 8])//minZoom is the X extent of svg
     .translateExtent([
       [-1, minYCoordinate - 25],
       [maxXCoordinate + 2, maxYCoordinate + 25]
@@ -1095,7 +1097,7 @@ export function zoomBy(zoomFactor) {
   );
   let translateX =
     width / 2.0 - ((width / 2.0 - transform.x) * translateK) / transform.k;
-  translateX = Math.min(translateX, 1 * translateK);
+  translateX = Math.min(translateX, translateK);
   translateX = Math.max(translateX, width - (maxXCoordinate + 2) * translateK);
   const translateY = (25 - minYCoordinate) * translateK;
   d3.select(svgID)
