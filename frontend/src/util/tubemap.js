@@ -113,7 +113,7 @@ const config = {
   reverseReadColors: 'plainColors',
   exonColors: 'lightColors',
   hideLegendFlag: false,
-  colorReadsByMappingQuality: false,
+  colorReadsByMappingQuality: true,
   mappingQualityCutoff: 0,
   blocks: false,
   node_width: 1

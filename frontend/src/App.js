@@ -30,7 +30,7 @@ class App extends Component {
         haplotypeColors: 'greys',
         forwardReadColors: 'reds',
         reverseReadColors: 'blues',
-        colorReadsByMappingQuality: false,
+        colorReadsByMappingQuality: true,
         mappingQualityCutoff: 0,
         blocks: false
       }
