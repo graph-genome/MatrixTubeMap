@@ -3896,7 +3896,7 @@ function drawMismatches() {
             );
             //restricted them to long range links and capped the quantity.
             let linkDistance = Math.abs(Number(mm.query) - mm.pos);
-            if (linkCount < 1000 && linkDistance > 200) {
+            if (linkCount < 1000 && linkDistance > 100) {
               drawLink(x + 1, x2, y + 7, node.y, mm.seq, mm.query);
               linkCount++;
             }

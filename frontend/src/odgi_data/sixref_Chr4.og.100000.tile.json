@@ -18,7 +18,7 @@
     {
       "firstNodeOffset": 1,
       "finalNodeCoverLength": 24,
-      "mapping_quality": 1,
+      "mapping_quality": 25,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -43,7 +43,7 @@
     {
       "firstNodeOffset": 30,
       "finalNodeCoverLength": 48,
-      "mapping_quality": 30,
+      "mapping_quality": 25,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -61,7 +61,7 @@
     {
       "firstNodeOffset": 50,
       "finalNodeCoverLength": 53,
-      "mapping_quality": 50,
+      "mapping_quality": 25,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -79,7 +79,7 @@
     {
       "firstNodeOffset": 56,
       "finalNodeCoverLength": 56,
-      "mapping_quality": 56,
+      "mapping_quality": 25,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -97,7 +97,7 @@
     {
       "firstNodeOffset": 58,
       "finalNodeCoverLength": 60,
-      "mapping_quality": 58,
+      "mapping_quality": 25,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -115,7 +115,7 @@
     {
       "firstNodeOffset": 66,
       "finalNodeCoverLength": 78,
-      "mapping_quality": 66,
+      "mapping_quality": 25,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -133,7 +133,7 @@
     {
       "firstNodeOffset": 80,
       "finalNodeCoverLength": 92,
-      "mapping_quality": 80,
+      "mapping_quality": 25,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -151,7 +151,7 @@
     {
       "firstNodeOffset": 95,
       "finalNodeCoverLength": 116,
-      "mapping_quality": 95,
+      "mapping_quality": 25,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -169,7 +169,7 @@
     {
       "firstNodeOffset": 120,
       "finalNodeCoverLength": 132,
-      "mapping_quality": 20,
+      "mapping_quality": 25,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -187,7 +187,7 @@
     {
       "firstNodeOffset": 136,
       "finalNodeCoverLength": 222,
-      "mapping_quality": 36,
+      "mapping_quality": 25,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -205,7 +205,7 @@
     {
       "firstNodeOffset": 226,
       "finalNodeCoverLength": 228,
-      "mapping_quality": 26,
+      "mapping_quality": 25,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -230,7 +230,7 @@
     {
       "firstNodeOffset": 230,
       "finalNodeCoverLength": 313,
-      "mapping_quality": 30,
+      "mapping_quality": 25,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -248,7 +248,7 @@
     {
       "firstNodeOffset": 1,
       "finalNodeCoverLength": 24,
-      "mapping_quality": 1,
+      "mapping_quality": 56,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -279,7 +279,7 @@
     {
       "firstNodeOffset": 30,
       "finalNodeCoverLength": 48,
-      "mapping_quality": 30,
+      "mapping_quality": 56,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -297,7 +297,7 @@
     {
       "firstNodeOffset": 50,
       "finalNodeCoverLength": 53,
-      "mapping_quality": 50,
+      "mapping_quality": 56,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -333,7 +333,7 @@
     {
       "firstNodeOffset": 58,
       "finalNodeCoverLength": 60,
-      "mapping_quality": 58,
+      "mapping_quality": 56,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -351,7 +351,7 @@
     {
       "firstNodeOffset": 66,
       "finalNodeCoverLength": 78,
-      "mapping_quality": 66,
+      "mapping_quality": 56,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -369,7 +369,7 @@
     {
       "firstNodeOffset": 80,
       "finalNodeCoverLength": 91,
-      "mapping_quality": 80,
+      "mapping_quality": 56,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -387,7 +387,7 @@
     {
       "firstNodeOffset": 93,
       "finalNodeCoverLength": 116,
-      "mapping_quality": 93,
+      "mapping_quality": 56,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -405,7 +405,7 @@
     {
       "firstNodeOffset": 120,
       "finalNodeCoverLength": 129,
-      "mapping_quality": 20,
+      "mapping_quality": 56,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -423,7 +423,7 @@
     {
       "firstNodeOffset": 132,
       "finalNodeCoverLength": 222,
-      "mapping_quality": 32,
+      "mapping_quality": 56,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -441,7 +441,7 @@
     {
       "firstNodeOffset": 225,
       "finalNodeCoverLength": 228,
-      "mapping_quality": 25,
+      "mapping_quality": 56,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -472,7 +472,7 @@
     {
       "firstNodeOffset": 230,
       "finalNodeCoverLength": 313,
-      "mapping_quality": 30,
+      "mapping_quality": 56,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -490,7 +490,7 @@
     {
       "firstNodeOffset": 1,
       "finalNodeCoverLength": 24,
-      "mapping_quality": 1,
+      "mapping_quality": 71,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -527,7 +527,7 @@
     {
       "firstNodeOffset": 30,
       "finalNodeCoverLength": 48,
-      "mapping_quality": 30,
+      "mapping_quality": 71,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -545,7 +545,7 @@
     {
       "firstNodeOffset": 50,
       "finalNodeCoverLength": 50,
-      "mapping_quality": 50,
+      "mapping_quality": 71,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -563,7 +563,7 @@
     {
       "firstNodeOffset": 52,
       "finalNodeCoverLength": 53,
-      "mapping_quality": 52,
+      "mapping_quality": 71,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -581,7 +581,7 @@
     {
       "firstNodeOffset": 56,
       "finalNodeCoverLength": 56,
-      "mapping_quality": 56,
+      "mapping_quality": 71,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -599,7 +599,7 @@
     {
       "firstNodeOffset": 58,
       "finalNodeCoverLength": 60,
-      "mapping_quality": 58,
+      "mapping_quality": 71,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -617,7 +617,7 @@
     {
       "firstNodeOffset": 66,
       "finalNodeCoverLength": 77,
-      "mapping_quality": 66,
+      "mapping_quality": 71,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -635,7 +635,7 @@
     {
       "firstNodeOffset": 79,
       "finalNodeCoverLength": 91,
-      "mapping_quality": 79,
+      "mapping_quality": 71,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -653,7 +653,7 @@
     {
       "firstNodeOffset": 93,
       "finalNodeCoverLength": 116,
-      "mapping_quality": 93,
+      "mapping_quality": 71,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -671,7 +671,7 @@
     {
       "firstNodeOffset": 120,
       "finalNodeCoverLength": 132,
-      "mapping_quality": 20,
+      "mapping_quality": 71,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -689,7 +689,7 @@
     {
       "firstNodeOffset": 136,
       "finalNodeCoverLength": 222,
-      "mapping_quality": 36,
+      "mapping_quality": 71,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -707,7 +707,7 @@
     {
       "firstNodeOffset": 226,
       "finalNodeCoverLength": 228,
-      "mapping_quality": 26,
+      "mapping_quality": 71,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -744,7 +744,7 @@
     {
       "firstNodeOffset": 230,
       "finalNodeCoverLength": 313,
-      "mapping_quality": 30,
+      "mapping_quality": 71,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -762,7 +762,7 @@
     {
       "firstNodeOffset": 1,
       "finalNodeCoverLength": 21,
-      "mapping_quality": 1,
+      "mapping_quality": 81,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -805,7 +805,7 @@
     {
       "firstNodeOffset": 24,
       "finalNodeCoverLength": 24,
-      "mapping_quality": 24,
+      "mapping_quality": 81,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -823,7 +823,7 @@
     {
       "firstNodeOffset": 26,
       "finalNodeCoverLength": 26,
-      "mapping_quality": 26,
+      "mapping_quality": 81,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -841,7 +841,7 @@
     {
       "firstNodeOffset": 30,
       "finalNodeCoverLength": 49,
-      "mapping_quality": 30,
+      "mapping_quality": 81,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -859,7 +859,7 @@
     {
       "firstNodeOffset": 52,
       "finalNodeCoverLength": 53,
-      "mapping_quality": 52,
+      "mapping_quality": 81,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -877,7 +877,7 @@
     {
       "firstNodeOffset": 56,
       "finalNodeCoverLength": 56,
-      "mapping_quality": 56,
+      "mapping_quality": 81,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -895,7 +895,7 @@
     {
       "firstNodeOffset": 58,
       "finalNodeCoverLength": 66,
-      "mapping_quality": 58,
+      "mapping_quality": 81,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -913,7 +913,7 @@
     {
       "firstNodeOffset": 68,
       "finalNodeCoverLength": 91,
-      "mapping_quality": 68,
+      "mapping_quality": 81,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -931,7 +931,7 @@
     {
       "firstNodeOffset": 93,
       "finalNodeCoverLength": 111,
-      "mapping_quality": 93,
+      "mapping_quality": 81,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -949,7 +949,7 @@
     {
       "firstNodeOffset": 113,
       "finalNodeCoverLength": 129,
-      "mapping_quality": 13,
+      "mapping_quality": 81,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -967,7 +967,7 @@
     {
       "firstNodeOffset": 132,
       "finalNodeCoverLength": 222,
-      "mapping_quality": 32,
+      "mapping_quality": 81,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -985,7 +985,7 @@
     {
       "firstNodeOffset": 225,
       "finalNodeCoverLength": 228,
-      "mapping_quality": 25,
+      "mapping_quality": 81,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -1028,7 +1028,7 @@
     {
       "firstNodeOffset": 230,
       "finalNodeCoverLength": 313,
-      "mapping_quality": 30,
+      "mapping_quality": 81,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -1046,7 +1046,7 @@
     {
       "firstNodeOffset": 1,
       "finalNodeCoverLength": 21,
-      "mapping_quality": 1,
+      "mapping_quality": 35,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -1095,7 +1095,7 @@
     {
       "firstNodeOffset": 24,
       "finalNodeCoverLength": 24,
-      "mapping_quality": 24,
+      "mapping_quality": 35,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -1113,7 +1113,7 @@
     {
       "firstNodeOffset": 28,
       "finalNodeCoverLength": 49,
-      "mapping_quality": 28,
+      "mapping_quality": 35,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -1131,7 +1131,7 @@
     {
       "firstNodeOffset": 52,
       "finalNodeCoverLength": 60,
-      "mapping_quality": 52,
+      "mapping_quality": 35,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -1149,7 +1149,7 @@
     {
       "firstNodeOffset": 65,
       "finalNodeCoverLength": 66,
-      "mapping_quality": 65,
+      "mapping_quality": 35,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -1167,7 +1167,7 @@
     {
       "firstNodeOffset": 68,
       "finalNodeCoverLength": 77,
-      "mapping_quality": 68,
+      "mapping_quality": 35,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -1185,7 +1185,7 @@
     {
       "firstNodeOffset": 79,
       "finalNodeCoverLength": 116,
-      "mapping_quality": 79,
+      "mapping_quality": 35,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -1203,7 +1203,7 @@
     {
       "firstNodeOffset": 120,
       "finalNodeCoverLength": 129,
-      "mapping_quality": 20,
+      "mapping_quality": 35,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -1221,7 +1221,7 @@
     {
       "firstNodeOffset": 132,
       "finalNodeCoverLength": 228,
-      "mapping_quality": 32,
+      "mapping_quality": 35,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -1270,7 +1270,7 @@
     {
       "firstNodeOffset": 230,
       "finalNodeCoverLength": 313,
-      "mapping_quality": 30,
+      "mapping_quality": 35,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -1288,7 +1288,7 @@
     {
       "firstNodeOffset": 1,
       "finalNodeCoverLength": 21,
-      "mapping_quality": 1,
+      "mapping_quality": 52,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -1343,7 +1343,7 @@
     {
       "firstNodeOffset": 24,
       "finalNodeCoverLength": 26,
-      "mapping_quality": 24,
+      "mapping_quality": 52,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -1361,7 +1361,7 @@
     {
       "firstNodeOffset": 30,
       "finalNodeCoverLength": 48,
-      "mapping_quality": 30,
+      "mapping_quality": 52,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -1397,7 +1397,7 @@
     {
       "firstNodeOffset": 56,
       "finalNodeCoverLength": 56,
-      "mapping_quality": 56,
+      "mapping_quality": 52,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -1415,7 +1415,7 @@
     {
       "firstNodeOffset": 58,
       "finalNodeCoverLength": 60,
-      "mapping_quality": 58,
+      "mapping_quality": 52,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -1433,7 +1433,7 @@
     {
       "firstNodeOffset": 65,
       "finalNodeCoverLength": 66,
-      "mapping_quality": 65,
+      "mapping_quality": 52,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -1451,7 +1451,7 @@
     {
       "firstNodeOffset": 68,
       "finalNodeCoverLength": 77,
-      "mapping_quality": 68,
+      "mapping_quality": 52,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -1469,7 +1469,7 @@
     {
       "firstNodeOffset": 79,
       "finalNodeCoverLength": 91,
-      "mapping_quality": 79,
+      "mapping_quality": 52,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -1487,7 +1487,7 @@
     {
       "firstNodeOffset": 95,
       "finalNodeCoverLength": 111,
-      "mapping_quality": 95,
+      "mapping_quality": 52,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -1505,7 +1505,7 @@
     {
       "firstNodeOffset": 113,
       "finalNodeCoverLength": 117,
-      "mapping_quality": 13,
+      "mapping_quality": 52,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -1523,7 +1523,7 @@
     {
       "firstNodeOffset": 120,
       "finalNodeCoverLength": 129,
-      "mapping_quality": 20,
+      "mapping_quality": 52,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -1541,7 +1541,7 @@
     {
       "firstNodeOffset": 136,
       "finalNodeCoverLength": 221,
-      "mapping_quality": 36,
+      "mapping_quality": 52,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -1596,7 +1596,7 @@
     {
       "firstNodeOffset": 225,
       "finalNodeCoverLength": 313,
-      "mapping_quality": 25,
+      "mapping_quality": 52,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -1614,7 +1614,7 @@
     {
       "firstNodeOffset": 1,
       "finalNodeCoverLength": 21,
-      "mapping_quality": 1,
+      "mapping_quality": 70,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -1675,7 +1675,7 @@
     {
       "firstNodeOffset": 24,
       "finalNodeCoverLength": 24,
-      "mapping_quality": 24,
+      "mapping_quality": 70,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -1693,7 +1693,7 @@
     {
       "firstNodeOffset": 26,
       "finalNodeCoverLength": 28,
-      "mapping_quality": 26,
+      "mapping_quality": 70,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -1711,7 +1711,7 @@
     {
       "firstNodeOffset": 30,
       "finalNodeCoverLength": 50,
-      "mapping_quality": 30,
+      "mapping_quality": 70,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -1729,7 +1729,7 @@
     {
       "firstNodeOffset": 52,
       "finalNodeCoverLength": 53,
-      "mapping_quality": 52,
+      "mapping_quality": 70,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -1747,7 +1747,7 @@
     {
       "firstNodeOffset": 56,
       "finalNodeCoverLength": 56,
-      "mapping_quality": 56,
+      "mapping_quality": 70,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -1765,7 +1765,7 @@
     {
       "firstNodeOffset": 58,
       "finalNodeCoverLength": 62,
-      "mapping_quality": 58,
+      "mapping_quality": 70,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -1783,7 +1783,7 @@
     {
       "firstNodeOffset": 64,
       "finalNodeCoverLength": 66,
-      "mapping_quality": 64,
+      "mapping_quality": 70,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -1801,7 +1801,7 @@
     {
       "firstNodeOffset": 68,
       "finalNodeCoverLength": 111,
-      "mapping_quality": 68,
+      "mapping_quality": 70,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -1819,7 +1819,7 @@
     {
       "firstNodeOffset": 113,
       "finalNodeCoverLength": 116,
-      "mapping_quality": 13,
+      "mapping_quality": 70,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -1837,7 +1837,7 @@
     {
       "firstNodeOffset": 119,
       "finalNodeCoverLength": 130,
-      "mapping_quality": 19,
+      "mapping_quality": 70,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -1855,7 +1855,7 @@
     {
       "firstNodeOffset": 136,
       "finalNodeCoverLength": 221,
-      "mapping_quality": 36,
+      "mapping_quality": 70,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -1873,7 +1873,7 @@
     {
       "firstNodeOffset": 225,
       "finalNodeCoverLength": 228,
-      "mapping_quality": 25,
+      "mapping_quality": 70,
       "is_secondary": false,
       "sequence": [
         "Layout"
@@ -1934,7 +1934,7 @@
     {
       "firstNodeOffset": 230,
       "finalNodeCoverLength": 313,
-      "mapping_quality": 30,
+      "mapping_quality": 70,
       "is_secondary": false,
       "sequence": [
         "Layout"
