@@ -26,14 +26,7 @@
       "sequenceNew": [
         {
           "nodeName": "Layout",
-          "mismatches": [
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 3128,
-              "pos": 0
-            }
-          ]
+          "mismatches": []
         }
       ],
       "type": "read",
@@ -2704,20 +2697,7 @@
       "sequenceNew": [
         {
           "nodeName": "Layout",
-          "mismatches": [
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 3128,
-              "pos": 0
-            },
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 3128,
-              "pos": 0
-            }
-          ]
+          "mismatches": []
         }
       ],
       "type": "read",
@@ -5510,26 +5490,7 @@
       "sequenceNew": [
         {
           "nodeName": "Layout",
-          "mismatches": [
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 3128,
-              "pos": 0
-            },
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 3128,
-              "pos": 0
-            },
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 3128,
-              "pos": 0
-            }
-          ]
+          "mismatches": []
         }
       ],
       "type": "read",
@@ -8441,32 +8402,7 @@
       "sequenceNew": [
         {
           "nodeName": "Layout",
-          "mismatches": [
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 3128,
-              "pos": 0
-            },
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 3128,
-              "pos": 0
-            },
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 3128,
-              "pos": 0
-            },
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 3128,
-              "pos": 0
-            }
-          ]
+          "mismatches": []
         }
       ],
       "type": "read",
@@ -11514,38 +11450,7 @@
       "sequenceNew": [
         {
           "nodeName": "Layout",
-          "mismatches": [
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 3128,
-              "pos": 0
-            },
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 3128,
-              "pos": 0
-            },
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 3128,
-              "pos": 0
-            },
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 3128,
-              "pos": 0
-            },
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 3128,
-              "pos": 0
-            }
-          ]
+          "mismatches": []
         }
       ],
       "type": "read",
@@ -14518,44 +14423,7 @@
       "sequenceNew": [
         {
           "nodeName": "Layout",
-          "mismatches": [
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 3128,
-              "pos": 0
-            },
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 3128,
-              "pos": 0
-            },
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 3128,
-              "pos": 0
-            },
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 3128,
-              "pos": 0
-            },
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 3128,
-              "pos": 0
-            },
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 3128,
-              "pos": 0
-            }
-          ]
+          "mismatches": []
         }
       ],
       "type": "read",
@@ -17565,50 +17433,7 @@
       "sequenceNew": [
         {
           "nodeName": "Layout",
-          "mismatches": [
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 3128,
-              "pos": 0
-            },
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 3128,
-              "pos": 0
-            },
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 3128,
-              "pos": 0
-            },
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 3128,
-              "pos": 0
-            },
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 3128,
-              "pos": 0
-            },
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 3128,
-              "pos": 0
-            },
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 3128,
-              "pos": 0
-            }
-          ]
+          "mismatches": []
         }
       ],
       "type": "read",

@@ -20,7 +20,7 @@ class App extends Component {
         anchorTrackName: '17',
         dataPath: 'default'
       },
-      dataOrigin: dataOriginTypes.sixref,
+      dataOrigin: dataOriginTypes.yeast,
       visOptions: {
         removeRedundantNodes: false,
         compressedView: false,

@@ -32,12 +32,6 @@
               "query": 54,
               "seq": "L",
               "pos": 16
-            },
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 31278,
-              "pos": 0
             }
           ]
         }
@@ -13665,21 +13659,9 @@
             },
             {
               "type": "link",
-              "seq": "L",
-              "query": 31278,
-              "pos": 0
-            },
-            {
-              "type": "link",
               "query": 54,
               "seq": "L",
               "pos": 16
-            },
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 31278,
-              "pos": 0
             }
           ]
         }
@@ -29008,33 +28990,15 @@
             },
             {
               "type": "link",
-              "seq": "L",
-              "query": 31278,
-              "pos": 0
-            },
-            {
-              "type": "link",
               "query": 54,
               "seq": "L",
               "pos": 16
             },
             {
               "type": "link",
-              "seq": "L",
-              "query": 31278,
-              "pos": 0
-            },
-            {
-              "type": "link",
               "query": 54,
               "seq": "L",
               "pos": 17
-            },
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 31272,
-              "pos": 0
             }
           ]
         }
@@ -45501,21 +45465,9 @@
             },
             {
               "type": "link",
-              "seq": "L",
-              "query": 31278,
-              "pos": 0
-            },
-            {
-              "type": "link",
               "query": 54,
               "seq": "L",
               "pos": 16
-            },
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 31278,
-              "pos": 0
             },
             {
               "type": "link",
@@ -45525,20 +45477,8 @@
             },
             {
               "type": "link",
-              "seq": "L",
-              "query": 31272,
-              "pos": 0
-            },
-            {
-              "type": "link",
               "query": 22,
               "seq": "L",
-              "pos": 0
-            },
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 31278,
               "pos": 0
             }
           ]
@@ -63496,21 +63436,9 @@
             },
             {
               "type": "link",
-              "seq": "L",
-              "query": 31278,
-              "pos": 0
-            },
-            {
-              "type": "link",
               "query": 54,
               "seq": "L",
               "pos": 16
-            },
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 31278,
-              "pos": 0
             },
             {
               "type": "link",
@@ -63520,26 +63448,8 @@
             },
             {
               "type": "link",
-              "seq": "L",
-              "query": 31272,
-              "pos": 0
-            },
-            {
-              "type": "link",
               "query": 22,
               "seq": "L",
-              "pos": 0
-            },
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 31278,
-              "pos": 0
-            },
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 31278,
               "pos": 0
             }
           ]
@@ -82720,12 +82630,6 @@
             },
             {
               "type": "link",
-              "seq": "L",
-              "query": 31278,
-              "pos": 0
-            },
-            {
-              "type": "link",
               "query": 54,
               "seq": "L",
               "pos": 16
@@ -82735,12 +82639,6 @@
               "seq": "L",
               "query": 16,
               "pos": 54
-            },
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 31278,
-              "pos": 0
             },
             {
               "type": "link",
@@ -82756,38 +82654,14 @@
             },
             {
               "type": "link",
-              "seq": "L",
-              "query": 31272,
-              "pos": 0
-            },
-            {
-              "type": "link",
               "query": 22,
               "seq": "L",
               "pos": 0
             },
             {
               "type": "link",
-              "seq": "L",
-              "query": 31278,
-              "pos": 0
-            },
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 31278,
-              "pos": 0
-            },
-            {
-              "type": "link",
               "query": 46,
               "seq": "L",
-              "pos": 0
-            },
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 31278,
               "pos": 0
             }
           ]
@@ -103411,21 +103285,9 @@
             },
             {
               "type": "link",
-              "seq": "L",
-              "query": 31278,
-              "pos": 0
-            },
-            {
-              "type": "link",
               "query": 54,
               "seq": "L",
               "pos": 16
-            },
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 31278,
-              "pos": 0
             },
             {
               "type": "link",
@@ -103435,44 +103297,14 @@
             },
             {
               "type": "link",
-              "seq": "L",
-              "query": 31272,
-              "pos": 0
-            },
-            {
-              "type": "link",
               "query": 22,
               "seq": "L",
               "pos": 0
             },
             {
               "type": "link",
-              "seq": "L",
-              "query": 31278,
-              "pos": 0
-            },
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 31278,
-              "pos": 0
-            },
-            {
-              "type": "link",
               "query": 46,
               "seq": "L",
-              "pos": 0
-            },
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 31278,
-              "pos": 0
-            },
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 31278,
               "pos": 0
             }
           ]

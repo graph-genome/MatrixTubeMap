@@ -4,11 +4,12 @@ import config from '../config.json';
 import { Container, Row, Alert } from 'reactstrap';
 import * as tubeMap from '../util/tubemap';
 import { dataOriginTypes } from '../enums';
-import DRB1 from '../odgi_data/DRB1-3123.og.bin10.json';
-// import yeast from '../odgi_data/recent-yeast.json';
-import sixref from '../odgi_data/sixref_Chr4.og.1000.tile.json'
-// let DRB1 = {};
-let yeast = {};
+// import DRB1 from '../odgi_data/DRB1-3123.og.bin10.json';
+import yeast from '../odgi_data/recent-yeast.json';
+// import sixref from '../odgi_data/sixref_Chr4.og.1000.tile.json'
+let DRB1 = {};
+let sixref = {};
+// let yeast = {};
 const BACKEND_URL = config.BACKEND_URL || `http://${window.location.host}`;
 
 class TubeMapContainer extends Component {

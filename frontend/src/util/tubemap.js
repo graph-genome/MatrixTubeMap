@@ -1036,7 +1036,7 @@ function alignSVG() {
     // otherwise would violate translateExtent, which leads to graph "jumping" on next pan
     transform.y = (25 - minYCoordinate) * transform.k;
     //manual override for x-axis only zooming and pan
-    svg.attr('transform', `translate(${transform.x}, 0) scale(${transform.k}, 1)`);
+    svg.attr('transform', `translate(${transform.x}, 25) scale(${transform.k}, 1)`);
     //svg.attr('transform', transform);
     const svg2 = d3.select(svgID);
     // adjust height, so that vertical scroll bar is shown when necessary
@@ -3897,7 +3897,7 @@ function drawMismatches() {
             //restricted them to long range links and capped the quantity.
             let linkDistance = Math.abs(Number(mm.query) - mm.pos);
             if (linkCount < 1000 && linkDistance > 100) {
-              drawLink(x + 1, x2, y + 7, node.y, mm.seq, mm.query);
+              drawLink(x + 1, x2, y + 7, node.y, "i", mm.query);//mm.seq
               linkCount++;
             }
           }
@@ -3956,18 +3956,36 @@ function drawLink(x1, x2, y, nodeY, seq, query) {
 }
 
 function linkMouseClick(){
-  /*Click updates the URL*/
-  window.history.pushState('link', 'MatrixTubemap', this.getAttribute('query'))
+  /** Click updates the URL and translates to the target. **/
+  window.history.pushState('link', 'MatrixTubemap', this.getAttribute('query'));
+
+  // const pos = d3.select(svgID)._groups[0][0].transform;
+  const targetX = getXCoordinateOfBaseWithinNode(nodes[0], this.getAttribute('query')) + 1;
+  let xOffset = -Math.max(0, Math.min(targetX, maxXCoordinate));//*pos.k; // TODO order of operations
+  const screenWidth = d3.select(svgID).attr('width');
+  xOffset += screenWidth / 2;
+  d3.select(svgID).call(
+    zoom.transform,
+    d3.zoomIdentity.translate(xOffset, 25)
+  );
+  // svg.attr('transform', `translate(${pos.x}, 0) scale(${pos.k}, 1)`);
+  //to animate
+  // d3.select(svgID)
+  //   .transition()
+  //   .duration(750)
+  //   .call(
+  //     zoom.transform,
+  //     d3.zoomIdentity.translate(translateX, translateY).scale(translateK)
+  //   );
 }
 
 function linkMouseOver() {
   let targetX = this.getAttribute('query');
-  /* jshint validthis: true */
-  d3.select(this).attr('fill', 'red');
   const x1 = getXCoordinateOfBaseWithinNode(nodes[0], targetX) + 1;
   const x2 = Number(d3.select(this).attr('x'));
   const y = 100 * 12;//Number(d3.select(this).attr('y'));
   const yTop = Number(d3.select(this).attr('nodeY'));
+  d3.select(this).attr('fill', 'red');
   highlightPointX(x1, y, yTop, x2, "red");
 }
 

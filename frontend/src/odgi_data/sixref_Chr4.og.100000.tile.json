@@ -11,7 +11,8 @@
       "name": "REF",
       "sequence": [
         "Layout"
-      ]
+      ],
+      "indexOfFirstBase": 0
     }
   ],
   "reads": [
@@ -26,14 +27,7 @@
       "sequenceNew": [
         {
           "nodeName": "Layout",
-          "mismatches": [
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 313,
-              "pos": 0
-            }
-          ]
+          "mismatches": []
         }
       ],
       "type": "read",
@@ -256,20 +250,7 @@
       "sequenceNew": [
         {
           "nodeName": "Layout",
-          "mismatches": [
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 313,
-              "pos": 0
-            },
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 313,
-              "pos": 0
-            }
-          ]
+          "mismatches": []
         }
       ],
       "type": "read",
@@ -498,26 +479,7 @@
       "sequenceNew": [
         {
           "nodeName": "Layout",
-          "mismatches": [
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 313,
-              "pos": 0
-            },
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 313,
-              "pos": 0
-            },
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 313,
-              "pos": 0
-            }
-          ]
+          "mismatches": []
         }
       ],
       "type": "read",
@@ -770,32 +732,7 @@
       "sequenceNew": [
         {
           "nodeName": "Layout",
-          "mismatches": [
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 313,
-              "pos": 0
-            },
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 313,
-              "pos": 0
-            },
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 313,
-              "pos": 0
-            },
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 313,
-              "pos": 0
-            }
-          ]
+          "mismatches": []
         }
       ],
       "type": "read",
@@ -1054,38 +991,7 @@
       "sequenceNew": [
         {
           "nodeName": "Layout",
-          "mismatches": [
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 313,
-              "pos": 0
-            },
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 313,
-              "pos": 0
-            },
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 313,
-              "pos": 0
-            },
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 313,
-              "pos": 0
-            },
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 313,
-              "pos": 0
-            }
-          ]
+          "mismatches": []
         }
       ],
       "type": "read",
@@ -1296,44 +1202,7 @@
       "sequenceNew": [
         {
           "nodeName": "Layout",
-          "mismatches": [
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 313,
-              "pos": 0
-            },
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 313,
-              "pos": 0
-            },
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 313,
-              "pos": 0
-            },
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 313,
-              "pos": 0
-            },
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 313,
-              "pos": 0
-            },
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 313,
-              "pos": 0
-            }
-          ]
+          "mismatches": []
         }
       ],
       "type": "read",
@@ -1622,50 +1491,7 @@
       "sequenceNew": [
         {
           "nodeName": "Layout",
-          "mismatches": [
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 313,
-              "pos": 0
-            },
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 313,
-              "pos": 0
-            },
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 313,
-              "pos": 0
-            },
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 313,
-              "pos": 0
-            },
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 313,
-              "pos": 0
-            },
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 313,
-              "pos": 0
-            },
-            {
-              "type": "link",
-              "seq": "L",
-              "query": 313,
-              "pos": 0
-            }
-          ]
+          "mismatches": []
         }
       ],
       "type": "read",
