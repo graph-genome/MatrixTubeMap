@@ -9,10 +9,10 @@
     {
       "id": 0,
       "name": "REF",
+      "indexOfFirstBase": 0,
       "sequence": [
         "Layout"
-      ],
-      "indexOfFirstBase": 0
+      ]
     }
   ],
   "reads": [

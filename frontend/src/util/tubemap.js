@@ -11,6 +11,7 @@
 //This file is reverted to the original SequenceTubemap version in order to identify why reads have the wrong x coordinates.
 import * as d3 from 'd3';
 import 'd3-selection-multi';
+import {LinkArc, drawArc} from './LinkArc';
 
 const DEBUG = false;
 
@@ -94,6 +95,7 @@ let assignments = []; // contains info about lane assignments sorted by order
 let extraLeft = []; // info whether nodes have to be moved further apart because of multiple 180° directional changes at the same horizontal order
 let extraRight = []; // info whether nodes have to be moved further apart because of multiple 180° directional changes at the same horizontal order
 let maxOrder; // horizontal order of the rightmost node
+let linkArcs = new Set(); //set of unique tuple(int, int)
 
 const config = {
   mergeNodesFlag: true,
@@ -3856,7 +3858,6 @@ function mergeableWithSucc(index, pred, succ) {
 }
 
 function drawMismatches() {
-  let linkCount = 0;
   tracks.forEach((read, trackIdx) => {
     if (read.type === 'read') {
       read.sequenceNew.forEach((element, i) => {
@@ -3890,15 +3891,10 @@ function drawMismatches() {
             );
             drawSubstitution(x + 1, x2, y + 7, node.y, mm.seq);
           } else if (mm.type === 'link') {
-            const x2 = getXCoordinateOfBaseWithinNode(
-                node,
-                mm.pos + mm.seq.length
-            );
             //restricted them to long range links and capped the quantity.
             let linkDistance = Math.abs(Number(mm.query) - mm.pos);
-            if (linkCount < 1000 && linkDistance > 100) {
-              drawLink(x + 1, x2, y + 7, node.y, "i", mm.query);//mm.seq
-              linkCount++;
+            if (linkArcs.size < 1000 && linkDistance > 100) {
+              drawLink(x + 1, x+2, y + 7, node.y, "i", mm.query);//mm.seq
             }
           }
         });
@@ -3939,20 +3935,15 @@ function drawSubstitution(x1, x2, y, nodeY, seq) {
 }
 
 function drawLink(x1, x2, y, nodeY, seq, query) {
-  svg
-      .append('text')
-      .attr('x', x1)
-      .attr('y', y)
-      .attr('query', query)
-      .text(seq)  // this is the slow render line
-      .attr('font-family', 'Courier, "Lucida Console", monospace')
-      .attr('font-size', '12px')
-      .attr('fill', 'black')
-      .attr('nodeY', nodeY)
-      .attr('rightX', x2)
+  let record = new LinkArc(x1, query);
+  let srec = record.toString();
+  if(!linkArcs.has(srec)){ // not already seen
+    linkArcs.add(srec);
+    drawArc(x1, x2, y, nodeY, seq, query, svg)
       .on('mouseover', linkMouseOver)
       .on('mouseout', substitutionMouseOut)
       .on('click', linkMouseClick);
+  }
 }
 
 function linkMouseClick(){
@@ -3961,7 +3952,7 @@ function linkMouseClick(){
 
   // const pos = d3.select(svgID)._groups[0][0].transform;
   const targetX = getXCoordinateOfBaseWithinNode(nodes[0], this.getAttribute('query')) + 1;
-  let xOffset = -Math.max(0, Math.min(targetX, maxXCoordinate));//*pos.k; // TODO order of operations
+  let xOffset = -Math.max(0, Math.min(targetX, maxXCoordinate));//*pos.k; // TODO zoom order of operations
   const screenWidth = d3.select(svgID).attr('width');
   xOffset += screenWidth / 2;
   d3.select(svgID).call(
@@ -3982,10 +3973,10 @@ function linkMouseClick(){
 function linkMouseOver() {
   let targetX = this.getAttribute('query');
   const x1 = getXCoordinateOfBaseWithinNode(nodes[0], targetX) + 1;
-  const x2 = Number(d3.select(this).attr('x'));
+  const x2 = Number(d3.select(this).attr('x1'));
   const y = 100 * 12;//Number(d3.select(this).attr('y'));
   const yTop = Number(d3.select(this).attr('nodeY'));
-  d3.select(this).attr('fill', 'red');
+  d3.select(this).attr('stroke', 'red');
   highlightPointX(x1, y, yTop, x2, "red");
 }
 
@@ -4094,7 +4085,7 @@ function deletionMouseOut() {
 
 function substitutionMouseOut() {
   /* jshint validthis: true */
-  d3.select(this).attr('fill', 'black');
+  d3.select(this).attr('stroke', 'black');
   d3.selectAll('.substitutionHighlight').remove();
 }
 
