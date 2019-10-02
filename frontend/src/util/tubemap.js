@@ -2502,7 +2502,8 @@ function generateSVGShapesFromPath() {
       yEnd: yStart + track.width - 1,
       color: trackColor,
       id: track.id,
-      type: track.type
+      type: track.type,
+      name: track.name
     });
   });
 }
@@ -2876,6 +2877,14 @@ function drawNodes(dNodes) {
     .text(d => getPopUpText(d));
 }
 
+function getTitle(track){
+  if(track.type === "read"){
+    return (`Name: ${track.name}`);
+  }else{
+    return '';
+  }
+}
+
 function getPopUpText(node) {
   return (
     `Node ID: ${node.name}\n` +
@@ -2997,6 +3006,8 @@ function drawTrackRectangles(rectangles, type) {
     .attr('trackID', d => d.id)
     .attr('class', d => `track${d.id}`)
     .attr('color', d => d.color)
+    .append('svg:title')
+    .text(d => getTitle(d))
     .on('mouseover', trackMouseOver)
     .on('mouseout', trackMouseOut)
     .on('dblclick', trackDoubleClick);
