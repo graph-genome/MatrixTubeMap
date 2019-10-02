@@ -2248,9 +2248,8 @@ function generateTrackColor(track, highlight) {
   let trackColor;
   if (track.hasOwnProperty('type') && track.type === 'read') {
     if (config.colorReadsByMappingQuality) {
-      trackColor = d3.interpolateRdYlGn(
-        Math.min(60, track.mapping_quality) / 60
-      );
+      //qualityMapping is hacked to increment path color
+      trackColor = forwardReadColors[track.mapping_quality % forwardReadColors.length]
     } else {
       if (track.hasOwnProperty('is_reverse') && track.is_reverse === true) {
         trackColor = reverseReadColors[track.id % reverseReadColors.length];
@@ -3894,7 +3893,8 @@ function drawMismatches() {
             //restricted them to long range links and capped the quantity.
             let linkDistance = Math.abs(Number(mm.query) - mm.pos);
             if (linkArcs.size < 1000 && linkDistance > 100) {
-              drawLink(x + 1, x+2, y + 7, node.y, "i", mm.query);//mm.seq
+              var end = getXCoordinateOfBaseWithinNode(node, mm.query);
+              drawLink(x + 1, x+2, y + 7, node.y, "i", end);//mm.seq
             }
           }
         });
@@ -3934,12 +3934,12 @@ function drawSubstitution(x1, x2, y, nodeY, seq) {
     .on('mouseout', substitutionMouseOut)
 }
 
-function drawLink(x1, x2, y, nodeY, seq, query) {
-  let record = new LinkArc(x1, query);
+function drawLink(x1, x2, y, nodeY, seq, end) {
+  let record = new LinkArc(x1, end);
   let srec = record.toString();
   if(!linkArcs.has(srec)){ // not already seen
     linkArcs.add(srec);
-    drawArc(x1, x2, y, nodeY, seq, query, svg)
+    drawArc(x1, x2, y, nodeY, seq, end, svg)
       .on('mouseover', linkMouseOver)
       .on('mouseout', substitutionMouseOut)
       .on('click', linkMouseClick);
@@ -3971,8 +3971,7 @@ function linkMouseClick(){
 }
 
 function linkMouseOver() {
-  let targetX = this.getAttribute('query');
-  const x1 = getXCoordinateOfBaseWithinNode(nodes[0], targetX) + 1;
+  let x1 = this.getAttribute('query');
   const x2 = Number(d3.select(this).attr('x1'));
   const y = 100 * 12;//Number(d3.select(this).attr('y'));
   const yTop = Number(d3.select(this).attr('nodeY'));

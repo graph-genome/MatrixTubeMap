@@ -21,18 +21,16 @@ var curveFunc = d3.line()
   .x(function(d) { return d.x })
   .y(function(d) { return d.y });
 
-export function drawArc(x1, x2, y, nodeY, seq, query, svg){
-  var end = Number(query);
+export function drawArc(x1, x2, y, nodeY, seq, end, svg){
   var bottom = 34;
   var points = [{x: x1, y: bottom}, {x: (x1+end)/2, y: -15}, {x: end, y: bottom}];
-
-  // create svg element:
-  // var svg = d3.select("#svg");
 
   // Add the path using this helper function
   return svg.append('path')
     .attr('d', curveFunc(points))
     .attr('stroke', 'black')
     .attr('stroke-width', 1)
-    .attr('fill', 'none');
+    .attr('fill', 'none')
+    .attr('query', end)
+    .attr('x1', x1);
 }
