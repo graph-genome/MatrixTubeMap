@@ -2503,7 +2503,8 @@ function generateSVGShapesFromPath() {
       color: trackColor,
       id: track.id,
       type: track.type,
-      name: track.name
+      name: track.name,
+      mean_pos: track.mean_pos
     });
   });
 }
@@ -2879,7 +2880,12 @@ function drawNodes(dNodes) {
 
 function getTitle(track){
   if(track.type === "read"){
-    return (`Name: ${track.name}`);
+    return (
+      `Name: ${track.name}\n` +
+      `Position:  ${track.mean_pos}\n` +
+      `Inversion: \n` +
+      `Coverage:  \n`
+    );
   }else{
     return '';
   }
