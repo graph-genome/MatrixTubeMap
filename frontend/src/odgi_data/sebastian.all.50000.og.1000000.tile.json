@@ -32,7 +32,8 @@
       ],
       "type": "read",
       "name": "AT1741.Chr1",
-      "id": 0
+      "id": 0,
+      "mean_pos": 0
     },
     {
       "firstNodeOffset": 1,
@@ -50,7 +51,8 @@
       ],
       "type": "read",
       "name": "AT1741.Chr2",
-      "id": 1
+      "id": 1,
+      "mean_pos": 0.010404
     },
     {
       "firstNodeOffset": 65,
@@ -68,7 +70,8 @@
       ],
       "type": "read",
       "name": "AT1741.Chr2",
-      "id": 2
+      "id": 2,
+      "mean_pos": 0.981828
     },
     {
       "firstNodeOffset": 123,
@@ -86,7 +89,8 @@
       ],
       "type": "read",
       "name": "AT1741.Chr2",
-      "id": 3
+      "id": 3,
+      "mean_pos": 0.653458
     },
     {
       "firstNodeOffset": 269,
@@ -104,7 +108,8 @@
       ],
       "type": "read",
       "name": "AT1741.Chr2",
-      "id": 4
+      "id": 4,
+      "mean_pos": 0.68548
     },
     {
       "firstNodeOffset": 381,
@@ -122,7 +127,8 @@
       ],
       "type": "read",
       "name": "AT1741.Chr2",
-      "id": 5
+      "id": 5,
+      "mean_pos": 0
     },
     {
       "firstNodeOffset": 1,
@@ -140,7 +146,8 @@
       ],
       "type": "read",
       "name": "AT1741.Chr3",
-      "id": 6
+      "id": 6,
+      "mean_pos": 0.0139325
     },
     {
       "firstNodeOffset": 101,
@@ -158,7 +165,8 @@
       ],
       "type": "read",
       "name": "AT1741.Chr3",
-      "id": 7
+      "id": 7,
+      "mean_pos": 0.487954
     },
     {
       "firstNodeOffset": 124,
@@ -176,7 +184,8 @@
       ],
       "type": "read",
       "name": "AT1741.Chr3",
-      "id": 8
+      "id": 8,
+      "mean_pos": 0.532284
     },
     {
       "firstNodeOffset": 130,
@@ -194,7 +203,8 @@
       ],
       "type": "read",
       "name": "AT1741.Chr3",
-      "id": 9
+      "id": 9,
+      "mean_pos": 0.366074
     },
     {
       "firstNodeOffset": 389,
@@ -212,7 +222,8 @@
       ],
       "type": "read",
       "name": "AT1741.Chr3",
-      "id": 10
+      "id": 10,
+      "mean_pos": 0
     },
     {
       "firstNodeOffset": 1,
@@ -230,7 +241,8 @@
       ],
       "type": "read",
       "name": "AT1741.Chr4",
-      "id": 11
+      "id": 11,
+      "mean_pos": 0.00704774
     },
     {
       "firstNodeOffset": 150,
@@ -248,7 +260,8 @@
       ],
       "type": "read",
       "name": "AT1741.Chr4",
-      "id": 12
+      "id": 12,
+      "mean_pos": 0.231715
     },
     {
       "firstNodeOffset": 163,
@@ -266,7 +279,8 @@
       ],
       "type": "read",
       "name": "AT1741.Chr4",
-      "id": 13
+      "id": 13,
+      "mean_pos": 0
     },
     {
       "firstNodeOffset": 1,
@@ -284,7 +298,8 @@
       ],
       "type": "read",
       "name": "AT1741.Chr5",
-      "id": 14
+      "id": 14,
+      "mean_pos": 0.00104837
     },
     {
       "firstNodeOffset": 192,
@@ -302,7 +317,8 @@
       ],
       "type": "read",
       "name": "AT1741.Chr5",
-      "id": 15
+      "id": 15,
+      "mean_pos": 0
     },
     {
       "firstNodeOffset": 1,
@@ -320,7 +336,8 @@
       ],
       "type": "read",
       "name": "AT5784.Chr1",
-      "id": 16
+      "id": 16,
+      "mean_pos": 0.00834634
     },
     {
       "firstNodeOffset": 3,
@@ -338,7 +355,8 @@
       ],
       "type": "read",
       "name": "AT5784.Chr1",
-      "id": 17
+      "id": 17,
+      "mean_pos": 0.552057
     },
     {
       "firstNodeOffset": 36,
@@ -356,7 +374,8 @@
       ],
       "type": "read",
       "name": "AT5784.Chr1",
-      "id": 18
+      "id": 18,
+      "mean_pos": 0.0922448
     },
     {
       "firstNodeOffset": 245,
@@ -374,7 +393,8 @@
       ],
       "type": "read",
       "name": "AT5784.Chr1",
-      "id": 19
+      "id": 19,
+      "mean_pos": 0.512953
     },
     {
       "firstNodeOffset": 250,
@@ -392,7 +412,8 @@
       ],
       "type": "read",
       "name": "AT5784.Chr1",
-      "id": 20
+      "id": 20,
+      "mean_pos": 0
     },
     {
       "firstNodeOffset": 1,
@@ -410,7 +431,8 @@
       ],
       "type": "read",
       "name": "AT5784.Chr2",
-      "id": 21
+      "id": 21,
+      "mean_pos": 0.00735002
     },
     {
       "firstNodeOffset": 65,
@@ -428,7 +450,8 @@
       ],
       "type": "read",
       "name": "AT5784.Chr2",
-      "id": 22
+      "id": 22,
+      "mean_pos": 0.97766
     },
     {
       "firstNodeOffset": 123,
@@ -446,7 +469,8 @@
       ],
       "type": "read",
       "name": "AT5784.Chr2",
-      "id": 23
+      "id": 23,
+      "mean_pos": 0.0346803
     },
     {
       "firstNodeOffset": 257,
@@ -464,7 +488,8 @@
       ],
       "type": "read",
       "name": "AT5784.Chr2",
-      "id": 24
+      "id": 24,
+      "mean_pos": 0.205674
     },
     {
       "firstNodeOffset": 262,
@@ -482,7 +507,8 @@
       ],
       "type": "read",
       "name": "AT5784.Chr2",
-      "id": 25
+      "id": 25,
+      "mean_pos": 0.677279
     },
     {
       "firstNodeOffset": 381,
@@ -500,7 +526,8 @@
       ],
       "type": "read",
       "name": "AT5784.Chr2",
-      "id": 26
+      "id": 26,
+      "mean_pos": 0
     },
     {
       "firstNodeOffset": 1,
@@ -518,7 +545,8 @@
       ],
       "type": "read",
       "name": "AT5784.Chr3",
-      "id": 27
+      "id": 27,
+      "mean_pos": 0.0134089
     },
     {
       "firstNodeOffset": 101,
@@ -536,7 +564,8 @@
       ],
       "type": "read",
       "name": "AT5784.Chr3",
-      "id": 28
+      "id": 28,
+      "mean_pos": 0.446767
     },
     {
       "firstNodeOffset": 120,
@@ -554,7 +583,8 @@
       ],
       "type": "read",
       "name": "AT5784.Chr3",
-      "id": 29
+      "id": 29,
+      "mean_pos": 0.480053
     },
     {
       "firstNodeOffset": 124,
@@ -572,7 +602,8 @@
       ],
       "type": "read",
       "name": "AT5784.Chr3",
-      "id": 30
+      "id": 30,
+      "mean_pos": 0.527435
     },
     {
       "firstNodeOffset": 131,
@@ -590,7 +621,8 @@
       ],
       "type": "read",
       "name": "AT5784.Chr3",
-      "id": 31
+      "id": 31,
+      "mean_pos": 0.624497
     },
     {
       "firstNodeOffset": 134,
@@ -608,7 +640,8 @@
       ],
       "type": "read",
       "name": "AT5784.Chr3",
-      "id": 32
+      "id": 32,
+      "mean_pos": 0.710218
     },
     {
       "firstNodeOffset": 138,
@@ -626,7 +659,8 @@
       ],
       "type": "read",
       "name": "AT5784.Chr3",
-      "id": 33
+      "id": 33,
+      "mean_pos": 0.380093
     },
     {
       "firstNodeOffset": 270,
@@ -644,7 +678,8 @@
       ],
       "type": "read",
       "name": "AT5784.Chr3",
-      "id": 34
+      "id": 34,
+      "mean_pos": 0.665076
     },
     {
       "firstNodeOffset": 279,
@@ -662,7 +697,8 @@
       ],
       "type": "read",
       "name": "AT5784.Chr3",
-      "id": 35
+      "id": 35,
+      "mean_pos": 0.582536
     },
     {
       "firstNodeOffset": 389,
@@ -680,7 +716,8 @@
       ],
       "type": "read",
       "name": "AT5784.Chr3",
-      "id": 36
+      "id": 36,
+      "mean_pos": 0
     },
     {
       "firstNodeOffset": 1,
@@ -698,7 +735,8 @@
       ],
       "type": "read",
       "name": "AT5784.Chr4",
-      "id": 37
+      "id": 37,
+      "mean_pos": 0.00683438
     },
     {
       "firstNodeOffset": 150,
@@ -716,7 +754,8 @@
       ],
       "type": "read",
       "name": "AT5784.Chr4",
-      "id": 38
+      "id": 38,
+      "mean_pos": 0.271128
     },
     {
       "firstNodeOffset": 163,
@@ -734,7 +773,8 @@
       ],
       "type": "read",
       "name": "AT5784.Chr4",
-      "id": 39
+      "id": 39,
+      "mean_pos": 0.363569
     },
     {
       "firstNodeOffset": 169,
@@ -752,7 +792,8 @@
       ],
       "type": "read",
       "name": "AT5784.Chr4",
-      "id": 40
+      "id": 40,
+      "mean_pos": 0.434478
     },
     {
       "firstNodeOffset": 172,
@@ -770,7 +811,8 @@
       ],
       "type": "read",
       "name": "AT5784.Chr4",
-      "id": 41
+      "id": 41,
+      "mean_pos": 0.0426679
     },
     {
       "firstNodeOffset": 284,
@@ -788,7 +830,8 @@
       ],
       "type": "read",
       "name": "AT5784.Chr4",
-      "id": 42
+      "id": 42,
+      "mean_pos": 0.254407
     },
     {
       "firstNodeOffset": 362,
@@ -806,7 +849,8 @@
       ],
       "type": "read",
       "name": "AT5784.Chr4",
-      "id": 43
+      "id": 43,
+      "mean_pos": 0.10394
     },
     {
       "firstNodeOffset": 376,
@@ -824,7 +868,8 @@
       ],
       "type": "read",
       "name": "AT5784.Chr4",
-      "id": 44
+      "id": 44,
+      "mean_pos": 0.125667
     },
     {
       "firstNodeOffset": 390,
@@ -842,7 +887,8 @@
       ],
       "type": "read",
       "name": "AT5784.Chr4",
-      "id": 45
+      "id": 45,
+      "mean_pos": 0
     },
     {
       "firstNodeOffset": 2,
@@ -860,7 +906,8 @@
       ],
       "type": "read",
       "name": "AT5784.Chr5",
-      "id": 46
+      "id": 46,
+      "mean_pos": 0.000931381
     },
     {
       "firstNodeOffset": 192,
@@ -878,7 +925,8 @@
       ],
       "type": "read",
       "name": "AT5784.Chr5",
-      "id": 47
+      "id": 47,
+      "mean_pos": 0.299257
     },
     {
       "firstNodeOffset": 291,
@@ -896,7 +944,8 @@
       ],
       "type": "read",
       "name": "AT5784.Chr5",
-      "id": 48
+      "id": 48,
+      "mean_pos": 0
     },
     {
       "firstNodeOffset": 3,
@@ -914,7 +963,8 @@
       ],
       "type": "read",
       "name": "AT6906_Chr1",
-      "id": 49
+      "id": 49,
+      "mean_pos": 0.421358
     },
     {
       "firstNodeOffset": 32,
@@ -932,7 +982,8 @@
       ],
       "type": "read",
       "name": "AT6906_Chr1",
-      "id": 50
+      "id": 50,
+      "mean_pos": 0.042958
     },
     {
       "firstNodeOffset": 245,
@@ -950,7 +1001,8 @@
       ],
       "type": "read",
       "name": "AT6906_Chr1",
-      "id": 51
+      "id": 51,
+      "mean_pos": 0.439471
     },
     {
       "firstNodeOffset": 250,
@@ -968,7 +1020,8 @@
       ],
       "type": "read",
       "name": "AT6906_Chr1",
-      "id": 52
+      "id": 52,
+      "mean_pos": 0.344022
     },
     {
       "firstNodeOffset": 303,
@@ -986,7 +1039,8 @@
       ],
       "type": "read",
       "name": "AT6906_Chr1",
-      "id": 53
+      "id": 53,
+      "mean_pos": 0.727755
     },
     {
       "firstNodeOffset": 375,
@@ -1004,7 +1058,8 @@
       ],
       "type": "read",
       "name": "AT6906_Chr1",
-      "id": 54
+      "id": 54,
+      "mean_pos": 0.724356
     },
     {
       "firstNodeOffset": 393,
@@ -1022,7 +1077,8 @@
       ],
       "type": "read",
       "name": "AT6906_Chr1",
-      "id": 55
+      "id": 55,
+      "mean_pos": 0
     },
     {
       "firstNodeOffset": 1,
@@ -1040,7 +1096,8 @@
       ],
       "type": "read",
       "name": "AT6906_Chr2",
-      "id": 56
+      "id": 56,
+      "mean_pos": 0.0149179
     },
     {
       "firstNodeOffset": 65,
@@ -1058,7 +1115,8 @@
       ],
       "type": "read",
       "name": "AT6906_Chr2",
-      "id": 57
+      "id": 57,
+      "mean_pos": 0.0494311
     },
     {
       "firstNodeOffset": 68,
@@ -1076,7 +1134,8 @@
       ],
       "type": "read",
       "name": "AT6906_Chr2",
-      "id": 58
+      "id": 58,
+      "mean_pos": 0.163302
     },
     {
       "firstNodeOffset": 76,
@@ -1094,7 +1153,8 @@
       ],
       "type": "read",
       "name": "AT6906_Chr2",
-      "id": 59
+      "id": 59,
+      "mean_pos": 0.296778
     },
     {
       "firstNodeOffset": 83,
@@ -1112,7 +1172,8 @@
       ],
       "type": "read",
       "name": "AT6906_Chr2",
-      "id": 60
+      "id": 60,
+      "mean_pos": 0.98116
     },
     {
       "firstNodeOffset": 123,
@@ -1130,7 +1191,8 @@
       ],
       "type": "read",
       "name": "AT6906_Chr2",
-      "id": 61
+      "id": 61,
+      "mean_pos": 0.0429071
     },
     {
       "firstNodeOffset": 257,
@@ -1148,7 +1210,8 @@
       ],
       "type": "read",
       "name": "AT6906_Chr2",
-      "id": 62
+      "id": 62,
+      "mean_pos": 0.351021
     },
     {
       "firstNodeOffset": 262,
@@ -1166,7 +1229,8 @@
       ],
       "type": "read",
       "name": "AT6906_Chr2",
-      "id": 63
+      "id": 63,
+      "mean_pos": 0.0363068
     },
     {
       "firstNodeOffset": 307,
@@ -1184,7 +1248,8 @@
       ],
       "type": "read",
       "name": "AT6906_Chr2",
-      "id": 64
+      "id": 64,
+      "mean_pos": 0.226783
     },
     {
       "firstNodeOffset": 311,
@@ -1202,7 +1267,8 @@
       ],
       "type": "read",
       "name": "AT6906_Chr2",
-      "id": 65
+      "id": 65,
+      "mean_pos": 0.305266
     },
     {
       "firstNodeOffset": 375,
@@ -1220,7 +1286,8 @@
       ],
       "type": "read",
       "name": "AT6906_Chr2",
-      "id": 66
+      "id": 66,
+      "mean_pos": 0.711066
     },
     {
       "firstNodeOffset": 381,
@@ -1238,7 +1305,8 @@
       ],
       "type": "read",
       "name": "AT6906_Chr2",
-      "id": 67
+      "id": 67,
+      "mean_pos": 0.271083
     },
     {
       "firstNodeOffset": 393,
@@ -1256,7 +1324,8 @@
       ],
       "type": "read",
       "name": "AT6906_Chr2",
-      "id": 68
+      "id": 68,
+      "mean_pos": 0
     },
     {
       "firstNodeOffset": 1,
@@ -1274,7 +1343,8 @@
       ],
       "type": "read",
       "name": "AT6906_Chr3",
-      "id": 69
+      "id": 69,
+      "mean_pos": 0.26294
     },
     {
       "firstNodeOffset": 16,
@@ -1292,7 +1362,8 @@
       ],
       "type": "read",
       "name": "AT6906_Chr3",
-      "id": 70
+      "id": 70,
+      "mean_pos": 0.0104048
     },
     {
       "firstNodeOffset": 101,
@@ -1310,7 +1381,8 @@
       ],
       "type": "read",
       "name": "AT6906_Chr3",
-      "id": 71
+      "id": 71,
+      "mean_pos": 0.546228
     },
     {
       "firstNodeOffset": 124,
@@ -1328,7 +1400,8 @@
       ],
       "type": "read",
       "name": "AT6906_Chr3",
-      "id": 72
+      "id": 72,
+      "mean_pos": 0.595261
     },
     {
       "firstNodeOffset": 130,
@@ -1346,7 +1419,8 @@
       ],
       "type": "read",
       "name": "AT6906_Chr3",
-      "id": 73
+      "id": 73,
+      "mean_pos": 0.713425
     },
     {
       "firstNodeOffset": 134,
@@ -1364,7 +1438,8 @@
       ],
       "type": "read",
       "name": "AT6906_Chr3",
-      "id": 74
+      "id": 74,
+      "mean_pos": 0.216311
     },
     {
       "firstNodeOffset": 246,
@@ -1382,7 +1457,8 @@
       ],
       "type": "read",
       "name": "AT6906_Chr3",
-      "id": 75
+      "id": 75,
+      "mean_pos": 0.498575
     },
     {
       "firstNodeOffset": 270,
@@ -1400,7 +1476,8 @@
       ],
       "type": "read",
       "name": "AT6906_Chr3",
-      "id": 76
+      "id": 76,
+      "mean_pos": 0.663007
     },
     {
       "firstNodeOffset": 276,
@@ -1418,7 +1495,8 @@
       ],
       "type": "read",
       "name": "AT6906_Chr3",
-      "id": 77
+      "id": 77,
+      "mean_pos": 0.74945
     },
     {
       "firstNodeOffset": 280,
@@ -1436,7 +1514,8 @@
       ],
       "type": "read",
       "name": "AT6906_Chr3",
-      "id": 78
+      "id": 78,
+      "mean_pos": 0.115493
     },
     {
       "firstNodeOffset": 313,
@@ -1454,7 +1533,8 @@
       ],
       "type": "read",
       "name": "AT6906_Chr3",
-      "id": 79
+      "id": 79,
+      "mean_pos": 0.208545
     },
     {
       "firstNodeOffset": 336,
@@ -1472,7 +1552,8 @@
       ],
       "type": "read",
       "name": "AT6906_Chr3",
-      "id": 80
+      "id": 80,
+      "mean_pos": 0.671273
     },
     {
       "firstNodeOffset": 347,
@@ -1490,7 +1571,8 @@
       ],
       "type": "read",
       "name": "AT6906_Chr3",
-      "id": 81
+      "id": 81,
+      "mean_pos": 0.15446
     },
     {
       "firstNodeOffset": 364,
@@ -1508,7 +1590,8 @@
       ],
       "type": "read",
       "name": "AT6906_Chr3",
-      "id": 82
+      "id": 82,
+      "mean_pos": 0.667631
     },
     {
       "firstNodeOffset": 371,
@@ -1526,7 +1609,8 @@
       ],
       "type": "read",
       "name": "AT6906_Chr3",
-      "id": 83
+      "id": 83,
+      "mean_pos": 0.450338
     },
     {
       "firstNodeOffset": 389,
@@ -1544,7 +1628,8 @@
       ],
       "type": "read",
       "name": "AT6906_Chr3",
-      "id": 84
+      "id": 84,
+      "mean_pos": 0.146293
     },
     {
       "firstNodeOffset": 393,
@@ -1562,7 +1647,8 @@
       ],
       "type": "read",
       "name": "AT6906_Chr3",
-      "id": 85
+      "id": 85,
+      "mean_pos": 0
     },
     {
       "firstNodeOffset": 1,
@@ -1580,7 +1666,8 @@
       ],
       "type": "read",
       "name": "AT6906_Chr4",
-      "id": 86
+      "id": 86,
+      "mean_pos": 0.00711434
     },
     {
       "firstNodeOffset": 150,
@@ -1598,7 +1685,8 @@
       ],
       "type": "read",
       "name": "AT6906_Chr4",
-      "id": 87
+      "id": 87,
+      "mean_pos": 0.27522
     },
     {
       "firstNodeOffset": 163,
@@ -1616,7 +1704,8 @@
       ],
       "type": "read",
       "name": "AT6906_Chr4",
-      "id": 88
+      "id": 88,
+      "mean_pos": 0.393255
     },
     {
       "firstNodeOffset": 169,
@@ -1634,7 +1723,8 @@
       ],
       "type": "read",
       "name": "AT6906_Chr4",
-      "id": 89
+      "id": 89,
+      "mean_pos": 0.462867
     },
     {
       "firstNodeOffset": 172,
@@ -1652,7 +1742,8 @@
       ],
       "type": "read",
       "name": "AT6906_Chr4",
-      "id": 90
+      "id": 90,
+      "mean_pos": 0.0399417
     },
     {
       "firstNodeOffset": 284,
@@ -1670,7 +1761,8 @@
       ],
       "type": "read",
       "name": "AT6906_Chr4",
-      "id": 91
+      "id": 91,
+      "mean_pos": 0.415467
     },
     {
       "firstNodeOffset": 288,
@@ -1688,7 +1780,8 @@
       ],
       "type": "read",
       "name": "AT6906_Chr4",
-      "id": 92
+      "id": 92,
+      "mean_pos": 0.0817128
     },
     {
       "firstNodeOffset": 320,
@@ -1706,7 +1799,8 @@
       ],
       "type": "read",
       "name": "AT6906_Chr4",
-      "id": 93
+      "id": 93,
+      "mean_pos": 0.0976285
     },
     {
       "firstNodeOffset": 372,
@@ -1724,7 +1818,8 @@
       ],
       "type": "read",
       "name": "AT6906_Chr4",
-      "id": 94
+      "id": 94,
+      "mean_pos": 0.114352
     },
     {
       "firstNodeOffset": 390,
@@ -1742,7 +1837,8 @@
       ],
       "type": "read",
       "name": "AT6906_Chr4",
-      "id": 95
+      "id": 95,
+      "mean_pos": 0.119242
     },
     {
       "firstNodeOffset": 394,
@@ -1760,7 +1856,8 @@
       ],
       "type": "read",
       "name": "AT6906_Chr4",
-      "id": 96
+      "id": 96,
+      "mean_pos": 0
     },
     {
       "firstNodeOffset": 1,
@@ -1778,7 +1875,8 @@
       ],
       "type": "read",
       "name": "AT6906_Chr5",
-      "id": 97
+      "id": 97,
+      "mean_pos": 0.000276879
     },
     {
       "firstNodeOffset": 3,
@@ -1796,7 +1894,8 @@
       ],
       "type": "read",
       "name": "AT6906_Chr5",
-      "id": 98
+      "id": 98,
+      "mean_pos": 0.000915899
     },
     {
       "firstNodeOffset": 192,
@@ -1814,7 +1913,8 @@
       ],
       "type": "read",
       "name": "AT6906_Chr5",
-      "id": 99
+      "id": 99,
+      "mean_pos": 0.500123
     },
     {
       "firstNodeOffset": 217,
@@ -1832,7 +1932,8 @@
       ],
       "type": "read",
       "name": "AT6906_Chr5",
-      "id": 100
+      "id": 100,
+      "mean_pos": 0.253485
     },
     {
       "firstNodeOffset": 291,
@@ -1850,7 +1951,8 @@
       ],
       "type": "read",
       "name": "AT6906_Chr5",
-      "id": 101
+      "id": 101,
+      "mean_pos": 0.487719
     },
     {
       "firstNodeOffset": 296,
@@ -1868,7 +1970,8 @@
       ],
       "type": "read",
       "name": "AT6906_Chr5",
-      "id": 102
+      "id": 102,
+      "mean_pos": 0.306746
     },
     {
       "firstNodeOffset": 327,
@@ -1886,7 +1989,8 @@
       ],
       "type": "read",
       "name": "AT6906_Chr5",
-      "id": 103
+      "id": 103,
+      "mean_pos": 0
     },
     {
       "firstNodeOffset": 2,
@@ -1904,7 +2008,8 @@
       ],
       "type": "read",
       "name": "AT6909.Chr1",
-      "id": 104
+      "id": 104,
+      "mean_pos": 0.510159
     },
     {
       "firstNodeOffset": 32,
@@ -1922,7 +2027,8 @@
       ],
       "type": "read",
       "name": "AT6909.Chr1",
-      "id": 105
+      "id": 105,
+      "mean_pos": 0.0935297
     },
     {
       "firstNodeOffset": 245,
@@ -1940,7 +2046,8 @@
       ],
       "type": "read",
       "name": "AT6909.Chr1",
-      "id": 106
+      "id": 106,
+      "mean_pos": 0.141904
     },
     {
       "firstNodeOffset": 303,
@@ -1958,7 +2065,8 @@
       ],
       "type": "read",
       "name": "AT6909.Chr1",
-      "id": 107
+      "id": 107,
+      "mean_pos": 0.559175
     },
     {
       "firstNodeOffset": 306,
@@ -1976,7 +2084,8 @@
       ],
       "type": "read",
       "name": "AT6909.Chr1",
-      "id": 108
+      "id": 108,
+      "mean_pos": 0.45927
     },
     {
       "firstNodeOffset": 313,
@@ -1994,7 +2103,8 @@
       ],
       "type": "read",
       "name": "AT6909.Chr1",
-      "id": 109
+      "id": 109,
+      "mean_pos": 0.338463
     },
     {
       "firstNodeOffset": 336,
@@ -2012,7 +2122,8 @@
       ],
       "type": "read",
       "name": "AT6909.Chr1",
-      "id": 110
+      "id": 110,
+      "mean_pos": 0.456965
     },
     {
       "firstNodeOffset": 393,
@@ -2030,7 +2141,8 @@
       ],
       "type": "read",
       "name": "AT6909.Chr1",
-      "id": 111
+      "id": 111,
+      "mean_pos": 0
     },
     {
       "firstNodeOffset": 1,
@@ -2048,7 +2160,8 @@
       ],
       "type": "read",
       "name": "AT6909.Chr2",
-      "id": 112
+      "id": 112,
+      "mean_pos": 0.00346239
     },
     {
       "firstNodeOffset": 3,
@@ -2066,7 +2179,8 @@
       ],
       "type": "read",
       "name": "AT6909.Chr2",
-      "id": 113
+      "id": 113,
+      "mean_pos": 0.00967926
     },
     {
       "firstNodeOffset": 65,
@@ -2084,7 +2198,8 @@
       ],
       "type": "read",
       "name": "AT6909.Chr2",
-      "id": 114
+      "id": 114,
+      "mean_pos": 0.982261
     },
     {
       "firstNodeOffset": 123,
@@ -2102,7 +2217,8 @@
       ],
       "type": "read",
       "name": "AT6909.Chr2",
-      "id": 115
+      "id": 115,
+      "mean_pos": 0.0256437
     },
     {
       "firstNodeOffset": 257,
@@ -2120,7 +2236,8 @@
       ],
       "type": "read",
       "name": "AT6909.Chr2",
-      "id": 116
+      "id": 116,
+      "mean_pos": 0.215292
     },
     {
       "firstNodeOffset": 262,
@@ -2138,7 +2255,8 @@
       ],
       "type": "read",
       "name": "AT6909.Chr2",
-      "id": 117
+      "id": 117,
+      "mean_pos": 0.099234
     },
     {
       "firstNodeOffset": 308,
@@ -2156,7 +2274,8 @@
       ],
       "type": "read",
       "name": "AT6909.Chr2",
-      "id": 118
+      "id": 118,
+      "mean_pos": 0.414013
     },
     {
       "firstNodeOffset": 313,
@@ -2174,7 +2293,8 @@
       ],
       "type": "read",
       "name": "AT6909.Chr2",
-      "id": 119
+      "id": 119,
+      "mean_pos": 0.162788
     },
     {
       "firstNodeOffset": 342,
@@ -2192,7 +2312,8 @@
       ],
       "type": "read",
       "name": "AT6909.Chr2",
-      "id": 120
+      "id": 120,
+      "mean_pos": 0.689082
     },
     {
       "firstNodeOffset": 381,
@@ -2210,7 +2331,8 @@
       ],
       "type": "read",
       "name": "AT6909.Chr2",
-      "id": 121
+      "id": 121,
+      "mean_pos": 0.324432
     },
     {
       "firstNodeOffset": 393,
@@ -2228,7 +2350,8 @@
       ],
       "type": "read",
       "name": "AT6909.Chr2",
-      "id": 122
+      "id": 122,
+      "mean_pos": 0.326233
     },
     {
       "firstNodeOffset": 395,
@@ -2246,7 +2369,8 @@
       ],
       "type": "read",
       "name": "AT6909.Chr2",
-      "id": 123
+      "id": 123,
+      "mean_pos": 0
     },
     {
       "firstNodeOffset": 101,
@@ -2264,7 +2388,8 @@
       ],
       "type": "read",
       "name": "AT6909.Chr3",
-      "id": 124
+      "id": 124,
+      "mean_pos": 0.482104
     },
     {
       "firstNodeOffset": 124,
@@ -2282,7 +2407,8 @@
       ],
       "type": "read",
       "name": "AT6909.Chr3",
-      "id": 125
+      "id": 125,
+      "mean_pos": 0.529174
     },
     {
       "firstNodeOffset": 130,
@@ -2300,7 +2426,8 @@
       ],
       "type": "read",
       "name": "AT6909.Chr3",
-      "id": 126
+      "id": 126,
+      "mean_pos": 0.703741
     },
     {
       "firstNodeOffset": 138,
@@ -2318,7 +2445,8 @@
       ],
       "type": "read",
       "name": "AT6909.Chr3",
-      "id": 127
+      "id": 127,
+      "mean_pos": 0.343661
     },
     {
       "firstNodeOffset": 270,
@@ -2336,7 +2464,8 @@
       ],
       "type": "read",
       "name": "AT6909.Chr3",
-      "id": 128
+      "id": 128,
+      "mean_pos": 0.631471
     },
     {
       "firstNodeOffset": 276,
@@ -2354,7 +2483,8 @@
       ],
       "type": "read",
       "name": "AT6909.Chr3",
-      "id": 129
+      "id": 129,
+      "mean_pos": 0.654088
     },
     {
       "firstNodeOffset": 279,
@@ -2372,7 +2502,8 @@
       ],
       "type": "read",
       "name": "AT6909.Chr3",
-      "id": 130
+      "id": 130,
+      "mean_pos": 0.710669
     },
     {
       "firstNodeOffset": 283,
@@ -2390,7 +2521,8 @@
       ],
       "type": "read",
       "name": "AT6909.Chr3",
-      "id": 131
+      "id": 131,
+      "mean_pos": 0.00328364
     },
     {
       "firstNodeOffset": 313,
@@ -2408,7 +2540,8 @@
       ],
       "type": "read",
       "name": "AT6909.Chr3",
-      "id": 132
+      "id": 132,
+      "mean_pos": 0.68257
     },
     {
       "firstNodeOffset": 317,
@@ -2426,7 +2559,8 @@
       ],
       "type": "read",
       "name": "AT6909.Chr3",
-      "id": 133
+      "id": 133,
+      "mean_pos": 0.398339
     },
     {
       "firstNodeOffset": 344,
@@ -2444,7 +2578,8 @@
       ],
       "type": "read",
       "name": "AT6909.Chr3",
-      "id": 134
+      "id": 134,
+      "mean_pos": 0.383831
     },
     {
       "firstNodeOffset": 389,
@@ -2462,7 +2597,8 @@
       ],
       "type": "read",
       "name": "AT6909.Chr3",
-      "id": 135
+      "id": 135,
+      "mean_pos": 0.632829
     },
     {
       "firstNodeOffset": 395,
@@ -2480,7 +2616,8 @@
       ],
       "type": "read",
       "name": "AT6909.Chr3",
-      "id": 136
+      "id": 136,
+      "mean_pos": 0
     },
     {
       "firstNodeOffset": 1,
@@ -2498,7 +2635,8 @@
       ],
       "type": "read",
       "name": "AT6909.Chr4",
-      "id": 137
+      "id": 137,
+      "mean_pos": 0.00651514
     },
     {
       "firstNodeOffset": 150,
@@ -2516,7 +2654,8 @@
       ],
       "type": "read",
       "name": "AT6909.Chr4",
-      "id": 138
+      "id": 138,
+      "mean_pos": 0.23589
     },
     {
       "firstNodeOffset": 163,
@@ -2534,7 +2673,8 @@
       ],
       "type": "read",
       "name": "AT6909.Chr4",
-      "id": 139
+      "id": 139,
+      "mean_pos": 0.0405728
     },
     {
       "firstNodeOffset": 284,
@@ -2552,7 +2692,8 @@
       ],
       "type": "read",
       "name": "AT6909.Chr4",
-      "id": 140
+      "id": 140,
+      "mean_pos": 0.0413156
     },
     {
       "firstNodeOffset": 320,
@@ -2570,7 +2711,8 @@
       ],
       "type": "read",
       "name": "AT6909.Chr4",
-      "id": 141
+      "id": 141,
+      "mean_pos": 0.293706
     },
     {
       "firstNodeOffset": 324,
@@ -2588,7 +2730,8 @@
       ],
       "type": "read",
       "name": "AT6909.Chr4",
-      "id": 142
+      "id": 142,
+      "mean_pos": 0.300616
     },
     {
       "firstNodeOffset": 351,
@@ -2606,7 +2749,8 @@
       ],
       "type": "read",
       "name": "AT6909.Chr4",
-      "id": 143
+      "id": 143,
+      "mean_pos": 0.0922731
     },
     {
       "firstNodeOffset": 390,
@@ -2624,7 +2768,8 @@
       ],
       "type": "read",
       "name": "AT6909.Chr4",
-      "id": 144
+      "id": 144,
+      "mean_pos": 0.0919555
     },
     {
       "firstNodeOffset": 395,
@@ -2642,7 +2787,8 @@
       ],
       "type": "read",
       "name": "AT6909.Chr4",
-      "id": 145
+      "id": 145,
+      "mean_pos": 0
     },
     {
       "firstNodeOffset": 1,
@@ -2660,7 +2806,8 @@
       ],
       "type": "read",
       "name": "AT6909.Chr5",
-      "id": 146
+      "id": 146,
+      "mean_pos": 0.00102228
     },
     {
       "firstNodeOffset": 192,
@@ -2678,7 +2825,8 @@
       ],
       "type": "read",
       "name": "AT6909.Chr5",
-      "id": 147
+      "id": 147,
+      "mean_pos": 0.478064
     },
     {
       "firstNodeOffset": 217,
@@ -2696,7 +2844,8 @@
       ],
       "type": "read",
       "name": "AT6909.Chr5",
-      "id": 148
+      "id": 148,
+      "mean_pos": 0.289428
     },
     {
       "firstNodeOffset": 291,
@@ -2714,7 +2863,8 @@
       ],
       "type": "read",
       "name": "AT6909.Chr5",
-      "id": 149
+      "id": 149,
+      "mean_pos": 0.310561
     },
     {
       "firstNodeOffset": 327,
@@ -2732,7 +2882,8 @@
       ],
       "type": "read",
       "name": "AT6909.Chr5",
-      "id": 150
+      "id": 150,
+      "mean_pos": 0.529809
     },
     {
       "firstNodeOffset": 331,
@@ -2750,7 +2901,8 @@
       ],
       "type": "read",
       "name": "AT6909.Chr5",
-      "id": 151
+      "id": 151,
+      "mean_pos": 0.628232
     },
     {
       "firstNodeOffset": 334,
@@ -2768,7 +2920,8 @@
       ],
       "type": "read",
       "name": "AT6909.Chr5",
-      "id": 152
+      "id": 152,
+      "mean_pos": 0.343854
     },
     {
       "firstNodeOffset": 352,
@@ -2786,7 +2939,8 @@
       ],
       "type": "read",
       "name": "AT6909.Chr5",
-      "id": 153
+      "id": 153,
+      "mean_pos": 0.481577
     },
     {
       "firstNodeOffset": 395,
@@ -2804,7 +2958,8 @@
       ],
       "type": "read",
       "name": "AT6909.Chr5",
-      "id": 154
+      "id": 154,
+      "mean_pos": 0
     },
     {
       "firstNodeOffset": 1,
@@ -2822,7 +2977,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr1",
-      "id": 155
+      "id": 155,
+      "mean_pos": 0.00846596
     },
     {
       "firstNodeOffset": 3,
@@ -2840,7 +2996,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr1",
-      "id": 156
+      "id": 156,
+      "mean_pos": 0.441661
     },
     {
       "firstNodeOffset": 26,
@@ -2858,7 +3015,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr1",
-      "id": 157
+      "id": 157,
+      "mean_pos": 0.476028
     },
     {
       "firstNodeOffset": 30,
@@ -2876,7 +3034,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr1",
-      "id": 158
+      "id": 158,
+      "mean_pos": 0.510569
     },
     {
       "firstNodeOffset": 33,
@@ -2894,7 +3053,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr1",
-      "id": 159
+      "id": 159,
+      "mean_pos": 0.551485
     },
     {
       "firstNodeOffset": 36,
@@ -2912,7 +3072,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr1",
-      "id": 160
+      "id": 160,
+      "mean_pos": 0.0726239
     },
     {
       "firstNodeOffset": 245,
@@ -2930,7 +3091,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr1",
-      "id": 161
+      "id": 161,
+      "mean_pos": 0.131828
     },
     {
       "firstNodeOffset": 303,
@@ -2948,7 +3110,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr1",
-      "id": 162
+      "id": 162,
+      "mean_pos": 0.501294
     },
     {
       "firstNodeOffset": 305,
@@ -2966,7 +3129,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr1",
-      "id": 163
+      "id": 163,
+      "mean_pos": 0.404334
     },
     {
       "firstNodeOffset": 313,
@@ -2984,7 +3148,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr1",
-      "id": 164
+      "id": 164,
+      "mean_pos": 0.245702
     },
     {
       "firstNodeOffset": 336,
@@ -3002,7 +3167,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr1",
-      "id": 165
+      "id": 165,
+      "mean_pos": 0.514205
     },
     {
       "firstNodeOffset": 340,
@@ -3020,7 +3186,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr1",
-      "id": 166
+      "id": 166,
+      "mean_pos": 0.499775
     },
     {
       "firstNodeOffset": 355,
@@ -3038,7 +3205,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr1",
-      "id": 167
+      "id": 167,
+      "mean_pos": 0.320733
     },
     {
       "firstNodeOffset": 369,
@@ -3056,7 +3224,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr1",
-      "id": 168
+      "id": 168,
+      "mean_pos": 0.425255
     },
     {
       "firstNodeOffset": 393,
@@ -3074,7 +3243,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr1",
-      "id": 169
+      "id": 169,
+      "mean_pos": 0
     },
     {
       "firstNodeOffset": 1,
@@ -3092,7 +3262,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr2",
-      "id": 170
+      "id": 170,
+      "mean_pos": 0.0109884
     },
     {
       "firstNodeOffset": 65,
@@ -3110,7 +3281,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr2",
-      "id": 171
+      "id": 171,
+      "mean_pos": 0.0483222
     },
     {
       "firstNodeOffset": 68,
@@ -3128,7 +3300,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr2",
-      "id": 172
+      "id": 172,
+      "mean_pos": 0.274663
     },
     {
       "firstNodeOffset": 83,
@@ -3146,7 +3319,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr2",
-      "id": 173
+      "id": 173,
+      "mean_pos": 0.981982
     },
     {
       "firstNodeOffset": 123,
@@ -3164,7 +3338,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr2",
-      "id": 174
+      "id": 174,
+      "mean_pos": 0.0331954
     },
     {
       "firstNodeOffset": 257,
@@ -3182,7 +3357,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr2",
-      "id": 175
+      "id": 175,
+      "mean_pos": 0.204966
     },
     {
       "firstNodeOffset": 262,
@@ -3200,7 +3376,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr2",
-      "id": 176
+      "id": 176,
+      "mean_pos": 0.0306359
     },
     {
       "firstNodeOffset": 307,
@@ -3218,7 +3395,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr2",
-      "id": 177
+      "id": 177,
+      "mean_pos": 0.250122
     },
     {
       "firstNodeOffset": 311,
@@ -3236,7 +3414,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr2",
-      "id": 178
+      "id": 178,
+      "mean_pos": 0.123801
     },
     {
       "firstNodeOffset": 342,
@@ -3254,7 +3433,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr2",
-      "id": 179
+      "id": 179,
+      "mean_pos": 0.26444
     },
     {
       "firstNodeOffset": 356,
@@ -3272,7 +3452,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr2",
-      "id": 180
+      "id": 180,
+      "mean_pos": 0.691363
     },
     {
       "firstNodeOffset": 381,
@@ -3290,7 +3471,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr2",
-      "id": 181
+      "id": 181,
+      "mean_pos": 0.317572
     },
     {
       "firstNodeOffset": 393,
@@ -3308,7 +3490,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr2",
-      "id": 182
+      "id": 182,
+      "mean_pos": 0.318951
     },
     {
       "firstNodeOffset": 395,
@@ -3326,7 +3509,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr2",
-      "id": 183
+      "id": 183,
+      "mean_pos": 0
     },
     {
       "firstNodeOffset": 2,
@@ -3344,7 +3528,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr3",
-      "id": 184
+      "id": 184,
+      "mean_pos": 0.0137782
     },
     {
       "firstNodeOffset": 101,
@@ -3362,7 +3547,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr3",
-      "id": 185
+      "id": 185,
+      "mean_pos": 0.490353
     },
     {
       "firstNodeOffset": 124,
@@ -3380,7 +3566,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr3",
-      "id": 186
+      "id": 186,
+      "mean_pos": 0.573515
     },
     {
       "firstNodeOffset": 132,
@@ -3398,7 +3585,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr3",
-      "id": 187
+      "id": 187,
+      "mean_pos": 0.705201
     },
     {
       "firstNodeOffset": 138,
@@ -3416,7 +3604,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr3",
-      "id": 188
+      "id": 188,
+      "mean_pos": 0.367123
     },
     {
       "firstNodeOffset": 270,
@@ -3434,7 +3623,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr3",
-      "id": 189
+      "id": 189,
+      "mean_pos": 0.648311
     },
     {
       "firstNodeOffset": 276,
@@ -3452,7 +3642,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr3",
-      "id": 190
+      "id": 190,
+      "mean_pos": 0.671145
     },
     {
       "firstNodeOffset": 280,
@@ -3470,7 +3661,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr3",
-      "id": 191
+      "id": 191,
+      "mean_pos": 0.0298233
     },
     {
       "firstNodeOffset": 313,
@@ -3488,7 +3680,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr3",
-      "id": 192
+      "id": 192,
+      "mean_pos": 0.710122
     },
     {
       "firstNodeOffset": 318,
@@ -3506,7 +3699,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr3",
-      "id": 193
+      "id": 193,
+      "mean_pos": 0.408787
     },
     {
       "firstNodeOffset": 344,
@@ -3524,7 +3718,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr3",
-      "id": 194
+      "id": 194,
+      "mean_pos": 0.384395
     },
     {
       "firstNodeOffset": 357,
@@ -3542,7 +3737,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr3",
-      "id": 195
+      "id": 195,
+      "mean_pos": 0.638742
     },
     {
       "firstNodeOffset": 389,
@@ -3560,7 +3756,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr3",
-      "id": 196
+      "id": 196,
+      "mean_pos": 0.639211
     },
     {
       "firstNodeOffset": 395,
@@ -3578,7 +3775,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr3",
-      "id": 197
+      "id": 197,
+      "mean_pos": 0
     },
     {
       "firstNodeOffset": 1,
@@ -3596,7 +3794,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr4",
-      "id": 198
+      "id": 198,
+      "mean_pos": 0.00698182
     },
     {
       "firstNodeOffset": 150,
@@ -3614,7 +3813,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr4",
-      "id": 199
+      "id": 199,
+      "mean_pos": 0.282034
     },
     {
       "firstNodeOffset": 165,
@@ -3632,7 +3832,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr4",
-      "id": 200
+      "id": 200,
+      "mean_pos": 0.375002
     },
     {
       "firstNodeOffset": 170,
@@ -3650,7 +3851,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr4",
-      "id": 201
+      "id": 201,
+      "mean_pos": 0.0363654
     },
     {
       "firstNodeOffset": 284,
@@ -3668,7 +3870,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr4",
-      "id": 202
+      "id": 202,
+      "mean_pos": 0.0401446
     },
     {
       "firstNodeOffset": 320,
@@ -3686,7 +3889,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr4",
-      "id": 203
+      "id": 203,
+      "mean_pos": 0.316592
     },
     {
       "firstNodeOffset": 324,
@@ -3704,7 +3908,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr4",
-      "id": 204
+      "id": 204,
+      "mean_pos": 0.0677282
     },
     {
       "firstNodeOffset": 351,
@@ -3722,7 +3927,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr4",
-      "id": 205
+      "id": 205,
+      "mean_pos": 0.159868
     },
     {
       "firstNodeOffset": 358,
@@ -3740,7 +3946,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr4",
-      "id": 206
+      "id": 206,
+      "mean_pos": 0.103232
     },
     {
       "firstNodeOffset": 372,
@@ -3758,7 +3965,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr4",
-      "id": 207
+      "id": 207,
+      "mean_pos": 0.115255
     },
     {
       "firstNodeOffset": 390,
@@ -3776,7 +3984,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr4",
-      "id": 208
+      "id": 208,
+      "mean_pos": 0.120511
     },
     {
       "firstNodeOffset": 394,
@@ -3794,7 +4003,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr4",
-      "id": 209
+      "id": 209,
+      "mean_pos": 0
     },
     {
       "firstNodeOffset": 1,
@@ -3812,7 +4022,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr5",
-      "id": 210
+      "id": 210,
+      "mean_pos": 0.0141214
     },
     {
       "firstNodeOffset": 193,
@@ -3830,7 +4041,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr5",
-      "id": 211
+      "id": 211,
+      "mean_pos": 0.472516
     },
     {
       "firstNodeOffset": 217,
@@ -3848,7 +4060,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr5",
-      "id": 212
+      "id": 212,
+      "mean_pos": 0.499699
     },
     {
       "firstNodeOffset": 219,
@@ -3866,7 +4079,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr5",
-      "id": 213
+      "id": 213,
+      "mean_pos": 0.588998
     },
     {
       "firstNodeOffset": 225,
@@ -3884,7 +4098,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr5",
-      "id": 214
+      "id": 214,
+      "mean_pos": 0.265259
     },
     {
       "firstNodeOffset": 291,
@@ -3902,7 +4117,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr5",
-      "id": 215
+      "id": 215,
+      "mean_pos": 0.478376
     },
     {
       "firstNodeOffset": 296,
@@ -3920,7 +4136,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr5",
-      "id": 216
+      "id": 216,
+      "mean_pos": 0.312457
     },
     {
       "firstNodeOffset": 327,
@@ -3938,7 +4155,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr5",
-      "id": 217
+      "id": 217,
+      "mean_pos": 0.354151
     },
     {
       "firstNodeOffset": 352,
@@ -3956,7 +4174,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr5",
-      "id": 218
+      "id": 218,
+      "mean_pos": 0.525844
     },
     {
       "firstNodeOffset": 354,
@@ -3974,7 +4193,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr5",
-      "id": 219
+      "id": 219,
+      "mean_pos": 0.44191
     },
     {
       "firstNodeOffset": 363,
@@ -3992,7 +4212,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr5",
-      "id": 220
+      "id": 220,
+      "mean_pos": 0.467837
     },
     {
       "firstNodeOffset": 395,
@@ -4010,7 +4231,8 @@
       ],
       "type": "read",
       "name": "AT6911.Chr5",
-      "id": 221
+      "id": 221,
+      "mean_pos": 0
     },
     {
       "firstNodeOffset": 1,
@@ -4028,7 +4250,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr1",
-      "id": 222
+      "id": 222,
+      "mean_pos": 0.00799617
     },
     {
       "firstNodeOffset": 3,
@@ -4046,7 +4269,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr1",
-      "id": 223
+      "id": 223,
+      "mean_pos": 0.510567
     },
     {
       "firstNodeOffset": 32,
@@ -4064,7 +4288,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr1",
-      "id": 224
+      "id": 224,
+      "mean_pos": 0.0379728
     },
     {
       "firstNodeOffset": 245,
@@ -4082,7 +4307,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr1",
-      "id": 225
+      "id": 225,
+      "mean_pos": 0.339208
     },
     {
       "firstNodeOffset": 303,
@@ -4100,7 +4326,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr1",
-      "id": 226
+      "id": 226,
+      "mean_pos": 0.446833
     },
     {
       "firstNodeOffset": 313,
@@ -4118,7 +4345,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr1",
-      "id": 227
+      "id": 227,
+      "mean_pos": 0.523705
     },
     {
       "firstNodeOffset": 329,
@@ -4136,7 +4364,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr1",
-      "id": 228
+      "id": 228,
+      "mean_pos": 0.394963
     },
     {
       "firstNodeOffset": 336,
@@ -4154,7 +4383,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr1",
-      "id": 229
+      "id": 229,
+      "mean_pos": 0.471094
     },
     {
       "firstNodeOffset": 355,
@@ -4172,7 +4402,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr1",
-      "id": 230
+      "id": 230,
+      "mean_pos": 0.429972
     },
     {
       "firstNodeOffset": 364,
@@ -4190,7 +4421,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr1",
-      "id": 231
+      "id": 231,
+      "mean_pos": 0.42203
     },
     {
       "firstNodeOffset": 393,
@@ -4208,7 +4440,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr1",
-      "id": 232
+      "id": 232,
+      "mean_pos": 0
     },
     {
       "firstNodeOffset": 1,
@@ -4226,7 +4459,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr2",
-      "id": 233
+      "id": 233,
+      "mean_pos": 0.0110882
     },
     {
       "firstNodeOffset": 3,
@@ -4244,7 +4478,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr2",
-      "id": 234
+      "id": 234,
+      "mean_pos": 0.0166577
     },
     {
       "firstNodeOffset": 65,
@@ -4262,7 +4497,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr2",
-      "id": 235
+      "id": 235,
+      "mean_pos": 0.188779
     },
     {
       "firstNodeOffset": 77,
@@ -4280,7 +4516,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr2",
-      "id": 236
+      "id": 236,
+      "mean_pos": 0.25444
     },
     {
       "firstNodeOffset": 80,
@@ -4298,7 +4535,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr2",
-      "id": 237
+      "id": 237,
+      "mean_pos": 0.345305
     },
     {
       "firstNodeOffset": 85,
@@ -4316,7 +4554,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr2",
-      "id": 238
+      "id": 238,
+      "mean_pos": 0.981418
     },
     {
       "firstNodeOffset": 123,
@@ -4334,7 +4573,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr2",
-      "id": 239
+      "id": 239,
+      "mean_pos": 0.0184442
     },
     {
       "firstNodeOffset": 257,
@@ -4352,7 +4592,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr2",
-      "id": 240
+      "id": 240,
+      "mean_pos": 0.340862
     },
     {
       "firstNodeOffset": 265,
@@ -4370,7 +4611,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr2",
-      "id": 241
+      "id": 241,
+      "mean_pos": 0.094527
     },
     {
       "firstNodeOffset": 308,
@@ -4388,7 +4630,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr2",
-      "id": 242
+      "id": 242,
+      "mean_pos": 0.129574
     },
     {
       "firstNodeOffset": 342,
@@ -4406,7 +4649,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr2",
-      "id": 243
+      "id": 243,
+      "mean_pos": 0.333615
     },
     {
       "firstNodeOffset": 356,
@@ -4424,7 +4668,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr2",
-      "id": 244
+      "id": 244,
+      "mean_pos": 0.29145
     },
     {
       "firstNodeOffset": 365,
@@ -4442,7 +4687,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr2",
-      "id": 245
+      "id": 245,
+      "mean_pos": 0.703656
     },
     {
       "firstNodeOffset": 381,
@@ -4460,7 +4706,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr2",
-      "id": 246
+      "id": 246,
+      "mean_pos": 0.329225
     },
     {
       "firstNodeOffset": 393,
@@ -4478,7 +4725,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr2",
-      "id": 247
+      "id": 247,
+      "mean_pos": 0.358974
     },
     {
       "firstNodeOffset": 395,
@@ -4496,7 +4744,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr2",
-      "id": 248
+      "id": 248,
+      "mean_pos": 0
     },
     {
       "firstNodeOffset": 1,
@@ -4514,7 +4763,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr3",
-      "id": 249
+      "id": 249,
+      "mean_pos": 0.0127652
     },
     {
       "firstNodeOffset": 101,
@@ -4532,7 +4782,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr3",
-      "id": 250
+      "id": 250,
+      "mean_pos": 0.451725
     },
     {
       "firstNodeOffset": 124,
@@ -4550,7 +4801,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr3",
-      "id": 251
+      "id": 251,
+      "mean_pos": 0.52241
     },
     {
       "firstNodeOffset": 130,
@@ -4568,7 +4820,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr3",
-      "id": 252
+      "id": 252,
+      "mean_pos": 0.636005
     },
     {
       "firstNodeOffset": 133,
@@ -4586,7 +4839,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr3",
-      "id": 253
+      "id": 253,
+      "mean_pos": 0.243298
     },
     {
       "firstNodeOffset": 270,
@@ -4604,7 +4858,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr3",
-      "id": 254
+      "id": 254,
+      "mean_pos": 0.638431
     },
     {
       "firstNodeOffset": 276,
@@ -4622,7 +4877,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr3",
-      "id": 255
+      "id": 255,
+      "mean_pos": 0.672923
     },
     {
       "firstNodeOffset": 279,
@@ -4640,7 +4896,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr3",
-      "id": 256
+      "id": 256,
+      "mean_pos": 0.742391
     },
     {
       "firstNodeOffset": 283,
@@ -4658,7 +4915,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr3",
-      "id": 257
+      "id": 257,
+      "mean_pos": 0.595091
     },
     {
       "firstNodeOffset": 303,
@@ -4676,7 +4934,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr3",
-      "id": 258
+      "id": 258,
+      "mean_pos": 0.0252307
     },
     {
       "firstNodeOffset": 313,
@@ -4694,7 +4953,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr3",
-      "id": 259
+      "id": 259,
+      "mean_pos": 0.728899
     },
     {
       "firstNodeOffset": 318,
@@ -4712,7 +4972,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr3",
-      "id": 260
+      "id": 260,
+      "mean_pos": 0.616441
     },
     {
       "firstNodeOffset": 338,
@@ -4730,7 +4991,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr3",
-      "id": 261
+      "id": 261,
+      "mean_pos": 0.432455
     },
     {
       "firstNodeOffset": 344,
@@ -4748,7 +5010,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr3",
-      "id": 262
+      "id": 262,
+      "mean_pos": 0.432353
     },
     {
       "firstNodeOffset": 357,
@@ -4766,7 +5029,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr3",
-      "id": 263
+      "id": 263,
+      "mean_pos": 0.595029
     },
     {
       "firstNodeOffset": 364,
@@ -4784,7 +5048,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr3",
-      "id": 264
+      "id": 264,
+      "mean_pos": 0.600279
     },
     {
       "firstNodeOffset": 366,
@@ -4802,7 +5067,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr3",
-      "id": 265
+      "id": 265,
+      "mean_pos": 0.582547
     },
     {
       "firstNodeOffset": 371,
@@ -4820,7 +5086,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr3",
-      "id": 266
+      "id": 266,
+      "mean_pos": 0.627471
     },
     {
       "firstNodeOffset": 375,
@@ -4838,7 +5105,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr3",
-      "id": 267
+      "id": 267,
+      "mean_pos": 0.36623
     },
     {
       "firstNodeOffset": 389,
@@ -4856,7 +5124,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr3",
-      "id": 268
+      "id": 268,
+      "mean_pos": 0.578465
     },
     {
       "firstNodeOffset": 394,
@@ -4874,7 +5143,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr3",
-      "id": 269
+      "id": 269,
+      "mean_pos": 0.614435
     },
     {
       "firstNodeOffset": 398,
@@ -4892,7 +5162,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr3",
-      "id": 270
+      "id": 270,
+      "mean_pos": 0
     },
     {
       "firstNodeOffset": 1,
@@ -4910,7 +5181,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr4",
-      "id": 271
+      "id": 271,
+      "mean_pos": 0.0082991
     },
     {
       "firstNodeOffset": 150,
@@ -4928,7 +5200,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr4",
-      "id": 272
+      "id": 272,
+      "mean_pos": 0.307543
     },
     {
       "firstNodeOffset": 164,
@@ -4946,7 +5219,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr4",
-      "id": 273
+      "id": 273,
+      "mean_pos": 0.0396042
     },
     {
       "firstNodeOffset": 284,
@@ -4964,7 +5238,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr4",
-      "id": 274
+      "id": 274,
+      "mean_pos": 0.0405294
     },
     {
       "firstNodeOffset": 320,
@@ -4982,7 +5257,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr4",
-      "id": 275
+      "id": 275,
+      "mean_pos": 0.17032
     },
     {
       "firstNodeOffset": 322,
@@ -5000,7 +5276,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr4",
-      "id": 276
+      "id": 276,
+      "mean_pos": 0.321722
     },
     {
       "firstNodeOffset": 351,
@@ -5018,7 +5295,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr4",
-      "id": 277
+      "id": 277,
+      "mean_pos": 0.153438
     },
     {
       "firstNodeOffset": 358,
@@ -5036,7 +5314,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr4",
-      "id": 278
+      "id": 278,
+      "mean_pos": 0.46122
     },
     {
       "firstNodeOffset": 362,
@@ -5054,7 +5333,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr4",
-      "id": 279
+      "id": 279,
+      "mean_pos": 0.227952
     },
     {
       "firstNodeOffset": 367,
@@ -5072,7 +5352,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr4",
-      "id": 280
+      "id": 280,
+      "mean_pos": 0.113618
     },
     {
       "firstNodeOffset": 390,
@@ -5090,7 +5371,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr4",
-      "id": 281
+      "id": 281,
+      "mean_pos": 0.0863121
     },
     {
       "firstNodeOffset": 395,
@@ -5108,7 +5390,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr4",
-      "id": 282
+      "id": 282,
+      "mean_pos": 0.185355
     },
     {
       "firstNodeOffset": 398,
@@ -5126,7 +5409,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr4",
-      "id": 283
+      "id": 283,
+      "mean_pos": 0
     },
     {
       "firstNodeOffset": 1,
@@ -5144,7 +5428,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr5",
-      "id": 284
+      "id": 284,
+      "mean_pos": 0.0124893
     },
     {
       "firstNodeOffset": 193,
@@ -5162,7 +5447,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr5",
-      "id": 285
+      "id": 285,
+      "mean_pos": 0.287716
     },
     {
       "firstNodeOffset": 291,
@@ -5180,7 +5466,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr5",
-      "id": 286
+      "id": 286,
+      "mean_pos": 0.424816
     },
     {
       "firstNodeOffset": 294,
@@ -5198,7 +5485,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr5",
-      "id": 287
+      "id": 287,
+      "mean_pos": 0.296939
     },
     {
       "firstNodeOffset": 327,
@@ -5216,7 +5504,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr5",
-      "id": 288
+      "id": 288,
+      "mean_pos": 0.312349
     },
     {
       "firstNodeOffset": 352,
@@ -5234,7 +5523,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr5",
-      "id": 289
+      "id": 289,
+      "mean_pos": 0.380658
     },
     {
       "firstNodeOffset": 363,
@@ -5252,7 +5542,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr5",
-      "id": 290
+      "id": 290,
+      "mean_pos": 0.30608
     },
     {
       "firstNodeOffset": 368,
@@ -5270,7 +5561,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr5",
-      "id": 291
+      "id": 291,
+      "mean_pos": 0.410383
     },
     {
       "firstNodeOffset": 398,
@@ -5288,7 +5580,8 @@
       ],
       "type": "read",
       "name": "AT6981_Chr5",
-      "id": 292
+      "id": 292,
+      "mean_pos": 0
     },
     {
       "firstNodeOffset": 1,
@@ -5306,7 +5599,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr1",
-      "id": 293
+      "id": 293,
+      "mean_pos": 0.00795696
     },
     {
       "firstNodeOffset": 3,
@@ -5324,7 +5618,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr1",
-      "id": 294
+      "id": 294,
+      "mean_pos": 0.0302015
     },
     {
       "firstNodeOffset": 245,
@@ -5342,7 +5637,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr1",
-      "id": 295
+      "id": 295,
+      "mean_pos": 0.531112
     },
     {
       "firstNodeOffset": 250,
@@ -5360,7 +5656,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr1",
-      "id": 296
+      "id": 296,
+      "mean_pos": 0.126887
     },
     {
       "firstNodeOffset": 303,
@@ -5378,7 +5675,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr1",
-      "id": 297
+      "id": 297,
+      "mean_pos": 0.548605
     },
     {
       "firstNodeOffset": 306,
@@ -5396,7 +5694,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr1",
-      "id": 298
+      "id": 298,
+      "mean_pos": 0.437985
     },
     {
       "firstNodeOffset": 313,
@@ -5414,7 +5713,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr1",
-      "id": 299
+      "id": 299,
+      "mean_pos": 0.368927
     },
     {
       "firstNodeOffset": 336,
@@ -5432,7 +5732,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr1",
-      "id": 300
+      "id": 300,
+      "mean_pos": 0.538934
     },
     {
       "firstNodeOffset": 340,
@@ -5450,7 +5751,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr1",
-      "id": 301
+      "id": 301,
+      "mean_pos": 0.59923
     },
     {
       "firstNodeOffset": 355,
@@ -5468,7 +5770,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr1",
-      "id": 302
+      "id": 302,
+      "mean_pos": 0.412318
     },
     {
       "firstNodeOffset": 364,
@@ -5486,7 +5789,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr1",
-      "id": 303
+      "id": 303,
+      "mean_pos": 0.638566
     },
     {
       "firstNodeOffset": 369,
@@ -5504,7 +5808,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr1",
-      "id": 304
+      "id": 304,
+      "mean_pos": 0.42377
     },
     {
       "firstNodeOffset": 393,
@@ -5522,7 +5827,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr1",
-      "id": 305
+      "id": 305,
+      "mean_pos": 0.398213
     },
     {
       "firstNodeOffset": 399,
@@ -5540,7 +5846,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr1",
-      "id": 306
+      "id": 306,
+      "mean_pos": 0
     },
     {
       "firstNodeOffset": 1,
@@ -5558,7 +5865,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr2",
-      "id": 307
+      "id": 307,
+      "mean_pos": 0.0022369
     },
     {
       "firstNodeOffset": 3,
@@ -5576,7 +5884,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr2",
-      "id": 308
+      "id": 308,
+      "mean_pos": 0.00822719
     },
     {
       "firstNodeOffset": 65,
@@ -5594,7 +5903,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr2",
-      "id": 309
+      "id": 309,
+      "mean_pos": 0.050869
     },
     {
       "firstNodeOffset": 68,
@@ -5612,7 +5922,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr2",
-      "id": 310
+      "id": 310,
+      "mean_pos": 0.982029
     },
     {
       "firstNodeOffset": 123,
@@ -5630,7 +5941,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr2",
-      "id": 311
+      "id": 311,
+      "mean_pos": 0.0233136
     },
     {
       "firstNodeOffset": 257,
@@ -5648,7 +5960,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr2",
-      "id": 312
+      "id": 312,
+      "mean_pos": 0.214291
     },
     {
       "firstNodeOffset": 262,
@@ -5666,7 +5979,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr2",
-      "id": 313
+      "id": 313,
+      "mean_pos": 0.100041
     },
     {
       "firstNodeOffset": 308,
@@ -5684,7 +5998,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr2",
-      "id": 314
+      "id": 314,
+      "mean_pos": 0.311865
     },
     {
       "firstNodeOffset": 311,
@@ -5702,7 +6017,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr2",
-      "id": 315
+      "id": 315,
+      "mean_pos": 0.111946
     },
     {
       "firstNodeOffset": 342,
@@ -5720,7 +6036,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr2",
-      "id": 316
+      "id": 316,
+      "mean_pos": 0.336907
     },
     {
       "firstNodeOffset": 356,
@@ -5738,7 +6055,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr2",
-      "id": 317
+      "id": 317,
+      "mean_pos": 0.240881
     },
     {
       "firstNodeOffset": 365,
@@ -5756,7 +6074,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr2",
-      "id": 318
+      "id": 318,
+      "mean_pos": 0.500188
     },
     {
       "firstNodeOffset": 370,
@@ -5774,7 +6093,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr2",
-      "id": 319
+      "id": 319,
+      "mean_pos": 0.263358
     },
     {
       "firstNodeOffset": 375,
@@ -5792,7 +6112,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr2",
-      "id": 320
+      "id": 320,
+      "mean_pos": 0.688337
     },
     {
       "firstNodeOffset": 381,
@@ -5810,7 +6131,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr2",
-      "id": 321
+      "id": 321,
+      "mean_pos": 0.307327
     },
     {
       "firstNodeOffset": 393,
@@ -5828,7 +6150,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr2",
-      "id": 322
+      "id": 322,
+      "mean_pos": 0.314164
     },
     {
       "firstNodeOffset": 395,
@@ -5846,7 +6169,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr2",
-      "id": 323
+      "id": 323,
+      "mean_pos": 0.671892
     },
     {
       "firstNodeOffset": 398,
@@ -5864,7 +6188,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr2",
-      "id": 324
+      "id": 324,
+      "mean_pos": 0
     },
     {
       "firstNodeOffset": 1,
@@ -5882,7 +6207,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr3",
-      "id": 325
+      "id": 325,
+      "mean_pos": 0.0138978
     },
     {
       "firstNodeOffset": 101,
@@ -5900,7 +6226,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr3",
-      "id": 326
+      "id": 326,
+      "mean_pos": 0.44669
     },
     {
       "firstNodeOffset": 120,
@@ -5918,7 +6245,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr3",
-      "id": 327
+      "id": 327,
+      "mean_pos": 0.476143
     },
     {
       "firstNodeOffset": 124,
@@ -5936,7 +6264,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr3",
-      "id": 328
+      "id": 328,
+      "mean_pos": 0.53286
     },
     {
       "firstNodeOffset": 131,
@@ -5954,7 +6283,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr3",
-      "id": 329
+      "id": 329,
+      "mean_pos": 0.635976
     },
     {
       "firstNodeOffset": 134,
@@ -5972,7 +6302,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr3",
-      "id": 330
+      "id": 330,
+      "mean_pos": 0.264678
     },
     {
       "firstNodeOffset": 270,
@@ -5990,7 +6321,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr3",
-      "id": 331
+      "id": 331,
+      "mean_pos": 0.575376
     },
     {
       "firstNodeOffset": 275,
@@ -6008,7 +6340,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr3",
-      "id": 332
+      "id": 332,
+      "mean_pos": 0.66379
     },
     {
       "firstNodeOffset": 279,
@@ -6026,7 +6359,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr3",
-      "id": 333
+      "id": 333,
+      "mean_pos": 0.745351
     },
     {
       "firstNodeOffset": 283,
@@ -6044,7 +6378,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr3",
-      "id": 334
+      "id": 334,
+      "mean_pos": 0.00159204
     },
     {
       "firstNodeOffset": 313,
@@ -6062,7 +6397,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr3",
-      "id": 335
+      "id": 335,
+      "mean_pos": 0.46408
     },
     {
       "firstNodeOffset": 344,
@@ -6080,7 +6416,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr3",
-      "id": 336
+      "id": 336,
+      "mean_pos": 0.674702
     },
     {
       "firstNodeOffset": 349,
@@ -6098,7 +6435,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr3",
-      "id": 337
+      "id": 337,
+      "mean_pos": 0.373849
     },
     {
       "firstNodeOffset": 357,
@@ -6116,7 +6454,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr3",
-      "id": 338
+      "id": 338,
+      "mean_pos": 0.581344
     },
     {
       "firstNodeOffset": 366,
@@ -6134,7 +6473,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr3",
-      "id": 339
+      "id": 339,
+      "mean_pos": 0.5299
     },
     {
       "firstNodeOffset": 370,
@@ -6152,7 +6492,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr3",
-      "id": 340
+      "id": 340,
+      "mean_pos": 0.358126
     },
     {
       "firstNodeOffset": 389,
@@ -6170,7 +6511,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr3",
-      "id": 341
+      "id": 341,
+      "mean_pos": 0.594348
     },
     {
       "firstNodeOffset": 394,
@@ -6188,7 +6530,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr3",
-      "id": 342
+      "id": 342,
+      "mean_pos": 0.53444
     },
     {
       "firstNodeOffset": 399,
@@ -6206,7 +6549,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr3",
-      "id": 343
+      "id": 343,
+      "mean_pos": 0
     },
     {
       "firstNodeOffset": 1,
@@ -6224,7 +6568,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr4",
-      "id": 344
+      "id": 344,
+      "mean_pos": 0.00759397
     },
     {
       "firstNodeOffset": 150,
@@ -6242,7 +6587,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr4",
-      "id": 345
+      "id": 345,
+      "mean_pos": 0.223021
     },
     {
       "firstNodeOffset": 163,
@@ -6260,7 +6606,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr4",
-      "id": 346
+      "id": 346,
+      "mean_pos": 0.0388098
     },
     {
       "firstNodeOffset": 284,
@@ -6278,7 +6625,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr4",
-      "id": 347
+      "id": 347,
+      "mean_pos": 0.0810763
     },
     {
       "firstNodeOffset": 320,
@@ -6296,7 +6644,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr4",
-      "id": 348
+      "id": 348,
+      "mean_pos": 0.333664
     },
     {
       "firstNodeOffset": 351,
@@ -6314,7 +6663,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr4",
-      "id": 349
+      "id": 349,
+      "mean_pos": 0.100481
     },
     {
       "firstNodeOffset": 358,
@@ -6332,7 +6682,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr4",
-      "id": 350
+      "id": 350,
+      "mean_pos": 0.245601
     },
     {
       "firstNodeOffset": 360,
@@ -6350,7 +6701,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr4",
-      "id": 351
+      "id": 351,
+      "mean_pos": 0.149968
     },
     {
       "firstNodeOffset": 367,
@@ -6368,7 +6720,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr4",
-      "id": 352
+      "id": 352,
+      "mean_pos": 0.11526
     },
     {
       "firstNodeOffset": 372,
@@ -6386,7 +6739,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr4",
-      "id": 353
+      "id": 353,
+      "mean_pos": 0.138162
     },
     {
       "firstNodeOffset": 390,
@@ -6404,7 +6758,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr4",
-      "id": 354
+      "id": 354,
+      "mean_pos": 0.12345
     },
     {
       "firstNodeOffset": 394,
@@ -6422,7 +6777,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr4",
-      "id": 355
+      "id": 355,
+      "mean_pos": 0.103189
     },
     {
       "firstNodeOffset": 399,
@@ -6440,7 +6796,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr4",
-      "id": 356
+      "id": 356,
+      "mean_pos": 0
     },
     {
       "firstNodeOffset": 1,
@@ -6458,7 +6815,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr5",
-      "id": 357
+      "id": 357,
+      "mean_pos": 0.000944985
     },
     {
       "firstNodeOffset": 192,
@@ -6476,7 +6834,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr5",
-      "id": 358
+      "id": 358,
+      "mean_pos": 0.476721
     },
     {
       "firstNodeOffset": 217,
@@ -6494,7 +6853,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr5",
-      "id": 359
+      "id": 359,
+      "mean_pos": 0.282417
     },
     {
       "firstNodeOffset": 291,
@@ -6512,7 +6872,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr5",
-      "id": 360
+      "id": 360,
+      "mean_pos": 0.497236
     },
     {
       "firstNodeOffset": 297,
@@ -6530,7 +6891,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr5",
-      "id": 361
+      "id": 361,
+      "mean_pos": 0.297558
     },
     {
       "firstNodeOffset": 327,
@@ -6548,7 +6910,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr5",
-      "id": 362
+      "id": 362,
+      "mean_pos": 0.342741
     },
     {
       "firstNodeOffset": 352,
@@ -6566,7 +6929,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr5",
-      "id": 363
+      "id": 363,
+      "mean_pos": 0.420344
     },
     {
       "firstNodeOffset": 363,
@@ -6584,7 +6948,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr5",
-      "id": 364
+      "id": 364,
+      "mean_pos": 0.316019
     },
     {
       "firstNodeOffset": 368,
@@ -6602,7 +6967,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr5",
-      "id": 365
+      "id": 365,
+      "mean_pos": 0.443965
     },
     {
       "firstNodeOffset": 374,
@@ -6620,7 +6986,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr5",
-      "id": 366
+      "id": 366,
+      "mean_pos": 0.370251
     },
     {
       "firstNodeOffset": 398,
@@ -6638,7 +7005,8 @@
       ],
       "type": "read",
       "name": "AT7186.Chr5",
-      "id": 367
+      "id": 367,
+      "mean_pos": 0
     },
     {
       "firstNodeOffset": 2,
@@ -6656,7 +7024,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr1",
-      "id": 368
+      "id": 368,
+      "mean_pos": 0.11193
     },
     {
       "firstNodeOffset": 245,
@@ -6674,7 +7043,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr1",
-      "id": 369
+      "id": 369,
+      "mean_pos": 0.522224
     },
     {
       "firstNodeOffset": 250,
@@ -6692,7 +7062,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr1",
-      "id": 370
+      "id": 370,
+      "mean_pos": 0.130715
     },
     {
       "firstNodeOffset": 303,
@@ -6710,7 +7081,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr1",
-      "id": 371
+      "id": 371,
+      "mean_pos": 0.537921
     },
     {
       "firstNodeOffset": 306,
@@ -6728,7 +7100,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr1",
-      "id": 372
+      "id": 372,
+      "mean_pos": 0.463237
     },
     {
       "firstNodeOffset": 313,
@@ -6746,7 +7119,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr1",
-      "id": 373
+      "id": 373,
+      "mean_pos": 0.362973
     },
     {
       "firstNodeOffset": 336,
@@ -6764,7 +7138,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr1",
-      "id": 374
+      "id": 374,
+      "mean_pos": 0.527357
     },
     {
       "firstNodeOffset": 340,
@@ -6782,7 +7157,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr1",
-      "id": 375
+      "id": 375,
+      "mean_pos": 0.564977
     },
     {
       "firstNodeOffset": 355,
@@ -6800,7 +7176,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr1",
-      "id": 376
+      "id": 376,
+      "mean_pos": 0.328916
     },
     {
       "firstNodeOffset": 364,
@@ -6818,7 +7195,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr1",
-      "id": 377
+      "id": 377,
+      "mean_pos": 0.329844
     },
     {
       "firstNodeOffset": 369,
@@ -6836,7 +7214,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr1",
-      "id": 378
+      "id": 378,
+      "mean_pos": 0.728932
     },
     {
       "firstNodeOffset": 375,
@@ -6854,7 +7233,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr1",
-      "id": 379
+      "id": 379,
+      "mean_pos": 0.498084
     },
     {
       "firstNodeOffset": 393,
@@ -6872,7 +7252,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr1",
-      "id": 380
+      "id": 380,
+      "mean_pos": 0.403837
     },
     {
       "firstNodeOffset": 399,
@@ -6890,7 +7271,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr1",
-      "id": 381
+      "id": 381,
+      "mean_pos": 0
     },
     {
       "firstNodeOffset": 2,
@@ -6908,7 +7290,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr2",
-      "id": 382
+      "id": 382,
+      "mean_pos": 0.00761032
     },
     {
       "firstNodeOffset": 65,
@@ -6926,7 +7309,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr2",
-      "id": 383
+      "id": 383,
+      "mean_pos": 0.213193
     },
     {
       "firstNodeOffset": 80,
@@ -6944,7 +7328,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr2",
-      "id": 384
+      "id": 384,
+      "mean_pos": 0.981509
     },
     {
       "firstNodeOffset": 123,
@@ -6962,7 +7347,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr2",
-      "id": 385
+      "id": 385,
+      "mean_pos": 0.0414163
     },
     {
       "firstNodeOffset": 257,
@@ -6980,7 +7366,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr2",
-      "id": 386
+      "id": 386,
+      "mean_pos": 0.224048
     },
     {
       "firstNodeOffset": 263,
@@ -6998,7 +7385,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr2",
-      "id": 387
+      "id": 387,
+      "mean_pos": 0.1465
     },
     {
       "firstNodeOffset": 308,
@@ -7016,7 +7404,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr2",
-      "id": 388
+      "id": 388,
+      "mean_pos": 0.414696
     },
     {
       "firstNodeOffset": 313,
@@ -7034,7 +7423,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr2",
-      "id": 389
+      "id": 389,
+      "mean_pos": 0.119408
     },
     {
       "firstNodeOffset": 342,
@@ -7052,7 +7442,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr2",
-      "id": 390
+      "id": 390,
+      "mean_pos": 0.305938
     },
     {
       "firstNodeOffset": 356,
@@ -7070,7 +7461,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr2",
-      "id": 391
+      "id": 391,
+      "mean_pos": 0.233622
     },
     {
       "firstNodeOffset": 365,
@@ -7088,7 +7480,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr2",
-      "id": 392
+      "id": 392,
+      "mean_pos": 0.480664
     },
     {
       "firstNodeOffset": 370,
@@ -7106,7 +7499,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr2",
-      "id": 393
+      "id": 393,
+      "mean_pos": 0.561012
     },
     {
       "firstNodeOffset": 375,
@@ -7124,7 +7518,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr2",
-      "id": 394
+      "id": 394,
+      "mean_pos": 0.680847
     },
     {
       "firstNodeOffset": 381,
@@ -7142,7 +7537,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr2",
-      "id": 395
+      "id": 395,
+      "mean_pos": 0.275955
     },
     {
       "firstNodeOffset": 393,
@@ -7160,7 +7556,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr2",
-      "id": 396
+      "id": 396,
+      "mean_pos": 0.293559
     },
     {
       "firstNodeOffset": 395,
@@ -7178,7 +7575,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr2",
-      "id": 397
+      "id": 397,
+      "mean_pos": 0.36409
     },
     {
       "firstNodeOffset": 400,
@@ -7196,7 +7594,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr2",
-      "id": 398
+      "id": 398,
+      "mean_pos": 0
     },
     {
       "firstNodeOffset": 1,
@@ -7214,7 +7613,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr3",
-      "id": 399
+      "id": 399,
+      "mean_pos": 0.0141711
     },
     {
       "firstNodeOffset": 101,
@@ -7232,7 +7632,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr3",
-      "id": 400
+      "id": 400,
+      "mean_pos": 0.504633
     },
     {
       "firstNodeOffset": 124,
@@ -7250,7 +7651,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr3",
-      "id": 401
+      "id": 401,
+      "mean_pos": 0.563436
     },
     {
       "firstNodeOffset": 130,
@@ -7268,7 +7670,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr3",
-      "id": 402
+      "id": 402,
+      "mean_pos": 0.612421
     },
     {
       "firstNodeOffset": 133,
@@ -7286,7 +7689,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr3",
-      "id": 403
+      "id": 403,
+      "mean_pos": 0.697635
     },
     {
       "firstNodeOffset": 138,
@@ -7304,7 +7708,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr3",
-      "id": 404
+      "id": 404,
+      "mean_pos": 0.255995
     },
     {
       "firstNodeOffset": 270,
@@ -7322,7 +7727,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr3",
-      "id": 405
+      "id": 405,
+      "mean_pos": 0.627842
     },
     {
       "firstNodeOffset": 276,
@@ -7340,7 +7746,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr3",
-      "id": 406
+      "id": 406,
+      "mean_pos": 0.646106
     },
     {
       "firstNodeOffset": 279,
@@ -7358,7 +7765,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr3",
-      "id": 407
+      "id": 407,
+      "mean_pos": 0.732049
     },
     {
       "firstNodeOffset": 283,
@@ -7376,7 +7784,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr3",
-      "id": 408
+      "id": 408,
+      "mean_pos": 0.0264737
     },
     {
       "firstNodeOffset": 313,
@@ -7394,7 +7803,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr3",
-      "id": 409
+      "id": 409,
+      "mean_pos": 0.68224
     },
     {
       "firstNodeOffset": 317,
@@ -7412,7 +7822,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr3",
-      "id": 410
+      "id": 410,
+      "mean_pos": 0.398727
     },
     {
       "firstNodeOffset": 344,
@@ -7430,7 +7841,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr3",
-      "id": 411
+      "id": 411,
+      "mean_pos": 0.621953
     },
     {
       "firstNodeOffset": 349,
@@ -7448,7 +7860,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr3",
-      "id": 412
+      "id": 412,
+      "mean_pos": 0.397575
     },
     {
       "firstNodeOffset": 357,
@@ -7466,7 +7879,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr3",
-      "id": 413
+      "id": 413,
+      "mean_pos": 0.626763
     },
     {
       "firstNodeOffset": 366,
@@ -7484,7 +7898,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr3",
-      "id": 414
+      "id": 414,
+      "mean_pos": 0.458832
     },
     {
       "firstNodeOffset": 370,
@@ -7502,7 +7917,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr3",
-      "id": 415
+      "id": 415,
+      "mean_pos": 0.983684
     },
     {
       "firstNodeOffset": 372,
@@ -7520,7 +7936,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr3",
-      "id": 416
+      "id": 416,
+      "mean_pos": 0.568326
     },
     {
       "firstNodeOffset": 375,
@@ -7538,7 +7955,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr3",
-      "id": 417
+      "id": 417,
+      "mean_pos": 0.396815
     },
     {
       "firstNodeOffset": 389,
@@ -7556,7 +7974,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr3",
-      "id": 418
+      "id": 418,
+      "mean_pos": 0.62318
     },
     {
       "firstNodeOffset": 395,
@@ -7574,7 +7993,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr3",
-      "id": 419
+      "id": 419,
+      "mean_pos": 0.570829
     },
     {
       "firstNodeOffset": 399,
@@ -7592,7 +8012,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr3",
-      "id": 420
+      "id": 420,
+      "mean_pos": 0
     },
     {
       "firstNodeOffset": 1,
@@ -7610,7 +8031,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr4",
-      "id": 421
+      "id": 421,
+      "mean_pos": 0.00785588
     },
     {
       "firstNodeOffset": 150,
@@ -7628,7 +8050,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr4",
-      "id": 422
+      "id": 422,
+      "mean_pos": 0.124564
     },
     {
       "firstNodeOffset": 155,
@@ -7646,7 +8069,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr4",
-      "id": 423
+      "id": 423,
+      "mean_pos": 0.228143
     },
     {
       "firstNodeOffset": 163,
@@ -7664,7 +8088,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr4",
-      "id": 424
+      "id": 424,
+      "mean_pos": 0.420192
     },
     {
       "firstNodeOffset": 172,
@@ -7682,7 +8107,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr4",
-      "id": 425
+      "id": 425,
+      "mean_pos": 0.0435916
     },
     {
       "firstNodeOffset": 284,
@@ -7700,7 +8126,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr4",
-      "id": 426
+      "id": 426,
+      "mean_pos": 0.082401
     },
     {
       "firstNodeOffset": 320,
@@ -7718,7 +8145,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr4",
-      "id": 427
+      "id": 427,
+      "mean_pos": 0.354618
     },
     {
       "firstNodeOffset": 351,
@@ -7736,7 +8164,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr4",
-      "id": 428
+      "id": 428,
+      "mean_pos": 0.11505
     },
     {
       "firstNodeOffset": 358,
@@ -7754,7 +8183,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr4",
-      "id": 429
+      "id": 429,
+      "mean_pos": 0.250977
     },
     {
       "firstNodeOffset": 360,
@@ -7772,7 +8202,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr4",
-      "id": 430
+      "id": 430,
+      "mean_pos": 0.16728
     },
     {
       "firstNodeOffset": 367,
@@ -7790,7 +8221,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr4",
-      "id": 431
+      "id": 431,
+      "mean_pos": 0.107649
     },
     {
       "firstNodeOffset": 372,
@@ -7808,7 +8240,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr4",
-      "id": 432
+      "id": 432,
+      "mean_pos": 0.12765
     },
     {
       "firstNodeOffset": 390,
@@ -7826,7 +8259,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr4",
-      "id": 433
+      "id": 433,
+      "mean_pos": 0.124856
     },
     {
       "firstNodeOffset": 394,
@@ -7844,7 +8278,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr4",
-      "id": 434
+      "id": 434,
+      "mean_pos": 0.11321
     },
     {
       "firstNodeOffset": 397,
@@ -7862,7 +8297,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr4",
-      "id": 435
+      "id": 435,
+      "mean_pos": 0.120442
     },
     {
       "firstNodeOffset": 399,
@@ -7880,7 +8316,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr4",
-      "id": 436
+      "id": 436,
+      "mean_pos": 0
     },
     {
       "firstNodeOffset": 2,
@@ -7898,7 +8335,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr5",
-      "id": 437
+      "id": 437,
+      "mean_pos": 0.00122216
     },
     {
       "firstNodeOffset": 192,
@@ -7916,7 +8354,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr5",
-      "id": 438
+      "id": 438,
+      "mean_pos": 0.28876
     },
     {
       "firstNodeOffset": 291,
@@ -7934,7 +8373,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr5",
-      "id": 439
+      "id": 439,
+      "mean_pos": 0.467127
     },
     {
       "firstNodeOffset": 296,
@@ -7952,7 +8392,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr5",
-      "id": 440
+      "id": 440,
+      "mean_pos": 0.300364
     },
     {
       "firstNodeOffset": 327,
@@ -7970,7 +8411,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr5",
-      "id": 441
+      "id": 441,
+      "mean_pos": 0.41966
     },
     {
       "firstNodeOffset": 330,
@@ -7988,7 +8430,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr5",
-      "id": 442
+      "id": 442,
+      "mean_pos": 0.358243
     },
     {
       "firstNodeOffset": 352,
@@ -8006,7 +8449,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr5",
-      "id": 443
+      "id": 443,
+      "mean_pos": 0.398924
     },
     {
       "firstNodeOffset": 363,
@@ -8024,7 +8468,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr5",
-      "id": 444
+      "id": 444,
+      "mean_pos": 0.315164
     },
     {
       "firstNodeOffset": 368,
@@ -8042,7 +8487,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr5",
-      "id": 445
+      "id": 445,
+      "mean_pos": 0.443688
     },
     {
       "firstNodeOffset": 374,
@@ -8060,7 +8506,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr5",
-      "id": 446
+      "id": 446,
+      "mean_pos": 0.466719
     },
     {
       "firstNodeOffset": 395,
@@ -8078,7 +8525,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr5",
-      "id": 447
+      "id": 447,
+      "mean_pos": 0.368788
     },
     {
       "firstNodeOffset": 398,
@@ -8096,7 +8544,8 @@
       ],
       "type": "read",
       "name": "AT7213.Chr5",
-      "id": 448
+      "id": 448,
+      "mean_pos": 0
     },
     {
       "firstNodeOffset": 3,
@@ -8114,7 +8563,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr1",
-      "id": 449
+      "id": 449,
+      "mean_pos": 0.521134
     },
     {
       "firstNodeOffset": 32,
@@ -8132,7 +8582,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr1",
-      "id": 450
+      "id": 450,
+      "mean_pos": 0.565331
     },
     {
       "firstNodeOffset": 36,
@@ -8150,7 +8601,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr1",
-      "id": 451
+      "id": 451,
+      "mean_pos": 0.591775
     },
     {
       "firstNodeOffset": 39,
@@ -8168,7 +8620,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr1",
-      "id": 452
+      "id": 452,
+      "mean_pos": 0.0443067
     },
     {
       "firstNodeOffset": 245,
@@ -8186,7 +8639,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr1",
-      "id": 453
+      "id": 453,
+      "mean_pos": 0.127491
     },
     {
       "firstNodeOffset": 303,
@@ -8204,7 +8658,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr1",
-      "id": 454
+      "id": 454,
+      "mean_pos": 0.553757
     },
     {
       "firstNodeOffset": 306,
@@ -8222,7 +8677,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr1",
-      "id": 455
+      "id": 455,
+      "mean_pos": 0.459245
     },
     {
       "firstNodeOffset": 313,
@@ -8240,7 +8696,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr1",
-      "id": 456
+      "id": 456,
+      "mean_pos": 0.351124
     },
     {
       "firstNodeOffset": 336,
@@ -8258,7 +8715,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr1",
-      "id": 457
+      "id": 457,
+      "mean_pos": 0.522304
     },
     {
       "firstNodeOffset": 340,
@@ -8276,7 +8734,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr1",
-      "id": 458
+      "id": 458,
+      "mean_pos": 0.642717
     },
     {
       "firstNodeOffset": 355,
@@ -8294,7 +8753,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr1",
-      "id": 459
+      "id": 459,
+      "mean_pos": 0.222313
     },
     {
       "firstNodeOffset": 364,
@@ -8312,7 +8772,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr1",
-      "id": 460
+      "id": 460,
+      "mean_pos": 0.718162
     },
     {
       "firstNodeOffset": 369,
@@ -8330,7 +8791,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr1",
-      "id": 461
+      "id": 461,
+      "mean_pos": 0.749158
     },
     {
       "firstNodeOffset": 375,
@@ -8348,7 +8810,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr1",
-      "id": 462
+      "id": 462,
+      "mean_pos": 0.453907
     },
     {
       "firstNodeOffset": 393,
@@ -8366,7 +8829,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr1",
-      "id": 463
+      "id": 463,
+      "mean_pos": 0.314309
     },
     {
       "firstNodeOffset": 400,
@@ -8384,7 +8848,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr1",
-      "id": 464
+      "id": 464,
+      "mean_pos": 0
     },
     {
       "firstNodeOffset": 2,
@@ -8402,7 +8867,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr2",
-      "id": 465
+      "id": 465,
+      "mean_pos": 0.0178179
     },
     {
       "firstNodeOffset": 65,
@@ -8420,7 +8886,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr2",
-      "id": 466
+      "id": 466,
+      "mean_pos": 0.141215
     },
     {
       "firstNodeOffset": 77,
@@ -8438,7 +8905,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr2",
-      "id": 467
+      "id": 467,
+      "mean_pos": 0.196939
     },
     {
       "firstNodeOffset": 80,
@@ -8456,7 +8924,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr2",
-      "id": 468
+      "id": 468,
+      "mean_pos": 0.253714
     },
     {
       "firstNodeOffset": 83,
@@ -8474,7 +8943,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr2",
-      "id": 469
+      "id": 469,
+      "mean_pos": 0.751748
     },
     {
       "firstNodeOffset": 107,
@@ -8492,7 +8962,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr2",
-      "id": 470
+      "id": 470,
+      "mean_pos": 0.0232093
     },
     {
       "firstNodeOffset": 257,
@@ -8510,7 +8981,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr2",
-      "id": 471
+      "id": 471,
+      "mean_pos": 0.0320968
     },
     {
       "firstNodeOffset": 307,
@@ -8528,7 +9000,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr2",
-      "id": 472
+      "id": 472,
+      "mean_pos": 0.273266
     },
     {
       "firstNodeOffset": 311,
@@ -8546,7 +9019,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr2",
-      "id": 473
+      "id": 473,
+      "mean_pos": 0.132834
     },
     {
       "firstNodeOffset": 342,
@@ -8564,7 +9038,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr2",
-      "id": 474
+      "id": 474,
+      "mean_pos": 0.224932
     },
     {
       "firstNodeOffset": 356,
@@ -8582,7 +9057,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr2",
-      "id": 475
+      "id": 475,
+      "mean_pos": 0.494257
     },
     {
       "firstNodeOffset": 366,
@@ -8600,7 +9076,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr2",
-      "id": 476
+      "id": 476,
+      "mean_pos": 0.581621
     },
     {
       "firstNodeOffset": 370,
@@ -8618,7 +9095,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr2",
-      "id": 477
+      "id": 477,
+      "mean_pos": 0.357674
     },
     {
       "firstNodeOffset": 375,
@@ -8636,7 +9114,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr2",
-      "id": 478
+      "id": 478,
+      "mean_pos": 0.555083
     },
     {
       "firstNodeOffset": 381,
@@ -8654,7 +9133,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr2",
-      "id": 479
+      "id": 479,
+      "mean_pos": 0.292121
     },
     {
       "firstNodeOffset": 393,
@@ -8672,7 +9152,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr2",
-      "id": 480
+      "id": 480,
+      "mean_pos": 0.304261
     },
     {
       "firstNodeOffset": 395,
@@ -8690,7 +9171,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr2",
-      "id": 481
+      "id": 481,
+      "mean_pos": 0.544664
     },
     {
       "firstNodeOffset": 398,
@@ -8708,7 +9190,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr2",
-      "id": 482
+      "id": 482,
+      "mean_pos": 0.246125
     },
     {
       "firstNodeOffset": 401,
@@ -8726,7 +9209,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr2",
-      "id": 483
+      "id": 483,
+      "mean_pos": 0
     },
     {
       "firstNodeOffset": 2,
@@ -8744,7 +9228,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr3",
-      "id": 484
+      "id": 484,
+      "mean_pos": 0.0174777
     },
     {
       "firstNodeOffset": 101,
@@ -8762,7 +9247,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr3",
-      "id": 485
+      "id": 485,
+      "mean_pos": 0.276389
     },
     {
       "firstNodeOffset": 122,
@@ -8780,7 +9266,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr3",
-      "id": 486
+      "id": 486,
+      "mean_pos": 0.28887
     },
     {
       "firstNodeOffset": 124,
@@ -8798,7 +9285,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr3",
-      "id": 487
+      "id": 487,
+      "mean_pos": 0.351373
     },
     {
       "firstNodeOffset": 130,
@@ -8816,7 +9304,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr3",
-      "id": 488
+      "id": 488,
+      "mean_pos": 0.535563
     },
     {
       "firstNodeOffset": 136,
@@ -8834,7 +9323,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr3",
-      "id": 489
+      "id": 489,
+      "mean_pos": 0.615095
     },
     {
       "firstNodeOffset": 138,
@@ -8852,7 +9342,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr3",
-      "id": 490
+      "id": 490,
+      "mean_pos": 0.29347
     },
     {
       "firstNodeOffset": 270,
@@ -8870,7 +9361,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr3",
-      "id": 491
+      "id": 491,
+      "mean_pos": 0.58119
     },
     {
       "firstNodeOffset": 281,
@@ -8888,7 +9380,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr3",
-      "id": 492
+      "id": 492,
+      "mean_pos": 0.653619
     },
     {
       "firstNodeOffset": 283,
@@ -8906,7 +9399,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr3",
-      "id": 493
+      "id": 493,
+      "mean_pos": 0.461497
     },
     {
       "firstNodeOffset": 303,
@@ -8924,7 +9418,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr3",
-      "id": 494
+      "id": 494,
+      "mean_pos": 0.0458429
     },
     {
       "firstNodeOffset": 313,
@@ -8942,7 +9437,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr3",
-      "id": 495
+      "id": 495,
+      "mean_pos": 0.27917
     },
     {
       "firstNodeOffset": 344,
@@ -8960,7 +9456,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr3",
-      "id": 496
+      "id": 496,
+      "mean_pos": 0.626125
     },
     {
       "firstNodeOffset": 350,
@@ -8978,7 +9475,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr3",
-      "id": 497
+      "id": 497,
+      "mean_pos": 0.0843167
     },
     {
       "firstNodeOffset": 357,
@@ -8996,7 +9494,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr3",
-      "id": 498
+      "id": 498,
+      "mean_pos": 0.46145
     },
     {
       "firstNodeOffset": 364,
@@ -9014,7 +9513,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr3",
-      "id": 499
+      "id": 499,
+      "mean_pos": 0.642096
     },
     {
       "firstNodeOffset": 367,
@@ -9032,7 +9532,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr3",
-      "id": 500
+      "id": 500,
+      "mean_pos": 0.365728
     },
     {
       "firstNodeOffset": 370,
@@ -9050,7 +9551,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr3",
-      "id": 501
+      "id": 501,
+      "mean_pos": 0.432331
     },
     {
       "firstNodeOffset": 375,
@@ -9068,7 +9570,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr3",
-      "id": 502
+      "id": 502,
+      "mean_pos": 0.359975
     },
     {
       "firstNodeOffset": 389,
@@ -9086,7 +9589,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr3",
-      "id": 503
+      "id": 503,
+      "mean_pos": 0.487406
     },
     {
       "firstNodeOffset": 398,
@@ -9104,7 +9608,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr3",
-      "id": 504
+      "id": 504,
+      "mean_pos": 0.457416
     },
     {
       "firstNodeOffset": 402,
@@ -9122,7 +9627,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr3",
-      "id": 505
+      "id": 505,
+      "mean_pos": 0
     },
     {
       "firstNodeOffset": 1,
@@ -9140,7 +9646,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr4",
-      "id": 506
+      "id": 506,
+      "mean_pos": 0.00668483
     },
     {
       "firstNodeOffset": 150,
@@ -9158,7 +9665,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr4",
-      "id": 507
+      "id": 507,
+      "mean_pos": 0.0364123
     },
     {
       "firstNodeOffset": 284,
@@ -9176,7 +9684,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr4",
-      "id": 508
+      "id": 508,
+      "mean_pos": 0.124845
     },
     {
       "firstNodeOffset": 320,
@@ -9194,7 +9703,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr4",
-      "id": 509
+      "id": 509,
+      "mean_pos": 0.0620437
     },
     {
       "firstNodeOffset": 351,
@@ -9212,7 +9722,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr4",
-      "id": 510
+      "id": 510,
+      "mean_pos": 0.12959
     },
     {
       "firstNodeOffset": 358,
@@ -9230,7 +9741,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr4",
-      "id": 511
+      "id": 511,
+      "mean_pos": 0.535224
     },
     {
       "firstNodeOffset": 362,
@@ -9248,7 +9760,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr4",
-      "id": 512
+      "id": 512,
+      "mean_pos": 0.14485
     },
     {
       "firstNodeOffset": 367,
@@ -9266,7 +9779,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr4",
-      "id": 513
+      "id": 513,
+      "mean_pos": 0.163361
     },
     {
       "firstNodeOffset": 372,
@@ -9284,7 +9798,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr4",
-      "id": 514
+      "id": 514,
+      "mean_pos": 0.127928
     },
     {
       "firstNodeOffset": 390,
@@ -9302,7 +9817,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr4",
-      "id": 515
+      "id": 515,
+      "mean_pos": 0.124843
     },
     {
       "firstNodeOffset": 394,
@@ -9320,7 +9836,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr4",
-      "id": 516
+      "id": 516,
+      "mean_pos": 0.19814
     },
     {
       "firstNodeOffset": 398,
@@ -9338,7 +9855,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr4",
-      "id": 517
+      "id": 517,
+      "mean_pos": 0.171588
     },
     {
       "firstNodeOffset": 402,
@@ -9356,7 +9874,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr4",
-      "id": 518
+      "id": 518,
+      "mean_pos": 0
     },
     {
       "firstNodeOffset": 2,
@@ -9374,7 +9893,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr5",
-      "id": 519
+      "id": 519,
+      "mean_pos": 0.00088961
     },
     {
       "firstNodeOffset": 192,
@@ -9392,7 +9912,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr5",
-      "id": 520
+      "id": 520,
+      "mean_pos": 0.51295
     },
     {
       "firstNodeOffset": 217,
@@ -9410,7 +9931,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr5",
-      "id": 521
+      "id": 521,
+      "mean_pos": 0.282782
     },
     {
       "firstNodeOffset": 291,
@@ -9428,7 +9950,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr5",
-      "id": 522
+      "id": 522,
+      "mean_pos": 0.499269
     },
     {
       "firstNodeOffset": 296,
@@ -9446,7 +9969,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr5",
-      "id": 523
+      "id": 523,
+      "mean_pos": 0.300159
     },
     {
       "firstNodeOffset": 327,
@@ -9464,7 +9988,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr5",
-      "id": 524
+      "id": 524,
+      "mean_pos": 0.415717
     },
     {
       "firstNodeOffset": 330,
@@ -9482,7 +10007,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr5",
-      "id": 525
+      "id": 525,
+      "mean_pos": 0.297245
     },
     {
       "firstNodeOffset": 352,
@@ -9500,7 +10026,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr5",
-      "id": 526
+      "id": 526,
+      "mean_pos": 0.31469
     },
     {
       "firstNodeOffset": 363,
@@ -9518,7 +10045,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr5",
-      "id": 527
+      "id": 527,
+      "mean_pos": 0.437196
     },
     {
       "firstNodeOffset": 375,
@@ -9536,7 +10064,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr5",
-      "id": 528
+      "id": 528,
+      "mean_pos": 0.518997
     },
     {
       "firstNodeOffset": 401,
@@ -9554,7 +10083,8 @@
       ],
       "type": "read",
       "name": "AT7328_Chr5",
-      "id": 529
+      "id": 529,
+      "mean_pos": 0
     },
     {
       "firstNodeOffset": 2,
@@ -9572,7 +10102,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr1",
-      "id": 530
+      "id": 530,
+      "mean_pos": 0.511794
     },
     {
       "firstNodeOffset": 32,
@@ -9590,7 +10121,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr1",
-      "id": 531
+      "id": 531,
+      "mean_pos": 0.0781832
     },
     {
       "firstNodeOffset": 245,
@@ -9608,7 +10140,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr1",
-      "id": 532
+      "id": 532,
+      "mean_pos": 0.526101
     },
     {
       "firstNodeOffset": 250,
@@ -9626,7 +10159,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr1",
-      "id": 533
+      "id": 533,
+      "mean_pos": 0.31572
     },
     {
       "firstNodeOffset": 303,
@@ -9644,7 +10178,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr1",
-      "id": 534
+      "id": 534,
+      "mean_pos": 0.460664
     },
     {
       "firstNodeOffset": 313,
@@ -9662,7 +10197,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr1",
-      "id": 535
+      "id": 535,
+      "mean_pos": 0.242215
     },
     {
       "firstNodeOffset": 336,
@@ -9680,7 +10216,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr1",
-      "id": 536
+      "id": 536,
+      "mean_pos": 0.534288
     },
     {
       "firstNodeOffset": 340,
@@ -9698,7 +10235,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr1",
-      "id": 537
+      "id": 537,
+      "mean_pos": 0.49573
     },
     {
       "firstNodeOffset": 355,
@@ -9716,7 +10254,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr1",
-      "id": 538
+      "id": 538,
+      "mean_pos": 0.224395
     },
     {
       "firstNodeOffset": 364,
@@ -9734,7 +10273,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr1",
-      "id": 539
+      "id": 539,
+      "mean_pos": 0.208983
     },
     {
       "firstNodeOffset": 369,
@@ -9752,7 +10292,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr1",
-      "id": 540
+      "id": 540,
+      "mean_pos": 0.714052
     },
     {
       "firstNodeOffset": 375,
@@ -9770,7 +10311,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr1",
-      "id": 541
+      "id": 541,
+      "mean_pos": 0.540245
     },
     {
       "firstNodeOffset": 378,
@@ -9788,7 +10330,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr1",
-      "id": 542
+      "id": 542,
+      "mean_pos": 0.494196
     },
     {
       "firstNodeOffset": 393,
@@ -9806,7 +10349,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr1",
-      "id": 543
+      "id": 543,
+      "mean_pos": 0.424513
     },
     {
       "firstNodeOffset": 399,
@@ -9824,7 +10368,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr1",
-      "id": 544
+      "id": 544,
+      "mean_pos": 0.50072
     },
     {
       "firstNodeOffset": 403,
@@ -9842,7 +10387,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr1",
-      "id": 545
+      "id": 545,
+      "mean_pos": 0
     },
     {
       "firstNodeOffset": 2,
@@ -9860,7 +10406,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr2",
-      "id": 546
+      "id": 546,
+      "mean_pos": 0.0157092
     },
     {
       "firstNodeOffset": 65,
@@ -9878,7 +10425,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr2",
-      "id": 547
+      "id": 547,
+      "mean_pos": 0.23126
     },
     {
       "firstNodeOffset": 80,
@@ -9896,7 +10444,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr2",
-      "id": 548
+      "id": 548,
+      "mean_pos": 0.299984
     },
     {
       "firstNodeOffset": 83,
@@ -9914,7 +10463,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr2",
-      "id": 549
+      "id": 549,
+      "mean_pos": 0.982613
     },
     {
       "firstNodeOffset": 123,
@@ -9932,7 +10482,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr2",
-      "id": 550
+      "id": 550,
+      "mean_pos": 0.0399727
     },
     {
       "firstNodeOffset": 257,
@@ -9950,7 +10501,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr2",
-      "id": 551
+      "id": 551,
+      "mean_pos": 0.232696
     },
     {
       "firstNodeOffset": 262,
@@ -9968,7 +10520,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr2",
-      "id": 552
+      "id": 552,
+      "mean_pos": 0.034821
     },
     {
       "firstNodeOffset": 307,
@@ -9986,7 +10539,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr2",
-      "id": 553
+      "id": 553,
+      "mean_pos": 0.192247
     },
     {
       "firstNodeOffset": 330,
@@ -10004,7 +10558,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr2",
-      "id": 554
+      "id": 554,
+      "mean_pos": 0.133521
     },
     {
       "firstNodeOffset": 342,
@@ -10022,7 +10577,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr2",
-      "id": 555
+      "id": 555,
+      "mean_pos": 0.314659
     },
     {
       "firstNodeOffset": 356,
@@ -10040,7 +10596,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr2",
-      "id": 556
+      "id": 556,
+      "mean_pos": 0.321787
     },
     {
       "firstNodeOffset": 366,
@@ -10058,7 +10615,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr2",
-      "id": 557
+      "id": 557,
+      "mean_pos": 0.366673
     },
     {
       "firstNodeOffset": 370,
@@ -10076,7 +10634,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr2",
-      "id": 558
+      "id": 558,
+      "mean_pos": 0.343349
     },
     {
       "firstNodeOffset": 375,
@@ -10094,7 +10653,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr2",
-      "id": 559
+      "id": 559,
+      "mean_pos": 0.193478
     },
     {
       "firstNodeOffset": 378,
@@ -10112,7 +10672,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr2",
-      "id": 560
+      "id": 560,
+      "mean_pos": 0.70281
     },
     {
       "firstNodeOffset": 381,
@@ -10130,7 +10691,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr2",
-      "id": 561
+      "id": 561,
+      "mean_pos": 0.318958
     },
     {
       "firstNodeOffset": 393,
@@ -10148,7 +10710,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr2",
-      "id": 562
+      "id": 562,
+      "mean_pos": 0.34906
     },
     {
       "firstNodeOffset": 395,
@@ -10166,7 +10729,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr2",
-      "id": 563
+      "id": 563,
+      "mean_pos": 0.688825
     },
     {
       "firstNodeOffset": 398,
@@ -10184,7 +10748,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr2",
-      "id": 564
+      "id": 564,
+      "mean_pos": 0.297123
     },
     {
       "firstNodeOffset": 401,
@@ -10202,7 +10767,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr2",
-      "id": 565
+      "id": 565,
+      "mean_pos": 0.226784
     },
     {
       "firstNodeOffset": 404,
@@ -10220,7 +10786,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr2",
-      "id": 566
+      "id": 566,
+      "mean_pos": 0
     },
     {
       "firstNodeOffset": 2,
@@ -10238,7 +10805,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr3",
-      "id": 567
+      "id": 567,
+      "mean_pos": 0.0135454
     },
     {
       "firstNodeOffset": 101,
@@ -10256,7 +10824,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr3",
-      "id": 568
+      "id": 568,
+      "mean_pos": 0.454466
     },
     {
       "firstNodeOffset": 124,
@@ -10274,7 +10843,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr3",
-      "id": 569
+      "id": 569,
+      "mean_pos": 0.618959
     },
     {
       "firstNodeOffset": 133,
@@ -10292,7 +10862,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr3",
-      "id": 570
+      "id": 570,
+      "mean_pos": 0.283056
     },
     {
       "firstNodeOffset": 270,
@@ -10310,7 +10881,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr3",
-      "id": 571
+      "id": 571,
+      "mean_pos": 0.653957
     },
     {
       "firstNodeOffset": 276,
@@ -10328,7 +10900,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr3",
-      "id": 572
+      "id": 572,
+      "mean_pos": 0.692274
     },
     {
       "firstNodeOffset": 281,
@@ -10346,7 +10919,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr3",
-      "id": 573
+      "id": 573,
+      "mean_pos": 0.0494294
     },
     {
       "firstNodeOffset": 313,
@@ -10364,7 +10938,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr3",
-      "id": 574
+      "id": 574,
+      "mean_pos": 0.458936
     },
     {
       "firstNodeOffset": 344,
@@ -10382,7 +10957,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr3",
-      "id": 575
+      "id": 575,
+      "mean_pos": 0.34713
     },
     {
       "firstNodeOffset": 357,
@@ -10400,7 +10976,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr3",
-      "id": 576
+      "id": 576,
+      "mean_pos": 0.319597
     },
     {
       "firstNodeOffset": 366,
@@ -10418,7 +10995,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr3",
-      "id": 577
+      "id": 577,
+      "mean_pos": 0.409603
     },
     {
       "firstNodeOffset": 370,
@@ -10436,7 +11014,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr3",
-      "id": 578
+      "id": 578,
+      "mean_pos": 0.616365
     },
     {
       "firstNodeOffset": 375,
@@ -10454,7 +11033,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr3",
-      "id": 579
+      "id": 579,
+      "mean_pos": 0.343721
     },
     {
       "firstNodeOffset": 389,
@@ -10472,7 +11052,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr3",
-      "id": 580
+      "id": 580,
+      "mean_pos": 0
     },
     {
       "firstNodeOffset": 2,
@@ -10490,7 +11071,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr4",
-      "id": 581
+      "id": 581,
+      "mean_pos": 0.0382287
     },
     {
       "firstNodeOffset": 150,
@@ -10508,7 +11090,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr4",
-      "id": 582
+      "id": 582,
+      "mean_pos": 0.345605
     },
     {
       "firstNodeOffset": 165,
@@ -10526,7 +11109,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr4",
-      "id": 583
+      "id": 583,
+      "mean_pos": 0.0698835
     },
     {
       "firstNodeOffset": 284,
@@ -10544,7 +11128,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr4",
-      "id": 584
+      "id": 584,
+      "mean_pos": 0.0203875
     },
     {
       "firstNodeOffset": 315,
@@ -10562,7 +11147,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr4",
-      "id": 585
+      "id": 585,
+      "mean_pos": 0.105633
     },
     {
       "firstNodeOffset": 320,
@@ -10580,7 +11166,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr4",
-      "id": 586
+      "id": 586,
+      "mean_pos": 0.336278
     },
     {
       "firstNodeOffset": 324,
@@ -10598,7 +11185,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr4",
-      "id": 587
+      "id": 587,
+      "mean_pos": 0.399653
     },
     {
       "firstNodeOffset": 351,
@@ -10616,7 +11204,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr4",
-      "id": 588
+      "id": 588,
+      "mean_pos": 0.0277088
     },
     {
       "firstNodeOffset": 358,
@@ -10634,7 +11223,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr4",
-      "id": 589
+      "id": 589,
+      "mean_pos": 0.198273
     },
     {
       "firstNodeOffset": 367,
@@ -10652,7 +11242,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr4",
-      "id": 590
+      "id": 590,
+      "mean_pos": 0.12769
     },
     {
       "firstNodeOffset": 372,
@@ -10670,7 +11261,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr4",
-      "id": 591
+      "id": 591,
+      "mean_pos": 0.215328
     },
     {
       "firstNodeOffset": 378,
@@ -10688,7 +11280,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr4",
-      "id": 592
+      "id": 592,
+      "mean_pos": 0.175072
     },
     {
       "firstNodeOffset": 390,
@@ -10706,7 +11299,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr4",
-      "id": 593
+      "id": 593,
+      "mean_pos": 0.151682
     },
     {
       "firstNodeOffset": 394,
@@ -10724,7 +11318,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr4",
-      "id": 594
+      "id": 594,
+      "mean_pos": 0.141761
     },
     {
       "firstNodeOffset": 399,
@@ -10742,7 +11337,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr4",
-      "id": 595
+      "id": 595,
+      "mean_pos": 0.162335
     },
     {
       "firstNodeOffset": 402,
@@ -10760,7 +11356,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr4",
-      "id": 596
+      "id": 596,
+      "mean_pos": 0.104165
     },
     {
       "firstNodeOffset": 405,
@@ -10778,7 +11375,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr4",
-      "id": 597
+      "id": 597,
+      "mean_pos": 0
     },
     {
       "firstNodeOffset": 3,
@@ -10796,7 +11394,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr5",
-      "id": 598
+      "id": 598,
+      "mean_pos": 0.000914984
     },
     {
       "firstNodeOffset": 192,
@@ -10814,7 +11413,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr5",
-      "id": 599
+      "id": 599,
+      "mean_pos": 0.495757
     },
     {
       "firstNodeOffset": 217,
@@ -10832,7 +11432,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr5",
-      "id": 600
+      "id": 600,
+      "mean_pos": 0.315845
     },
     {
       "firstNodeOffset": 291,
@@ -10850,7 +11451,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr5",
-      "id": 601
+      "id": 601,
+      "mean_pos": 0.533764
     },
     {
       "firstNodeOffset": 297,
@@ -10868,7 +11470,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr5",
-      "id": 602
+      "id": 602,
+      "mean_pos": 0.298709
     },
     {
       "firstNodeOffset": 327,
@@ -10886,7 +11489,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr5",
-      "id": 603
+      "id": 603,
+      "mean_pos": 0.550552
     },
     {
       "firstNodeOffset": 332,
@@ -10904,7 +11508,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr5",
-      "id": 604
+      "id": 604,
+      "mean_pos": 0.628453
     },
     {
       "firstNodeOffset": 334,
@@ -10922,7 +11527,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr5",
-      "id": 605
+      "id": 605,
+      "mean_pos": 0.343064
     },
     {
       "firstNodeOffset": 352,
@@ -10940,7 +11546,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr5",
-      "id": 606
+      "id": 606,
+      "mean_pos": 0.393989
     },
     {
       "firstNodeOffset": 363,
@@ -10958,7 +11565,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr5",
-      "id": 607
+      "id": 607,
+      "mean_pos": 0.354369
     },
     {
       "firstNodeOffset": 369,
@@ -10976,7 +11584,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr5",
-      "id": 608
+      "id": 608,
+      "mean_pos": 0.426076
     },
     {
       "firstNodeOffset": 374,
@@ -10994,7 +11603,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr5",
-      "id": 609
+      "id": 609,
+      "mean_pos": 0.46607
     },
     {
       "firstNodeOffset": 378,
@@ -11012,7 +11622,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr5",
-      "id": 610
+      "id": 610,
+      "mean_pos": 0.504605
     },
     {
       "firstNodeOffset": 405,
@@ -11030,7 +11641,8 @@
       ],
       "type": "read",
       "name": "AT9518_Chr5",
-      "id": 611
+      "id": 611,
+      "mean_pos": 0
     },
     {
       "firstNodeOffset": 3,
@@ -11048,7 +11660,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr1",
-      "id": 612
+      "id": 612,
+      "mean_pos": 0.524375
     },
     {
       "firstNodeOffset": 32,
@@ -11066,7 +11679,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr1",
-      "id": 613
+      "id": 613,
+      "mean_pos": 0.0355773
     },
     {
       "firstNodeOffset": 245,
@@ -11084,7 +11698,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr1",
-      "id": 614
+      "id": 614,
+      "mean_pos": 0.13903
     },
     {
       "firstNodeOffset": 303,
@@ -11102,7 +11717,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr1",
-      "id": 615
+      "id": 615,
+      "mean_pos": 0.56959
     },
     {
       "firstNodeOffset": 306,
@@ -11120,7 +11736,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr1",
-      "id": 616
+      "id": 616,
+      "mean_pos": 0.386494
     },
     {
       "firstNodeOffset": 313,
@@ -11138,7 +11755,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr1",
-      "id": 617
+      "id": 617,
+      "mean_pos": 0.360793
     },
     {
       "firstNodeOffset": 336,
@@ -11156,7 +11774,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr1",
-      "id": 618
+      "id": 618,
+      "mean_pos": 0.573851
     },
     {
       "firstNodeOffset": 355,
@@ -11174,7 +11793,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr1",
-      "id": 619
+      "id": 619,
+      "mean_pos": 0.488798
     },
     {
       "firstNodeOffset": 364,
@@ -11192,7 +11812,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr1",
-      "id": 620
+      "id": 620,
+      "mean_pos": 0.491837
     },
     {
       "firstNodeOffset": 367,
@@ -11210,7 +11831,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr1",
-      "id": 621
+      "id": 621,
+      "mean_pos": 0.203762
     },
     {
       "firstNodeOffset": 369,
@@ -11228,7 +11850,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr1",
-      "id": 622
+      "id": 622,
+      "mean_pos": 0.751588
     },
     {
       "firstNodeOffset": 375,
@@ -11246,7 +11869,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr1",
-      "id": 623
+      "id": 623,
+      "mean_pos": 0.546397
     },
     {
       "firstNodeOffset": 378,
@@ -11264,7 +11888,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr1",
-      "id": 624
+      "id": 624,
+      "mean_pos": 0.518367
     },
     {
       "firstNodeOffset": 393,
@@ -11282,7 +11907,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr1",
-      "id": 625
+      "id": 625,
+      "mean_pos": 0.399397
     },
     {
       "firstNodeOffset": 399,
@@ -11300,7 +11926,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr1",
-      "id": 626
+      "id": 626,
+      "mean_pos": 0.35204
     },
     {
       "firstNodeOffset": 401,
@@ -11318,7 +11945,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr1",
-      "id": 627
+      "id": 627,
+      "mean_pos": 0.552509
     },
     {
       "firstNodeOffset": 404,
@@ -11336,7 +11964,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr1",
-      "id": 628
+      "id": 628,
+      "mean_pos": 0
     },
     {
       "firstNodeOffset": 65,
@@ -11354,7 +11983,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr2",
-      "id": 629
+      "id": 629,
+      "mean_pos": 0.23594
     },
     {
       "firstNodeOffset": 78,
@@ -11372,7 +12002,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr2",
-      "id": 630
+      "id": 630,
+      "mean_pos": 0.303533
     },
     {
       "firstNodeOffset": 83,
@@ -11390,7 +12021,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr2",
-      "id": 631
+      "id": 631,
+      "mean_pos": 0.981204
     },
     {
       "firstNodeOffset": 123,
@@ -11408,7 +12040,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr2",
-      "id": 632
+      "id": 632,
+      "mean_pos": 0.0464824
     },
     {
       "firstNodeOffset": 257,
@@ -11426,7 +12059,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr2",
-      "id": 633
+      "id": 633,
+      "mean_pos": 0.251629
     },
     {
       "firstNodeOffset": 262,
@@ -11444,7 +12078,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr2",
-      "id": 634
+      "id": 634,
+      "mean_pos": 0.00384887
     },
     {
       "firstNodeOffset": 303,
@@ -11462,7 +12097,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr2",
-      "id": 635
+      "id": 635,
+      "mean_pos": 0.136237
     },
     {
       "firstNodeOffset": 308,
@@ -11480,7 +12116,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr2",
-      "id": 636
+      "id": 636,
+      "mean_pos": 0.141203
     },
     {
       "firstNodeOffset": 342,
@@ -11498,7 +12135,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr2",
-      "id": 637
+      "id": 637,
+      "mean_pos": 0.283697
     },
     {
       "firstNodeOffset": 356,
@@ -11516,7 +12154,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr2",
-      "id": 638
+      "id": 638,
+      "mean_pos": 0.00277952
     },
     {
       "firstNodeOffset": 364,
@@ -11534,7 +12173,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr2",
-      "id": 639
+      "id": 639,
+      "mean_pos": 0.53068
     },
     {
       "firstNodeOffset": 370,
@@ -11552,7 +12192,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr2",
-      "id": 640
+      "id": 640,
+      "mean_pos": 0.28106
     },
     {
       "firstNodeOffset": 375,
@@ -11570,7 +12211,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr2",
-      "id": 641
+      "id": 641,
+      "mean_pos": 0.204838
     },
     {
       "firstNodeOffset": 378,
@@ -11588,7 +12230,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr2",
-      "id": 642
+      "id": 642,
+      "mean_pos": 0.69553
     },
     {
       "firstNodeOffset": 381,
@@ -11606,7 +12249,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr2",
-      "id": 643
+      "id": 643,
+      "mean_pos": 0.319448
     },
     {
       "firstNodeOffset": 393,
@@ -11624,7 +12268,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr2",
-      "id": 644
+      "id": 644,
+      "mean_pos": 0.342889
     },
     {
       "firstNodeOffset": 395,
@@ -11642,7 +12287,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr2",
-      "id": 645
+      "id": 645,
+      "mean_pos": 0.310186
     },
     {
       "firstNodeOffset": 399,
@@ -11660,7 +12306,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr2",
-      "id": 646
+      "id": 646,
+      "mean_pos": 0.295368
     },
     {
       "firstNodeOffset": 401,
@@ -11678,7 +12325,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr2",
-      "id": 647
+      "id": 647,
+      "mean_pos": 0.164881
     },
     {
       "firstNodeOffset": 406,
@@ -11696,7 +12344,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr2",
-      "id": 648
+      "id": 648,
+      "mean_pos": 0
     },
     {
       "firstNodeOffset": 101,
@@ -11714,7 +12363,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr3",
-      "id": 649
+      "id": 649,
+      "mean_pos": 0.508739
     },
     {
       "firstNodeOffset": 131,
@@ -11732,7 +12382,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr3",
-      "id": 650
+      "id": 650,
+      "mean_pos": 0.645057
     },
     {
       "firstNodeOffset": 134,
@@ -11750,7 +12401,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr3",
-      "id": 651
+      "id": 651,
+      "mean_pos": 0.269416
     },
     {
       "firstNodeOffset": 270,
@@ -11768,7 +12420,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr3",
-      "id": 652
+      "id": 652,
+      "mean_pos": 0.616783
     },
     {
       "firstNodeOffset": 276,
@@ -11786,7 +12439,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr3",
-      "id": 653
+      "id": 653,
+      "mean_pos": 0.70381
     },
     {
       "firstNodeOffset": 281,
@@ -11804,7 +12458,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr3",
-      "id": 654
+      "id": 654,
+      "mean_pos": 0.60263
     },
     {
       "firstNodeOffset": 303,
@@ -11822,7 +12477,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr3",
-      "id": 655
+      "id": 655,
+      "mean_pos": 0.0000886575
     },
     {
       "firstNodeOffset": 313,
@@ -11840,7 +12496,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr3",
-      "id": 656
+      "id": 656,
+      "mean_pos": 0.574896
     },
     {
       "firstNodeOffset": 338,
@@ -11858,7 +12515,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr3",
-      "id": 657
+      "id": 657,
+      "mean_pos": 0.388562
     },
     {
       "firstNodeOffset": 344,
@@ -11876,7 +12534,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr3",
-      "id": 658
+      "id": 658,
+      "mean_pos": 0.649109
     },
     {
       "firstNodeOffset": 349,
@@ -11894,7 +12553,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr3",
-      "id": 659
+      "id": 659,
+      "mean_pos": 0.37143
     },
     {
       "firstNodeOffset": 357,
@@ -11912,7 +12572,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr3",
-      "id": 660
+      "id": 660,
+      "mean_pos": 0.60219
     },
     {
       "firstNodeOffset": 364,
@@ -11930,7 +12591,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr3",
-      "id": 661
+      "id": 661,
+      "mean_pos": 0.478367
     },
     {
       "firstNodeOffset": 366,
@@ -11948,7 +12610,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr3",
-      "id": 662
+      "id": 662,
+      "mean_pos": 0.524921
     },
     {
       "firstNodeOffset": 370,
@@ -11966,7 +12629,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr3",
-      "id": 663
+      "id": 663,
+      "mean_pos": 0.564356
     },
     {
       "firstNodeOffset": 375,
@@ -11984,7 +12648,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr3",
-      "id": 664
+      "id": 664,
+      "mean_pos": 0.56435
     },
     {
       "firstNodeOffset": 379,
@@ -12002,7 +12667,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr3",
-      "id": 665
+      "id": 665,
+      "mean_pos": 0.443669
     },
     {
       "firstNodeOffset": 389,
@@ -12020,7 +12686,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr3",
-      "id": 666
+      "id": 666,
+      "mean_pos": 0.584002
     },
     {
       "firstNodeOffset": 394,
@@ -12038,7 +12705,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr3",
-      "id": 667
+      "id": 667,
+      "mean_pos": 0.645566
     },
     {
       "firstNodeOffset": 398,
@@ -12056,7 +12724,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr3",
-      "id": 668
+      "id": 668,
+      "mean_pos": 0.616806
     },
     {
       "firstNodeOffset": 406,
@@ -12074,7 +12743,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr3",
-      "id": 669
+      "id": 669,
+      "mean_pos": 0
     },
     {
       "firstNodeOffset": 3,
@@ -12092,7 +12762,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr4",
-      "id": 670
+      "id": 670,
+      "mean_pos": 0.00731127
     },
     {
       "firstNodeOffset": 150,
@@ -12110,7 +12781,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr4",
-      "id": 671
+      "id": 671,
+      "mean_pos": 0.32845
     },
     {
       "firstNodeOffset": 163,
@@ -12128,7 +12800,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr4",
-      "id": 672
+      "id": 672,
+      "mean_pos": 0.455953
     },
     {
       "firstNodeOffset": 170,
@@ -12146,7 +12819,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr4",
-      "id": 673
+      "id": 673,
+      "mean_pos": 0.240268
     },
     {
       "firstNodeOffset": 275,
@@ -12164,7 +12838,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr4",
-      "id": 674
+      "id": 674,
+      "mean_pos": 0.0373289
     },
     {
       "firstNodeOffset": 284,
@@ -12182,7 +12857,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr4",
-      "id": 675
+      "id": 675,
+      "mean_pos": 0.07162
     },
     {
       "firstNodeOffset": 320,
@@ -12200,7 +12876,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr4",
-      "id": 676
+      "id": 676,
+      "mean_pos": 0.365308
     },
     {
       "firstNodeOffset": 324,
@@ -12218,7 +12895,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr4",
-      "id": 677
+      "id": 677,
+      "mean_pos": 0.162868
     },
     {
       "firstNodeOffset": 330,
@@ -12236,7 +12914,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr4",
-      "id": 678
+      "id": 678,
+      "mean_pos": 0.217447
     },
     {
       "firstNodeOffset": 338,
@@ -12254,7 +12933,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr4",
-      "id": 679
+      "id": 679,
+      "mean_pos": 0.395792
     },
     {
       "firstNodeOffset": 351,
@@ -12272,7 +12952,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr4",
-      "id": 680
+      "id": 680,
+      "mean_pos": 0.0900591
     },
     {
       "firstNodeOffset": 358,
@@ -12290,7 +12971,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr4",
-      "id": 681
+      "id": 681,
+      "mean_pos": 0.328062
     },
     {
       "firstNodeOffset": 362,
@@ -12308,7 +12990,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr4",
-      "id": 682
+      "id": 682,
+      "mean_pos": 0.224242
     },
     {
       "firstNodeOffset": 366,
@@ -12326,7 +13009,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr4",
-      "id": 683
+      "id": 683,
+      "mean_pos": 0.238576
     },
     {
       "firstNodeOffset": 371,
@@ -12344,7 +13028,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr4",
-      "id": 684
+      "id": 684,
+      "mean_pos": 0.111424
     },
     {
       "firstNodeOffset": 378,
@@ -12362,7 +13047,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr4",
-      "id": 685
+      "id": 685,
+      "mean_pos": 0.107791
     },
     {
       "firstNodeOffset": 390,
@@ -12380,7 +13066,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr4",
-      "id": 686
+      "id": 686,
+      "mean_pos": 0.110012
     },
     {
       "firstNodeOffset": 394,
@@ -12398,7 +13085,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr4",
-      "id": 687
+      "id": 687,
+      "mean_pos": 0.176468
     },
     {
       "firstNodeOffset": 402,
@@ -12416,7 +13104,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr4",
-      "id": 688
+      "id": 688,
+      "mean_pos": 0.109861
     },
     {
       "firstNodeOffset": 405,
@@ -12434,7 +13123,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr4",
-      "id": 689
+      "id": 689,
+      "mean_pos": 0
     },
     {
       "firstNodeOffset": 3,
@@ -12452,7 +13142,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr5",
-      "id": 690
+      "id": 690,
+      "mean_pos": 0.0126561
     },
     {
       "firstNodeOffset": 193,
@@ -12470,7 +13161,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr5",
-      "id": 691
+      "id": 691,
+      "mean_pos": 0.510335
     },
     {
       "firstNodeOffset": 217,
@@ -12488,7 +13180,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr5",
-      "id": 692
+      "id": 692,
+      "mean_pos": 0.229277
     },
     {
       "firstNodeOffset": 291,
@@ -12506,7 +13199,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr5",
-      "id": 693
+      "id": 693,
+      "mean_pos": 0.505421
     },
     {
       "firstNodeOffset": 296,
@@ -12524,7 +13218,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr5",
-      "id": 694
+      "id": 694,
+      "mean_pos": 0.298256
     },
     {
       "firstNodeOffset": 327,
@@ -12542,7 +13237,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr5",
-      "id": 695
+      "id": 695,
+      "mean_pos": 0.33158
     },
     {
       "firstNodeOffset": 352,
@@ -12560,7 +13256,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr5",
-      "id": 696
+      "id": 696,
+      "mean_pos": 0.405324
     },
     {
       "firstNodeOffset": 363,
@@ -12578,7 +13275,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr5",
-      "id": 697
+      "id": 697,
+      "mean_pos": 0.323552
     },
     {
       "firstNodeOffset": 369,
@@ -12596,7 +13294,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr5",
-      "id": 698
+      "id": 698,
+      "mean_pos": 0.439339
     },
     {
       "firstNodeOffset": 374,
@@ -12614,7 +13313,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr5",
-      "id": 699
+      "id": 699,
+      "mean_pos": 0.511082
     },
     {
       "firstNodeOffset": 378,
@@ -12632,7 +13332,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr5",
-      "id": 700
+      "id": 700,
+      "mean_pos": 0.506929
     },
     {
       "firstNodeOffset": 407,
@@ -12650,7 +13351,8 @@
       ],
       "type": "read",
       "name": "AT9784_Chr5",
-      "id": 701
+      "id": 701,
+      "mean_pos": 0
     },
     {
       "firstNodeOffset": 3,
@@ -12668,7 +13370,8 @@
       ],
       "type": "read",
       "name": "TAIR10.Chr1",
-      "id": 702
+      "id": 702,
+      "mean_pos": 0.513545
     },
     {
       "firstNodeOffset": 32,
@@ -12686,7 +13389,8 @@
       ],
       "type": "read",
       "name": "TAIR10.Chr1",
-      "id": 703
+      "id": 703,
+      "mean_pos": 0.0929072
     },
     {
       "firstNodeOffset": 245,
@@ -12704,7 +13408,8 @@
       ],
       "type": "read",
       "name": "TAIR10.Chr1",
-      "id": 704
+      "id": 704,
+      "mean_pos": 0.141034
     },
     {
       "firstNodeOffset": 303,
@@ -12722,7 +13427,8 @@
       ],
       "type": "read",
       "name": "TAIR10.Chr1",
-      "id": 705
+      "id": 705,
+      "mean_pos": 0.562204
     },
     {
       "firstNodeOffset": 306,
@@ -12740,7 +13446,8 @@
       ],
       "type": "read",
       "name": "TAIR10.Chr1",
-      "id": 706
+      "id": 706,
+      "mean_pos": 0.456624
     },
     {
       "firstNodeOffset": 313,
@@ -12758,7 +13465,8 @@
       ],
       "type": "read",
       "name": "TAIR10.Chr1",
-      "id": 707
+      "id": 707,
+      "mean_pos": 0.341933
     },
     {
       "firstNodeOffset": 336,
@@ -12776,7 +13484,8 @@
       ],
       "type": "read",
       "name": "TAIR10.Chr1",
-      "id": 708
+      "id": 708,
+      "mean_pos": 0.482441
     },
     {
       "firstNodeOffset": 364,
@@ -12794,7 +13503,8 @@
       ],
       "type": "read",
       "name": "TAIR10.Chr1",
-      "id": 709
+      "id": 709,
+      "mean_pos": 0.483574
     },
     {
       "firstNodeOffset": 379,
@@ -12812,7 +13522,8 @@
       ],
       "type": "read",
       "name": "TAIR10.Chr1",
-      "id": 710
+      "id": 710,
+      "mean_pos": 0.454381
     },
     {
       "firstNodeOffset": 393,
@@ -12830,7 +13541,8 @@
       ],
       "type": "read",
       "name": "TAIR10.Chr1",
-      "id": 711
+      "id": 711,
+      "mean_pos": 0.486565
     },
     {
       "firstNodeOffset": 407,
@@ -12848,7 +13560,8 @@
       ],
       "type": "read",
       "name": "TAIR10.Chr1",
-      "id": 712
+      "id": 712,
+      "mean_pos": 0
     },
     {
       "firstNodeOffset": 3,
@@ -12866,7 +13579,8 @@
       ],
       "type": "read",
       "name": "TAIR10.Chr2",
-      "id": 713
+      "id": 713,
+      "mean_pos": 0.00935927
     },
     {
       "firstNodeOffset": 65,
@@ -12884,7 +13598,8 @@
       ],
       "type": "read",
       "name": "TAIR10.Chr2",
-      "id": 714
+      "id": 714,
+      "mean_pos": 0.981959
     },
     {
       "firstNodeOffset": 123,
@@ -12902,7 +13617,8 @@
       ],
       "type": "read",
       "name": "TAIR10.Chr2",
-      "id": 715
+      "id": 715,
+      "mean_pos": 0.025583
     },
     {
       "firstNodeOffset": 257,
@@ -12920,7 +13636,8 @@
       ],
       "type": "read",
       "name": "TAIR10.Chr2",
-      "id": 716
+      "id": 716,
+      "mean_pos": 0.203378
     },
     {
       "firstNodeOffset": 262,
@@ -12938,7 +13655,8 @@
       ],
       "type": "read",
       "name": "TAIR10.Chr2",
-      "id": 717
+      "id": 717,
+      "mean_pos": 0.100347
     },
     {
       "firstNodeOffset": 308,
@@ -12956,7 +13674,8 @@
       ],
       "type": "read",
       "name": "TAIR10.Chr2",
-      "id": 718
+      "id": 718,
+      "mean_pos": 0.404635
     },
     {
       "firstNodeOffset": 313,
@@ -12974,7 +13693,8 @@
       ],
       "type": "read",
       "name": "TAIR10.Chr2",
-      "id": 719
+      "id": 719,
+      "mean_pos": 0.15361
     },
     {
       "firstNodeOffset": 342,
@@ -12992,7 +13712,8 @@
       ],
       "type": "read",
       "name": "TAIR10.Chr2",
-      "id": 720
+      "id": 720,
+      "mean_pos": 0.684186
     },
     {
       "firstNodeOffset": 381,
@@ -13010,7 +13731,8 @@
       ],
       "type": "read",
       "name": "TAIR10.Chr2",
-      "id": 721
+      "id": 721,
+      "mean_pos": 0.313861
     },
     {
       "firstNodeOffset": 393,
@@ -13028,7 +13750,8 @@
       ],
       "type": "read",
       "name": "TAIR10.Chr2",
-      "id": 722
+      "id": 722,
+      "mean_pos": 0.315689
     },
     {
       "firstNodeOffset": 395,
@@ -13046,7 +13769,8 @@
       ],
       "type": "read",
       "name": "TAIR10.Chr2",
-      "id": 723
+      "id": 723,
+      "mean_pos": 0
     },
     {
       "firstNodeOffset": 3,
@@ -13064,7 +13788,8 @@
       ],
       "type": "read",
       "name": "TAIR10.Chr3",
-      "id": 724
+      "id": 724,
+      "mean_pos": 0.0135746
     },
     {
       "firstNodeOffset": 101,
@@ -13082,7 +13807,8 @@
       ],
       "type": "read",
       "name": "TAIR10.Chr3",
-      "id": 725
+      "id": 725,
+      "mean_pos": 0.481474
     },
     {
       "firstNodeOffset": 124,
@@ -13100,7 +13826,8 @@
       ],
       "type": "read",
       "name": "TAIR10.Chr3",
-      "id": 726
+      "id": 726,
+      "mean_pos": 0.528431
     },
     {
       "firstNodeOffset": 130,
@@ -13118,7 +13845,8 @@
       ],
       "type": "read",
       "name": "TAIR10.Chr3",
-      "id": 727
+      "id": 727,
+      "mean_pos": 0.704587
     },
     {
       "firstNodeOffset": 138,
@@ -13136,7 +13864,8 @@
       ],
       "type": "read",
       "name": "TAIR10.Chr3",
-      "id": 728
+      "id": 728,
+      "mean_pos": 0.343083
     },
     {
       "firstNodeOffset": 270,
@@ -13154,7 +13883,8 @@
       ],
       "type": "read",
       "name": "TAIR10.Chr3",
-      "id": 729
+      "id": 729,
+      "mean_pos": 0.633282
     },
     {
       "firstNodeOffset": 276,
@@ -13172,7 +13902,8 @@
       ],
       "type": "read",
       "name": "TAIR10.Chr3",
-      "id": 730
+      "id": 730,
+      "mean_pos": 0.655022
     },
     {
       "firstNodeOffset": 279,
@@ -13190,7 +13921,8 @@
       ],
       "type": "read",
       "name": "TAIR10.Chr3",
-      "id": 731
+      "id": 731,
+      "mean_pos": 0.711504
     },
     {
       "firstNodeOffset": 283,
@@ -13208,7 +13940,8 @@
       ],
       "type": "read",
       "name": "TAIR10.Chr3",
-      "id": 732
+      "id": 732,
+      "mean_pos": 0.00394783
     },
     {
       "firstNodeOffset": 313,
@@ -13226,7 +13959,8 @@
       ],
       "type": "read",
       "name": "TAIR10.Chr3",
-      "id": 733
+      "id": 733,
+      "mean_pos": 0.683449
     },
     {
       "firstNodeOffset": 317,
@@ -13244,7 +13978,8 @@
       ],
       "type": "read",
       "name": "TAIR10.Chr3",
-      "id": 734
+      "id": 734,
+      "mean_pos": 0.406807
     },
     {
       "firstNodeOffset": 344,
@@ -13262,7 +13997,8 @@
       ],
       "type": "read",
       "name": "TAIR10.Chr3",
-      "id": 735
+      "id": 735,
+      "mean_pos": 0.587126
     },
     {
       "firstNodeOffset": 381,
@@ -13280,7 +14016,8 @@
       ],
       "type": "read",
       "name": "TAIR10.Chr3",
-      "id": 736
+      "id": 736,
+      "mean_pos": 0.383578
     },
     {
       "firstNodeOffset": 389,
@@ -13298,7 +14035,8 @@
       ],
       "type": "read",
       "name": "TAIR10.Chr3",
-      "id": 737
+      "id": 737,
+      "mean_pos": 0.634638
     },
     {
       "firstNodeOffset": 395,
@@ -13316,7 +14054,8 @@
       ],
       "type": "read",
       "name": "TAIR10.Chr3",
-      "id": 738
+      "id": 738,
+      "mean_pos": 0.63368
     },
     {
       "firstNodeOffset": 407,
@@ -13334,7 +14073,8 @@
       ],
       "type": "read",
       "name": "TAIR10.Chr3",
-      "id": 739
+      "id": 739,
+      "mean_pos": 0
     },
     {
       "firstNodeOffset": 3,
@@ -13352,7 +14092,8 @@
       ],
       "type": "read",
       "name": "TAIR10.Chr4",
-      "id": 740
+      "id": 740,
+      "mean_pos": 0.00638323
     },
     {
       "firstNodeOffset": 150,
@@ -13370,7 +14111,8 @@
       ],
       "type": "read",
       "name": "TAIR10.Chr4",
-      "id": 741
+      "id": 741,
+      "mean_pos": 0.230789
     },
     {
       "firstNodeOffset": 163,
@@ -13388,7 +14130,8 @@
       ],
       "type": "read",
       "name": "TAIR10.Chr4",
-      "id": 742
+      "id": 742,
+      "mean_pos": 0.0406795
     },
     {
       "firstNodeOffset": 284,
@@ -13406,7 +14149,8 @@
       ],
       "type": "read",
       "name": "TAIR10.Chr4",
-      "id": 743
+      "id": 743,
+      "mean_pos": 0.0414305
     },
     {
       "firstNodeOffset": 320,
@@ -13424,7 +14168,8 @@
       ],
       "type": "read",
       "name": "TAIR10.Chr4",
-      "id": 744
+      "id": 744,
+      "mean_pos": 0.215327
     },
     {
       "firstNodeOffset": 323,
@@ -13442,7 +14187,8 @@
       ],
       "type": "read",
       "name": "TAIR10.Chr4",
-      "id": 745
+      "id": 745,
+      "mean_pos": 0.296151
     },
     {
       "firstNodeOffset": 351,
@@ -13460,7 +14206,8 @@
       ],
       "type": "read",
       "name": "TAIR10.Chr4",
-      "id": 746
+      "id": 746,
+      "mean_pos": 0.114892
     },
     {
       "firstNodeOffset": 390,
@@ -13478,7 +14225,8 @@
       ],
       "type": "read",
       "name": "TAIR10.Chr4",
-      "id": 747
+      "id": 747,
+      "mean_pos": 0.091923
     },
     {
       "firstNodeOffset": 395,
@@ -13496,7 +14244,8 @@
       ],
       "type": "read",
       "name": "TAIR10.Chr4",
-      "id": 748
+      "id": 748,
+      "mean_pos": 0.0926843
     },
     {
       "firstNodeOffset": 407,
@@ -13514,7 +14263,8 @@
       ],
       "type": "read",
       "name": "TAIR10.Chr4",
-      "id": 749
+      "id": 749,
+      "mean_pos": 0
     },
     {
       "firstNodeOffset": 3,
@@ -13532,7 +14282,8 @@
       ],
       "type": "read",
       "name": "TAIR10.Chr5",
-      "id": 750
+      "id": 750,
+      "mean_pos": 0.000911475
     },
     {
       "firstNodeOffset": 192,
@@ -13550,7 +14301,8 @@
       ],
       "type": "read",
       "name": "TAIR10.Chr5",
-      "id": 751
+      "id": 751,
+      "mean_pos": 0.472982
     },
     {
       "firstNodeOffset": 217,
@@ -13568,7 +14320,8 @@
       ],
       "type": "read",
       "name": "TAIR10.Chr5",
-      "id": 752
+      "id": 752,
+      "mean_pos": 0.292853
     },
     {
       "firstNodeOffset": 291,
@@ -13586,7 +14339,8 @@
       ],
       "type": "read",
       "name": "TAIR10.Chr5",
-      "id": 753
+      "id": 753,
+      "mean_pos": 0.314261
     },
     {
       "firstNodeOffset": 327,
@@ -13604,7 +14358,8 @@
       ],
       "type": "read",
       "name": "TAIR10.Chr5",
-      "id": 754
+      "id": 754,
+      "mean_pos": 0.524155
     },
     {
       "firstNodeOffset": 331,
@@ -13622,7 +14377,8 @@
       ],
       "type": "read",
       "name": "TAIR10.Chr5",
-      "id": 755
+      "id": 755,
+      "mean_pos": 0.623799
     },
     {
       "firstNodeOffset": 334,
@@ -13640,7 +14396,8 @@
       ],
       "type": "read",
       "name": "TAIR10.Chr5",
-      "id": 756
+      "id": 756,
+      "mean_pos": 0.347988
     },
     {
       "firstNodeOffset": 352,
@@ -13658,7 +14415,8 @@
       ],
       "type": "read",
       "name": "TAIR10.Chr5",
-      "id": 757
+      "id": 757,
+      "mean_pos": 0.477697
     },
     {
       "firstNodeOffset": 364,
@@ -13676,7 +14434,8 @@
       ],
       "type": "read",
       "name": "TAIR10.Chr5",
-      "id": 758
+      "id": 758,
+      "mean_pos": 0.440902
     },
     {
       "firstNodeOffset": 369,
@@ -13694,7 +14453,8 @@
       ],
       "type": "read",
       "name": "TAIR10.Chr5",
-      "id": 759
+      "id": 759,
+      "mean_pos": 0.476605
     },
     {
       "firstNodeOffset": 395,
@@ -13712,7 +14472,8 @@
       ],
       "type": "read",
       "name": "TAIR10.Chr5",
-      "id": 760
+      "id": 760,
+      "mean_pos": 0
     }
   ]
 }

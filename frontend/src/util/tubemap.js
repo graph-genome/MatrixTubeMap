@@ -528,7 +528,7 @@ function placeReads() {
   sortedNodes.forEach(node => {
     // sort incoming reads
     //node.incomingReads.sort(compareReadIncomingSegmentsByComingFrom);
-
+    /*
     // place incoming reads
     let currentY = node.y + node.contentHeight;
     const occupiedUntil = new Map();
@@ -583,22 +583,28 @@ function placeReads() {
         maxY += 7;
       }
     });
-
+    */
     // sort internal reads
     //node.internalReads.sort(compareInternalReads);
 
     // place internal reads
+    let maxY = node.contentHeight;
     node.internalReads.forEach(readIdx => {
       const currentRead = reads[readIdx];
-      currentY = node.y + node.contentHeight;
+      let currentY = node.y + node.contentHeight;/*
       while (
         currentRead.firstNodeOffset < occupiedUntil.get(currentY) + 2 ||
         currentRead.finalNodeCoverLength > occupiedFrom.get(currentY) - 3
       ) {
         currentY += 7;
-      }
+      }*/
+      //!!! Rows sorted for sebastian 5 chromosomes, 12 individuals
+      let chrN = currentRead.mapping_quality % 5;
+      currentY = 7* (chrN * 12 + Math.floor(currentRead.mapping_quality / 5) ) + 35;
+
+      // currentY = 7 * currentRead.mapping_quality + 35; //!!! Normal rows
       currentRead.path[0].y = currentY;
-      occupiedUntil.set(currentY, currentRead.finalNodeCoverLength);
+      // occupiedUntil.set(currentY, currentRead.finalNodeCoverLength);
       maxY = Math.max(maxY, currentY);
     });
 
@@ -2249,7 +2255,7 @@ function generateTrackColor(track, highlight) {
   if (track.hasOwnProperty('type') && track.type === 'read') {
     if (config.colorReadsByMappingQuality) {
       //qualityMapping is hacked to increment path color
-      trackColor = forwardReadColors[track.mapping_quality % forwardReadColors.length]
+      trackColor = forwardReadColors[track.mapping_quality % 6]//[0]//forwardReadColors.length]
     } else {
       if (track.hasOwnProperty('is_reverse') && track.is_reverse === true) {
         trackColor = reverseReadColors[track.id % reverseReadColors.length];
