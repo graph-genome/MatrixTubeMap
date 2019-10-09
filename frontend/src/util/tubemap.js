@@ -111,8 +111,8 @@ const config = {
   showReads: true,
   showSoftClips: true,
   haplotypeColors: 'greys',
-  forwardReadColors: 'plainColors',
-  reverseReadColors: 'plainColors',
+  forwardReadColors: 'blues',
+  reverseReadColors: 'reds',
   exonColors: 'lightColors',
   hideLegendFlag: false,
   colorReadsByMappingQuality: true,
@@ -2255,12 +2255,12 @@ function generateTrackColor(track, highlight) {
   if (track.hasOwnProperty('type') && track.type === 'read') {
     if (config.colorReadsByMappingQuality) {
       //qualityMapping is hacked to increment path color
-      trackColor = forwardReadColors[track.mapping_quality % 6]//[0]//forwardReadColors.length]
+      trackColor = plainColors[track.mapping_quality % 6]//[0]//forwardReadColors.length]
     } else {
-      if (track.hasOwnProperty('is_reverse') && track.is_reverse === true) {
-        trackColor = reverseReadColors[track.id % reverseReadColors.length];
+      if (track.hasOwnProperty('inversion_rate') && track.inversion_rate > 0.5) {
+        trackColor = reverseReadColors[Math.floor(track.mean_pos * reverseReadColors.length)];
       } else {
-        trackColor = forwardReadColors[track.id % forwardReadColors.length];
+        trackColor = forwardReadColors[Math.floor(track.mean_pos * forwardReadColors.length)];
       }
     }
   } else {
@@ -3659,7 +3659,7 @@ export function vgExtractReads(myNodes, myTracks, myReads) {
 
       track.mapping_quality = read.mapping_quality || 0;
       track.is_secondary = read.is_secondary || false;
-
+      track.is_reverse = read.inversion > 0.5;//|| false;
       extracted.push(track);
     }
   }
