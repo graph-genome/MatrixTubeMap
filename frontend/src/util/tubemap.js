@@ -8,8 +8,10 @@
 /* eslint no-loop-func: "off" */
 /* eslint no-unused-vars: "off" */
 /* eslint no-return-assign: "off" */
+//This file is reverted to the original SequenceTubemap version in order to identify why reads have the wrong x coordinates.
 import * as d3 from 'd3';
 import 'd3-selection-multi';
+import {LinkArc, drawArc} from './LinkArc';
 
 const DEBUG = false;
 
@@ -93,9 +95,10 @@ let assignments = []; // contains info about lane assignments sorted by order
 let extraLeft = []; // info whether nodes have to be moved further apart because of multiple 180° directional changes at the same horizontal order
 let extraRight = []; // info whether nodes have to be moved further apart because of multiple 180° directional changes at the same horizontal order
 let maxOrder; // horizontal order of the rightmost node
+let linkArcs = new Set(); //set of unique tuple(int, int)
 
 const config = {
-  mergeNodesFlag: false,
+  mergeNodesFlag: true,
   transparentNodesFlag: false,
   clickableNodesFlag: false,
   showExonsFlag: false,
@@ -108,11 +111,11 @@ const config = {
   showReads: true,
   showSoftClips: true,
   haplotypeColors: 'greys',
-  forwardReadColors: 'reds',
-  reverseReadColors: 'blues',
+  forwardReadColors: 'blues',
+  reverseReadColors: 'reds',
   exonColors: 'lightColors',
   hideLegendFlag: false,
-  colorReadsByMappingQuality: false,
+  colorReadsByMappingQuality: true,
   mappingQualityCutoff: 0,
   blocks: false,
   node_width: 1
@@ -484,23 +487,18 @@ function assignReadsToNodes() {
   });
   reads.forEach((read, idx) => {
     read.width = 7;
-    read.path.forEach((element, pathIdx) => {
-      nodes[read.path[pathIdx].node].incomingReads.push([idx, pathIdx]);
-    });
-    // if {read.path.length === 1) {
-    //   nodes[read.path[0].node].internalReads.push(idx);
-    // } else {
-    //   read.path.forEach((element, pathIdx) => {
-    //     if (pathIdx === 0) {
-    //       nodes[read.path[0].node].outgoingReads.push([idx, pathIdx]);
-    //     } else if (read.path[pathIdx].node !== null) {
-    //       nodes[read.path[pathIdx].node].incomingReads.push([idx, pathIdx]);
-    //     }
-    //   }
-    //   );
-    // }
-  }
-  );
+    if (read.path.length === 1) {
+      nodes[read.path[0].node].internalReads.push(idx);
+    } else {
+      read.path.forEach((element, pathIdx) => {
+        if (pathIdx === 0) {
+          nodes[read.path[0].node].outgoingReads.push([idx, pathIdx]);
+        } else if (read.path[pathIdx].node !== null) {
+          nodes[read.path[pathIdx].node].incomingReads.push([idx, pathIdx]);
+        }
+      });
+    }
+  });
 }
 
 function removeNonPathNodesFromReads() {
@@ -524,13 +522,13 @@ function placeReads() {
 
   // sort nodes by order, then by y-coordinate
   const sortedNodes = nodes.slice();
-  sortedNodes.sort(compareNodesByOrder);
+  //sortedNodes.sort(compareNodesByOrder);
 
   // iterate over all nodes
   sortedNodes.forEach(node => {
     // sort incoming reads
-    // node.incomingReads.sort(compareReadIncomingSegmentsByComingFrom);
-
+    //node.incomingReads.sort(compareReadIncomingSegmentsByComingFrom);
+    /*
     // place incoming reads
     let currentY = node.y + node.contentHeight;
     const occupiedUntil = new Map();
@@ -548,7 +546,7 @@ function placeReads() {
     let maxY = currentY;
 
     // sort outgoing reads
-    // node.outgoingReads.sort(compareReadOutgoingSegmentsByGoingTo);
+    //node.outgoingReads.sort(compareReadOutgoingSegmentsByGoingTo);
 
     // place outgoing reads
     const occupiedFrom = new Map();
@@ -585,22 +583,28 @@ function placeReads() {
         maxY += 7;
       }
     });
-
+    */
     // sort internal reads
-    // node.internalReads.sort(compareInternalReads);
+    //node.internalReads.sort(compareInternalReads);
 
     // place internal reads
+    let maxY = node.contentHeight;
     node.internalReads.forEach(readIdx => {
       const currentRead = reads[readIdx];
-      currentY = node.y + node.contentHeight;
+      let currentY = node.y + node.contentHeight;/*
       while (
         currentRead.firstNodeOffset < occupiedUntil.get(currentY) + 2 ||
         currentRead.finalNodeCoverLength > occupiedFrom.get(currentY) - 3
       ) {
         currentY += 7;
-      }
+      }*/
+      //!!! Rows sorted for sebastian 5 chromosomes, 12 individuals
+      let chrN = currentRead.mapping_quality % 5;
+      currentY = 7* (chrN * 12 + Math.floor(currentRead.mapping_quality / 5) ) + 35;
+
+      // currentY = 7 * currentRead.mapping_quality + 35; //!!! Normal rows
       currentRead.path[0].y = currentY;
-      occupiedUntil.set(currentY, currentRead.finalNodeCoverLength);
+      // occupiedUntil.set(currentY, currentRead.finalNodeCoverLength);
       maxY = Math.max(maxY, currentY);
     });
 
@@ -624,7 +628,7 @@ function placeReads() {
       }
     });
   });
-  elementsWithoutNode.sort(compareNoNodeReadsByPreviousY);
+  //elementsWithoutNode.sort(compareNoNodeReadsByPreviousY);
   elementsWithoutNode.forEach(element => {
     const segment = reads[element.readIndex].path[element.pathIndex];
     segment.y = bottomY[segment.order];
@@ -930,7 +934,7 @@ function reverseReversedReads() {
       seqLength =
         nodes[nodeMap.get(read.sequence[read.sequence.length - 1])]
           .sequenceLength;
-      read.finalNodeCoverLength = Math.max(1, seqLength - temp); //never negative
+      read.finalNodeCoverLength = seqLength - temp;
     }
   });
 }
@@ -1039,12 +1043,14 @@ function alignSVG() {
     // vertical adjustment so that top of graph is at top of svg
     // otherwise would violate translateExtent, which leads to graph "jumping" on next pan
     transform.y = (25 - minYCoordinate) * transform.k;
-    svg.attr('transform', transform);
+    //manual override for x-axis only zooming and pan
+    svg.attr('transform', `translate(${transform.x}, 25) scale(${transform.k}, 1)`);
+    //svg.attr('transform', transform);
     const svg2 = d3.select(svgID);
     // adjust height, so that vertical scroll bar is shown when necessary
     svg2.attr(
       'height',
-      (maxYCoordinate - minYCoordinate + 50) * d3.event.transform.k
+      (maxYCoordinate - minYCoordinate + 50)// * d3.event.transform.k
     );
     // adjust width to compensate for verical scroll bar appearing
     svg2.attr('width', document.getElementById('tubeMapSVG').clientWidth);
@@ -1057,7 +1063,7 @@ function alignSVG() {
   );
   zoom = d3
     .zoom()
-    .scaleExtent([minZoom, 8])
+    .scaleExtent([minZoom, 8])//minZoom is the X extent of svg
     .translateExtent([
       [-1, minYCoordinate - 25],
       [maxXCoordinate + 2, maxYCoordinate + 25]
@@ -1099,7 +1105,7 @@ export function zoomBy(zoomFactor) {
   );
   let translateX =
     width / 2.0 - ((width / 2.0 - transform.x) * translateK) / transform.k;
-  translateX = Math.min(translateX, 1 * translateK);
+  translateX = Math.min(translateX, translateK);
   translateX = Math.max(translateX, width - (maxXCoordinate + 2) * translateK);
   const translateY = (25 - minYCoordinate) * translateK;
   d3.select(svgID)
@@ -1569,7 +1575,7 @@ function generateNodeXCoords() {
   let nextX = 20;
   let currentOrder = -1;
   const sortedNodes = nodes.slice();
-  sortedNodes.sort(compareNodesByOrder);
+  //sortedNodes.sort(compareNodesByOrder);
   const extra = calculateExtraSpace();
 
   sortedNodes.forEach(node => {
@@ -1991,7 +1997,7 @@ function generateSingleLaneAssignment(assignment, order) {
   let prevTrack = -1;
 
   getIdealLanesAndCoords(assignment, order);
-  assignment.sort(compareByIdealLane);
+  //assignment.sort(compareByIdealLane);
 
   assignment.forEach(node => {
     if (node.node !== null) {
@@ -2006,7 +2012,7 @@ function generateSingleLaneAssignment(assignment, order) {
       prevNameIsNull = true;
     }
 
-    node.tracks.sort(compareByIdealLane);
+    //node.tracks.sort(compareByIdealLane);
     node.tracks.forEach(track => {
       track.lane = currentLane;
       if (track.trackID === prevTrack && node.node === null && prevNameIsNull) {
@@ -2197,9 +2203,6 @@ function calculateTrackWidth() {
       if (track.hasOwnProperty('type') && track.type === 'read') {
         track.width = 4;
       }
-      if (track.hasOwnProperty('name') && track.name === 'REF') {
-          track.width = 0;
-      }
     }
     if (track.width !== 4) {
       allAreFour = false;
@@ -2251,14 +2254,13 @@ function generateTrackColor(track, highlight) {
   let trackColor;
   if (track.hasOwnProperty('type') && track.type === 'read') {
     if (config.colorReadsByMappingQuality) {
-      trackColor = d3.interpolateRdYlGn(
-        Math.min(60, track.mapping_quality) / 60
-      );
+      //qualityMapping is hacked to increment path color
+      trackColor = plainColors[track.mapping_quality % 6]//[0]//forwardReadColors.length]
     } else {
-      if (track.hasOwnProperty('is_reverse') && track.is_reverse === true) {
-        trackColor = reverseReadColors[track.id % reverseReadColors.length];
+      if (track.hasOwnProperty('inversion_rate') && track.inversion_rate > 0.5) {
+        trackColor = reverseReadColors[Math.floor(track.mean_pos * reverseReadColors.length)];
       } else {
-        trackColor = forwardReadColors[track.id % forwardReadColors.length];
+        trackColor = forwardReadColors[Math.floor(track.mean_pos * forwardReadColors.length)];
       }
     }
   } else {
@@ -2293,7 +2295,7 @@ function getReadXEnd(read) {
   // read ends in backward direction
   return getXCoordinateOfBaseWithinNode(
     node,
-    Math.max(1, node.sequenceLength - read.finalNodeCoverLength)
+    node.sequenceLength - read.finalNodeCoverLength
   );
 }
 
@@ -2506,7 +2508,9 @@ function generateSVGShapesFromPath() {
       yEnd: yStart + track.width - 1,
       color: trackColor,
       id: track.id,
-      type: track.type
+      type: track.type,
+      name: track.name,
+      mean_pos: track.mean_pos
     });
   });
 }
@@ -2537,7 +2541,7 @@ function createFeatureRectangle(
     nodeWidth = nodes[node.node].width;
   }
 
-  node.features.sort((a, b) => a.start - b.start);
+  //node.features.sort((a, b) => a.start - b.start);
   node.features.forEach(feature => {
     if (currentHighlight !== feature.type) {
       // finish incoming rectangle
@@ -2880,6 +2884,19 @@ function drawNodes(dNodes) {
     .text(d => getPopUpText(d));
 }
 
+function getTitle(track){
+  if(track.type === "read"){
+    return (
+      `Name: ${track.name}\n` +
+      `Position:  ${track.mean_pos}\n` +
+      `Inversion: \n` +
+      `Coverage:  \n`
+    );
+  }else{
+    return '';
+  }
+}
+
 function getPopUpText(node) {
   return (
     `Node ID: ${node.name}\n` +
@@ -3001,6 +3018,8 @@ function drawTrackRectangles(rectangles, type) {
     .attr('trackID', d => d.id)
     .attr('class', d => `track${d.id}`)
     .attr('color', d => d.color)
+    .append('svg:title')
+    .text(d => getTitle(d))
     .on('mouseover', trackMouseOver)
     .on('mouseout', trackMouseOut)
     .on('dblclick', trackDoubleClick);
@@ -3206,7 +3225,7 @@ function drawTrackCurves(type) {
     filterObjectByAttribute('type', type)
   );
 
-  myTrackCurves.sort(compareCurvesByLineChanges);
+  //myTrackCurves.sort(compareCurvesByLineChanges);
 
   myTrackCurves.forEach(curve => {
     const xMiddle = (curve.xStart + curve.xEnd) / 2;
@@ -3345,18 +3364,6 @@ function nodeDoubleClick() {
   }
 }
 
-// extract info about nodes from blocks-json
-export function blocksExtractNodes(blocks) {
-  const result = [];
-  blocks.node.forEach(node => {
-    result.push({
-      name: `${node.id}`,
-      sequenceLength: node.sequenceLength,
-    });
-  });
-  return result;
-}
-
 // extract info about nodes from vg-json
 export function vgExtractNodes(vg) {
   const result = [];
@@ -3403,7 +3410,7 @@ function generateNodeWidth() {
               .attr('x', 0)
               .attr('y', 100)
               .attr('id', 'dummytext')
-              .text(node.seq.substr(1))
+              .text(node.seq ? node.seq.substr(1) : "")
               .attr('font-family', 'Courier, "Lucida Console", monospace')
               .attr('font-size', '14px')
               .attr('fill', 'black')
@@ -3420,10 +3427,6 @@ function generateNodeWidth() {
 
 // extract track info from vg-json
 export function vgExtractTracks(vg) {
-  let filtered_paths = vg.path.filter(function(value, index, arr) {
-    return value.hasOwnProperty('mapping');
-  });
-  vg.path = filtered_paths;
   const result = [];
   vg.path.forEach((path, index) => {
     const sequence = [];
@@ -3467,8 +3470,8 @@ function compareReadsByLeftEnd(a, b) {
   if (a.sequence[0].charAt(0) === '-') {
     if (a.sequence[a.sequence.length - 1].charAt(0) === '-') {
       leftNodeA = a.sequence[a.sequence.length - 1].substr(1);
-      leftIndexA = Math.max(0,
-        nodes[nodeMap.get(leftNodeA)].sequenceLength - a.finalNodeCoverLength);
+      leftIndexA =
+        nodes[nodeMap.get(leftNodeA)].sequenceLength - a.finalNodeCoverLength;
     } else {
       leftNodeA = a.sequence[a.sequence.length - 1];
       leftIndexA = 0;
@@ -3481,8 +3484,8 @@ function compareReadsByLeftEnd(a, b) {
   if (b.sequence[0].charAt(0) === '-') {
     if (b.sequence[b.sequence.length - 1].charAt(0) === '-') {
       leftNodeB = b.sequence[b.sequence.length - 1].substr(1);
-      leftIndexB =Math.max(0,
-        nodes[nodeMap.get(leftNodeB)].sequenceLength - b.finalNodeCoverLength);
+      leftIndexB =
+        nodes[nodeMap.get(leftNodeB)].sequenceLength - b.finalNodeCoverLength;
     } else {
       leftNodeB = b.sequence[b.sequence.length - 1];
       leftIndexB = 0;
@@ -3656,7 +3659,7 @@ export function vgExtractReads(myNodes, myTracks, myReads) {
 
       track.mapping_quality = read.mapping_quality || 0;
       track.is_secondary = read.is_secondary || false;
-
+      track.is_reverse = read.inversion > 0.5;//|| false;
       extracted.push(track);
     }
   }
@@ -3745,7 +3748,7 @@ function mergeNodes() {
   if (reads && config.showReads) {
     // sort nodes by order, then by y-coordinate
     const sortedNodes = nodes.slice();
-    sortedNodes.sort(compareNodesByOrder);
+    //sortedNodes.sort(compareNodesByOrder);
 
     // iterate over all nodes and calculate their position within the new merged node
     const mergeOffset = new Map();
@@ -3910,11 +3913,12 @@ function drawMismatches() {
             );
             drawSubstitution(x + 1, x2, y + 7, node.y, mm.seq);
           } else if (mm.type === 'link') {
-            const x2 = getXCoordinateOfBaseWithinNode(
-                node,
-                mm.pos + mm.seq.length
-            );
-            drawLink(x + 1, x2, y + 7, node.y, mm.seq, mm.query);
+            //restricted them to long range links and capped the quantity.
+            let linkDistance = Math.abs(Number(mm.query) - mm.pos);
+            if (linkArcs.size < 1000 && linkDistance > 100) {
+              var end = getXCoordinateOfBaseWithinNode(node, mm.query);
+              drawLink(x + 1, x+2, y + 7, node.y, "i", end);//mm.seq
+            }
           }
         });
       });
@@ -3951,28 +3955,51 @@ function drawSubstitution(x1, x2, y, nodeY, seq) {
     .attr('rightX', x2)
     .on('mouseover', substitutionMouseOver)
     .on('mouseout', substitutionMouseOut)
-    .on('click', linkMouseClick);
 }
 
-function drawLink(x1, x2, y, nodeY, seq, query) {
-  svg
-      .append('text')
-      .attr('x', x1)
-      .attr('y', y)
-      .attr('query', query)
-      .text(seq)
-      .attr('font-family', 'Courier, "Lucida Console", monospace')
-      .attr('font-size', '12px')
-      .attr('fill', 'black')
-      .attr('nodeY', nodeY)
-      .attr('rightX', x2)
-      .on('mouseover', substitutionMouseOver)
+function drawLink(x1, x2, y, nodeY, seq, end) {
+  let record = new LinkArc(x1, end);
+  let srec = record.toString();
+  if(!linkArcs.has(srec)){ // not already seen
+    linkArcs.add(srec);
+    drawArc(x1, x2, y, nodeY, seq, end, svg)
+      .on('mouseover', linkMouseOver)
       .on('mouseout', substitutionMouseOut)
       .on('click', linkMouseClick);
+  }
 }
 
-function linkMouseClick() {
-  window.open(this.getAttribute('query'));
+function linkMouseClick(){
+  /** Click updates the URL and translates to the target. **/
+  window.history.pushState('link', 'MatrixTubemap', this.getAttribute('query'));
+
+  // const pos = d3.select(svgID)._groups[0][0].transform;
+  const targetX = getXCoordinateOfBaseWithinNode(nodes[0], this.getAttribute('query')) + 1;
+  let xOffset = -Math.max(0, Math.min(targetX, maxXCoordinate));//*pos.k; // TODO zoom order of operations
+  const screenWidth = d3.select(svgID).attr('width');
+  xOffset += screenWidth / 2;
+  d3.select(svgID).call(
+    zoom.transform,
+    d3.zoomIdentity.translate(xOffset, 25)
+  );
+  // svg.attr('transform', `translate(${pos.x}, 0) scale(${pos.k}, 1)`);
+  //to animate
+  // d3.select(svgID)
+  //   .transition()
+  //   .duration(750)
+  //   .call(
+  //     zoom.transform,
+  //     d3.zoomIdentity.translate(translateX, translateY).scale(translateK)
+  //   );
+}
+
+function linkMouseOver() {
+  let x1 = this.getAttribute('query');
+  const x2 = Number(d3.select(this).attr('x1'));
+  const y = 100 * 12;//Number(d3.select(this).attr('y'));
+  const yTop = Number(d3.select(this).attr('nodeY'));
+  d3.select(this).attr('stroke', 'red');
+  highlightPointX(x1, y, yTop, x2, "red");
 }
 
 function drawDeletion(x1, x2, y, nodeY) {
@@ -4034,13 +4061,7 @@ function deletionMouseOver() {
     .attr('stroke', 'black');
 }
 
-function substitutionMouseOver() {
-  /* jshint validthis: true */
-  d3.select(this).attr('fill', 'red');
-  const x1 = Number(d3.select(this).attr('x'));
-  const x2 = Number(d3.select(this).attr('rightX'));
-  const y = Number(d3.select(this).attr('y'));
-  const yTop = Number(d3.select(this).attr('nodeY'));
+function highlightPointX(x1, y, yTop, x2, color) {
   svg
     .append('line')
     .attr('class', 'substitutionHighlight')
@@ -4049,7 +4070,7 @@ function substitutionMouseOver() {
     .attr('x2', x1 - 1)
     .attr('y2', yTop + 5)
     .attr('stroke-width', 1)
-    .attr('stroke', 'black');
+    .attr('stroke', color);
   svg
     .append('line')
     .attr('class', 'substitutionHighlight')
@@ -4058,7 +4079,18 @@ function substitutionMouseOver() {
     .attr('x2', x2 + 1)
     .attr('y2', yTop + 5)
     .attr('stroke-width', 1)
-    .attr('stroke', 'black');
+    .attr('stroke', color);
+}
+
+function substitutionMouseOver() {
+  /* Mouseover draws a red line at both locations.  */
+  /* jshint validthis: true */
+  d3.select(this).attr('fill', 'red');
+  const x1 = Number(d3.select(this).attr('x'));
+  const x2 = Number(d3.select(this).attr('rightX'));
+  const y = Number(d3.select(this).attr('y'));
+  const yTop = Number(d3.select(this).attr('nodeY'));
+  highlightPointX(x1, y, yTop, x2, "black");
 }
 
 function insertionMouseOut() {
@@ -4075,7 +4107,7 @@ function deletionMouseOut() {
 
 function substitutionMouseOut() {
   /* jshint validthis: true */
-  d3.select(this).attr('fill', 'black');
+  d3.select(this).attr('stroke', 'black');
   d3.selectAll('.substitutionHighlight').remove();
 }
 

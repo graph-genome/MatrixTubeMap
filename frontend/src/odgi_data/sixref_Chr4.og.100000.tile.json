@@ -1,0 +1,1867 @@
+{
+  "nodes": [
+    {
+      "name": "Layout",
+      "sequenceLength": 314
+    }
+  ],
+  "tracks": [
+    {
+      "id": 0,
+      "name": "REF",
+      "indexOfFirstBase": 0,
+      "sequence": [
+        "Layout"
+      ]
+    }
+  ],
+  "reads": [
+    {
+      "firstNodeOffset": 1,
+      "finalNodeCoverLength": 24,
+      "mapping_quality": 0,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT6909_Chr4",
+      "id": 0,
+      "mean_pos": 0.0964836
+    },
+    {
+      "firstNodeOffset": 30,
+      "finalNodeCoverLength": 48,
+      "mapping_quality": 0,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT6909_Chr4",
+      "id": 1,
+      "mean_pos": 0.155811
+    },
+    {
+      "firstNodeOffset": 50,
+      "finalNodeCoverLength": 53,
+      "mapping_quality": 0,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT6909_Chr4",
+      "id": 2,
+      "mean_pos": 0.161472
+    },
+    {
+      "firstNodeOffset": 56,
+      "finalNodeCoverLength": 56,
+      "mapping_quality": 0,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT6909_Chr4",
+      "id": 3,
+      "mean_pos": 0.161703
+    },
+    {
+      "firstNodeOffset": 58,
+      "finalNodeCoverLength": 60,
+      "mapping_quality": 0,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT6909_Chr4",
+      "id": 4,
+      "mean_pos": 0.16392
+    },
+    {
+      "firstNodeOffset": 66,
+      "finalNodeCoverLength": 78,
+      "mapping_quality": 0,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT6909_Chr4",
+      "id": 5,
+      "mean_pos": 0.193316
+    },
+    {
+      "firstNodeOffset": 80,
+      "finalNodeCoverLength": 92,
+      "mapping_quality": 0,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT6909_Chr4",
+      "id": 6,
+      "mean_pos": 0.222326
+    },
+    {
+      "firstNodeOffset": 95,
+      "finalNodeCoverLength": 116,
+      "mapping_quality": 0,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT6909_Chr4",
+      "id": 7,
+      "mean_pos": 0.252343
+    },
+    {
+      "firstNodeOffset": 120,
+      "finalNodeCoverLength": 132,
+      "mapping_quality": 0,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT6909_Chr4",
+      "id": 8,
+      "mean_pos": 0.282688
+    },
+    {
+      "firstNodeOffset": 136,
+      "finalNodeCoverLength": 222,
+      "mapping_quality": 0,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT6909_Chr4",
+      "id": 9,
+      "mean_pos": 0.602426
+    },
+    {
+      "firstNodeOffset": 226,
+      "finalNodeCoverLength": 228,
+      "mapping_quality": 0,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": [
+            {
+              "type": "link",
+              "query": 0,
+              "seq": "L",
+              "pos": 313
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "AT6909_Chr4",
+      "id": 10,
+      "mean_pos": 0.612445
+    },
+    {
+      "firstNodeOffset": 230,
+      "finalNodeCoverLength": 313,
+      "mapping_quality": 0,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT6909_Chr4",
+      "id": 11,
+      "mean_pos": 0
+    },
+    {
+      "firstNodeOffset": 1,
+      "finalNodeCoverLength": 24,
+      "mapping_quality": 1,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT1741_Chr4",
+      "id": 12,
+      "mean_pos": 0.0954154
+    },
+    {
+      "firstNodeOffset": 30,
+      "finalNodeCoverLength": 48,
+      "mapping_quality": 1,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT1741_Chr4",
+      "id": 13,
+      "mean_pos": 0.153239
+    },
+    {
+      "firstNodeOffset": 50,
+      "finalNodeCoverLength": 53,
+      "mapping_quality": 1,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT1741_Chr4",
+      "id": 14,
+      "mean_pos": 0.159214
+    },
+    {
+      "firstNodeOffset": 56,
+      "finalNodeCoverLength": 56,
+      "mapping_quality": 1,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT1741_Chr4",
+      "id": 15,
+      "mean_pos": 0.159443
+    },
+    {
+      "firstNodeOffset": 58,
+      "finalNodeCoverLength": 60,
+      "mapping_quality": 1,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT1741_Chr4",
+      "id": 16,
+      "mean_pos": 0.161629
+    },
+    {
+      "firstNodeOffset": 66,
+      "finalNodeCoverLength": 78,
+      "mapping_quality": 1,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT1741_Chr4",
+      "id": 17,
+      "mean_pos": 0.190191
+    },
+    {
+      "firstNodeOffset": 80,
+      "finalNodeCoverLength": 91,
+      "mapping_quality": 1,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT1741_Chr4",
+      "id": 18,
+      "mean_pos": 0.216591
+    },
+    {
+      "firstNodeOffset": 93,
+      "finalNodeCoverLength": 116,
+      "mapping_quality": 1,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT1741_Chr4",
+      "id": 19,
+      "mean_pos": 0.249402
+    },
+    {
+      "firstNodeOffset": 120,
+      "finalNodeCoverLength": 129,
+      "mapping_quality": 1,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT1741_Chr4",
+      "id": 20,
+      "mean_pos": 0.268792
+    },
+    {
+      "firstNodeOffset": 132,
+      "finalNodeCoverLength": 222,
+      "mapping_quality": 1,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT1741_Chr4",
+      "id": 21,
+      "mean_pos": 0.598974
+    },
+    {
+      "firstNodeOffset": 225,
+      "finalNodeCoverLength": 228,
+      "mapping_quality": 1,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": [
+            {
+              "type": "link",
+              "query": 0,
+              "seq": "L",
+              "pos": 313
+            },
+            {
+              "type": "link",
+              "query": 0,
+              "seq": "L",
+              "pos": 313
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "AT1741_Chr4",
+      "id": 22,
+      "mean_pos": 0.610943
+    },
+    {
+      "firstNodeOffset": 230,
+      "finalNodeCoverLength": 313,
+      "mapping_quality": 1,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT1741_Chr4",
+      "id": 23,
+      "mean_pos": 0
+    },
+    {
+      "firstNodeOffset": 1,
+      "finalNodeCoverLength": 24,
+      "mapping_quality": 2,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "TAIR10_Chr4",
+      "id": 24,
+      "mean_pos": 0.0965915
+    },
+    {
+      "firstNodeOffset": 30,
+      "finalNodeCoverLength": 48,
+      "mapping_quality": 2,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "TAIR10_Chr4",
+      "id": 25,
+      "mean_pos": 0.155802
+    },
+    {
+      "firstNodeOffset": 50,
+      "finalNodeCoverLength": 50,
+      "mapping_quality": 2,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "TAIR10_Chr4",
+      "id": 26,
+      "mean_pos": 0.158441
+    },
+    {
+      "firstNodeOffset": 52,
+      "finalNodeCoverLength": 53,
+      "mapping_quality": 2,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "TAIR10_Chr4",
+      "id": 27,
+      "mean_pos": 0.159864
+    },
+    {
+      "firstNodeOffset": 56,
+      "finalNodeCoverLength": 56,
+      "mapping_quality": 2,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "TAIR10_Chr4",
+      "id": 28,
+      "mean_pos": 0.160097
+    },
+    {
+      "firstNodeOffset": 58,
+      "finalNodeCoverLength": 60,
+      "mapping_quality": 2,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "TAIR10_Chr4",
+      "id": 29,
+      "mean_pos": 0.162336
+    },
+    {
+      "firstNodeOffset": 66,
+      "finalNodeCoverLength": 77,
+      "mapping_quality": 2,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "TAIR10_Chr4",
+      "id": 30,
+      "mean_pos": 0.182169
+    },
+    {
+      "firstNodeOffset": 79,
+      "finalNodeCoverLength": 91,
+      "mapping_quality": 2,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "TAIR10_Chr4",
+      "id": 31,
+      "mean_pos": 0.213123
+    },
+    {
+      "firstNodeOffset": 93,
+      "finalNodeCoverLength": 116,
+      "mapping_quality": 2,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "TAIR10_Chr4",
+      "id": 32,
+      "mean_pos": 0.247848
+    },
+    {
+      "firstNodeOffset": 120,
+      "finalNodeCoverLength": 132,
+      "mapping_quality": 2,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "TAIR10_Chr4",
+      "id": 33,
+      "mean_pos": 0.277906
+    },
+    {
+      "firstNodeOffset": 136,
+      "finalNodeCoverLength": 222,
+      "mapping_quality": 2,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "TAIR10_Chr4",
+      "id": 34,
+      "mean_pos": 0.599715
+    },
+    {
+      "firstNodeOffset": 226,
+      "finalNodeCoverLength": 228,
+      "mapping_quality": 2,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": [
+            {
+              "type": "link",
+              "query": 0,
+              "seq": "L",
+              "pos": 313
+            },
+            {
+              "type": "link",
+              "query": 0,
+              "seq": "L",
+              "pos": 313
+            },
+            {
+              "type": "link",
+              "query": 0,
+              "seq": "L",
+              "pos": 313
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "TAIR10_Chr4",
+      "id": 35,
+      "mean_pos": 0.609806
+    },
+    {
+      "firstNodeOffset": 230,
+      "finalNodeCoverLength": 313,
+      "mapping_quality": 2,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "TAIR10_Chr4",
+      "id": 36,
+      "mean_pos": 0
+    },
+    {
+      "firstNodeOffset": 1,
+      "finalNodeCoverLength": 21,
+      "mapping_quality": 3,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT7186_Chr4",
+      "id": 37,
+      "mean_pos": 0.0857063
+    },
+    {
+      "firstNodeOffset": 24,
+      "finalNodeCoverLength": 24,
+      "mapping_quality": 3,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT7186_Chr4",
+      "id": 38,
+      "mean_pos": 0.0861765
+    },
+    {
+      "firstNodeOffset": 26,
+      "finalNodeCoverLength": 26,
+      "mapping_quality": 3,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT7186_Chr4",
+      "id": 39,
+      "mean_pos": 0.0864701
+    },
+    {
+      "firstNodeOffset": 30,
+      "finalNodeCoverLength": 49,
+      "mapping_quality": 3,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT7186_Chr4",
+      "id": 40,
+      "mean_pos": 0.145636
+    },
+    {
+      "firstNodeOffset": 52,
+      "finalNodeCoverLength": 53,
+      "mapping_quality": 3,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT7186_Chr4",
+      "id": 41,
+      "mean_pos": 0.146382
+    },
+    {
+      "firstNodeOffset": 56,
+      "finalNodeCoverLength": 56,
+      "mapping_quality": 3,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT7186_Chr4",
+      "id": 42,
+      "mean_pos": 0.1466
+    },
+    {
+      "firstNodeOffset": 58,
+      "finalNodeCoverLength": 66,
+      "mapping_quality": 3,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT7186_Chr4",
+      "id": 43,
+      "mean_pos": 0.173157
+    },
+    {
+      "firstNodeOffset": 68,
+      "finalNodeCoverLength": 91,
+      "mapping_quality": 3,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT7186_Chr4",
+      "id": 44,
+      "mean_pos": 0.219194
+    },
+    {
+      "firstNodeOffset": 93,
+      "finalNodeCoverLength": 111,
+      "mapping_quality": 3,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT7186_Chr4",
+      "id": 45,
+      "mean_pos": 0.25771
+    },
+    {
+      "firstNodeOffset": 113,
+      "finalNodeCoverLength": 129,
+      "mapping_quality": 3,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT7186_Chr4",
+      "id": 46,
+      "mean_pos": 0.288161
+    },
+    {
+      "firstNodeOffset": 132,
+      "finalNodeCoverLength": 222,
+      "mapping_quality": 3,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT7186_Chr4",
+      "id": 47,
+      "mean_pos": 0.607871
+    },
+    {
+      "firstNodeOffset": 225,
+      "finalNodeCoverLength": 228,
+      "mapping_quality": 3,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": [
+            {
+              "type": "link",
+              "query": 0,
+              "seq": "L",
+              "pos": 313
+            },
+            {
+              "type": "link",
+              "query": 0,
+              "seq": "L",
+              "pos": 313
+            },
+            {
+              "type": "link",
+              "query": 0,
+              "seq": "L",
+              "pos": 313
+            },
+            {
+              "type": "link",
+              "query": 0,
+              "seq": "L",
+              "pos": 313
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "AT7186_Chr4",
+      "id": 48,
+      "mean_pos": 0.620407
+    },
+    {
+      "firstNodeOffset": 230,
+      "finalNodeCoverLength": 313,
+      "mapping_quality": 3,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT7186_Chr4",
+      "id": 49,
+      "mean_pos": 0
+    },
+    {
+      "firstNodeOffset": 1,
+      "finalNodeCoverLength": 21,
+      "mapping_quality": 4,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT5784_Chr4",
+      "id": 50,
+      "mean_pos": 0.0826974
+    },
+    {
+      "firstNodeOffset": 24,
+      "finalNodeCoverLength": 24,
+      "mapping_quality": 4,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT5784_Chr4",
+      "id": 51,
+      "mean_pos": 0.0842103
+    },
+    {
+      "firstNodeOffset": 28,
+      "finalNodeCoverLength": 49,
+      "mapping_quality": 4,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT5784_Chr4",
+      "id": 52,
+      "mean_pos": 0.152967
+    },
+    {
+      "firstNodeOffset": 52,
+      "finalNodeCoverLength": 60,
+      "mapping_quality": 4,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT5784_Chr4",
+      "id": 53,
+      "mean_pos": 0.188194
+    },
+    {
+      "firstNodeOffset": 65,
+      "finalNodeCoverLength": 66,
+      "mapping_quality": 4,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT5784_Chr4",
+      "id": 54,
+      "mean_pos": 0.192003
+    },
+    {
+      "firstNodeOffset": 68,
+      "finalNodeCoverLength": 77,
+      "mapping_quality": 4,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT5784_Chr4",
+      "id": 55,
+      "mean_pos": 0.213203
+    },
+    {
+      "firstNodeOffset": 79,
+      "finalNodeCoverLength": 116,
+      "mapping_quality": 4,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT5784_Chr4",
+      "id": 56,
+      "mean_pos": 0.280118
+    },
+    {
+      "firstNodeOffset": 120,
+      "finalNodeCoverLength": 129,
+      "mapping_quality": 4,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT5784_Chr4",
+      "id": 57,
+      "mean_pos": 0.299481
+    },
+    {
+      "firstNodeOffset": 132,
+      "finalNodeCoverLength": 228,
+      "mapping_quality": 4,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": [
+            {
+              "type": "link",
+              "query": 0,
+              "seq": "L",
+              "pos": 313
+            },
+            {
+              "type": "link",
+              "query": 0,
+              "seq": "L",
+              "pos": 313
+            },
+            {
+              "type": "link",
+              "query": 0,
+              "seq": "L",
+              "pos": 313
+            },
+            {
+              "type": "link",
+              "query": 0,
+              "seq": "L",
+              "pos": 313
+            },
+            {
+              "type": "link",
+              "query": 0,
+              "seq": "L",
+              "pos": 313
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "AT5784_Chr4",
+      "id": 58,
+      "mean_pos": 0.63478
+    },
+    {
+      "firstNodeOffset": 230,
+      "finalNodeCoverLength": 313,
+      "mapping_quality": 4,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT5784_Chr4",
+      "id": 59,
+      "mean_pos": 0
+    },
+    {
+      "firstNodeOffset": 1,
+      "finalNodeCoverLength": 21,
+      "mapping_quality": 5,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT6911_Chr4",
+      "id": 60,
+      "mean_pos": 0.0857633
+    },
+    {
+      "firstNodeOffset": 24,
+      "finalNodeCoverLength": 26,
+      "mapping_quality": 5,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT6911_Chr4",
+      "id": 61,
+      "mean_pos": 0.0957793
+    },
+    {
+      "firstNodeOffset": 30,
+      "finalNodeCoverLength": 48,
+      "mapping_quality": 5,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT6911_Chr4",
+      "id": 62,
+      "mean_pos": 0.161488
+    },
+    {
+      "firstNodeOffset": 52,
+      "finalNodeCoverLength": 53,
+      "mapping_quality": 5,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT6911_Chr4",
+      "id": 63,
+      "mean_pos": 0.162022
+    },
+    {
+      "firstNodeOffset": 56,
+      "finalNodeCoverLength": 56,
+      "mapping_quality": 5,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT6911_Chr4",
+      "id": 64,
+      "mean_pos": 0.162248
+    },
+    {
+      "firstNodeOffset": 58,
+      "finalNodeCoverLength": 60,
+      "mapping_quality": 5,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT6911_Chr4",
+      "id": 65,
+      "mean_pos": 0.163435
+    },
+    {
+      "firstNodeOffset": 65,
+      "finalNodeCoverLength": 66,
+      "mapping_quality": 5,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT6911_Chr4",
+      "id": 66,
+      "mean_pos": 0.164246
+    },
+    {
+      "firstNodeOffset": 68,
+      "finalNodeCoverLength": 77,
+      "mapping_quality": 5,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT6911_Chr4",
+      "id": 67,
+      "mean_pos": 0.182852
+    },
+    {
+      "firstNodeOffset": 79,
+      "finalNodeCoverLength": 91,
+      "mapping_quality": 5,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT6911_Chr4",
+      "id": 68,
+      "mean_pos": 0.210412
+    },
+    {
+      "firstNodeOffset": 95,
+      "finalNodeCoverLength": 111,
+      "mapping_quality": 5,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT6911_Chr4",
+      "id": 69,
+      "mean_pos": 0.242889
+    },
+    {
+      "firstNodeOffset": 113,
+      "finalNodeCoverLength": 117,
+      "mapping_quality": 5,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT6911_Chr4",
+      "id": 70,
+      "mean_pos": 0.25533
+    },
+    {
+      "firstNodeOffset": 120,
+      "finalNodeCoverLength": 129,
+      "mapping_quality": 5,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT6911_Chr4",
+      "id": 71,
+      "mean_pos": 0.274386
+    },
+    {
+      "firstNodeOffset": 136,
+      "finalNodeCoverLength": 221,
+      "mapping_quality": 5,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": [
+            {
+              "type": "link",
+              "query": 0,
+              "seq": "L",
+              "pos": 313
+            },
+            {
+              "type": "link",
+              "query": 0,
+              "seq": "L",
+              "pos": 313
+            },
+            {
+              "type": "link",
+              "query": 0,
+              "seq": "L",
+              "pos": 313
+            },
+            {
+              "type": "link",
+              "query": 0,
+              "seq": "L",
+              "pos": 313
+            },
+            {
+              "type": "link",
+              "query": 0,
+              "seq": "L",
+              "pos": 313
+            },
+            {
+              "type": "link",
+              "query": 0,
+              "seq": "L",
+              "pos": 313
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "AT6911_Chr4",
+      "id": 72,
+      "mean_pos": 0.585151
+    },
+    {
+      "firstNodeOffset": 225,
+      "finalNodeCoverLength": 313,
+      "mapping_quality": 5,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT6911_Chr4",
+      "id": 73,
+      "mean_pos": 0
+    },
+    {
+      "firstNodeOffset": 1,
+      "finalNodeCoverLength": 21,
+      "mapping_quality": 6,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT7213_Chr4",
+      "id": 74,
+      "mean_pos": 0.0905112
+    },
+    {
+      "firstNodeOffset": 24,
+      "finalNodeCoverLength": 24,
+      "mapping_quality": 6,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT7213_Chr4",
+      "id": 75,
+      "mean_pos": 0.0912373
+    },
+    {
+      "firstNodeOffset": 26,
+      "finalNodeCoverLength": 28,
+      "mapping_quality": 6,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT7213_Chr4",
+      "id": 76,
+      "mean_pos": 0.0997036
+    },
+    {
+      "firstNodeOffset": 30,
+      "finalNodeCoverLength": 50,
+      "mapping_quality": 6,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT7213_Chr4",
+      "id": 77,
+      "mean_pos": 0.162617
+    },
+    {
+      "firstNodeOffset": 52,
+      "finalNodeCoverLength": 53,
+      "mapping_quality": 6,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT7213_Chr4",
+      "id": 78,
+      "mean_pos": 0.163371
+    },
+    {
+      "firstNodeOffset": 56,
+      "finalNodeCoverLength": 56,
+      "mapping_quality": 6,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT7213_Chr4",
+      "id": 79,
+      "mean_pos": 0.163592
+    },
+    {
+      "firstNodeOffset": 58,
+      "finalNodeCoverLength": 62,
+      "mapping_quality": 6,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT7213_Chr4",
+      "id": 80,
+      "mean_pos": 0.176509
+    },
+    {
+      "firstNodeOffset": 64,
+      "finalNodeCoverLength": 66,
+      "mapping_quality": 6,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT7213_Chr4",
+      "id": 81,
+      "mean_pos": 0.177889
+    },
+    {
+      "firstNodeOffset": 68,
+      "finalNodeCoverLength": 111,
+      "mapping_quality": 6,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT7213_Chr4",
+      "id": 82,
+      "mean_pos": 0.263487
+    },
+    {
+      "firstNodeOffset": 113,
+      "finalNodeCoverLength": 116,
+      "mapping_quality": 6,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT7213_Chr4",
+      "id": 83,
+      "mean_pos": 0.2667
+    },
+    {
+      "firstNodeOffset": 119,
+      "finalNodeCoverLength": 130,
+      "mapping_quality": 6,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT7213_Chr4",
+      "id": 84,
+      "mean_pos": 0.295837
+    },
+    {
+      "firstNodeOffset": 136,
+      "finalNodeCoverLength": 221,
+      "mapping_quality": 6,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT7213_Chr4",
+      "id": 85,
+      "mean_pos": 0.60363
+    },
+    {
+      "firstNodeOffset": 225,
+      "finalNodeCoverLength": 228,
+      "mapping_quality": 6,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": [
+            {
+              "type": "link",
+              "query": 0,
+              "seq": "L",
+              "pos": 313
+            },
+            {
+              "type": "link",
+              "query": 0,
+              "seq": "L",
+              "pos": 313
+            },
+            {
+              "type": "link",
+              "query": 0,
+              "seq": "L",
+              "pos": 313
+            },
+            {
+              "type": "link",
+              "query": 0,
+              "seq": "L",
+              "pos": 313
+            },
+            {
+              "type": "link",
+              "query": 0,
+              "seq": "L",
+              "pos": 313
+            },
+            {
+              "type": "link",
+              "query": 0,
+              "seq": "L",
+              "pos": 313
+            },
+            {
+              "type": "link",
+              "query": 0,
+              "seq": "L",
+              "pos": 313
+            }
+          ]
+        }
+      ],
+      "type": "read",
+      "name": "AT7213_Chr4",
+      "id": 86,
+      "mean_pos": 0.615899
+    },
+    {
+      "firstNodeOffset": 230,
+      "finalNodeCoverLength": 313,
+      "mapping_quality": 6,
+      "is_secondary": false,
+      "sequence": [
+        "Layout"
+      ],
+      "sequenceNew": [
+        {
+          "nodeName": "Layout",
+          "mismatches": []
+        }
+      ],
+      "type": "read",
+      "name": "AT7213_Chr4",
+      "id": 87,
+      "mean_pos": 0
+    }
+  ]
+}

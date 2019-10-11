@@ -72,7 +72,7 @@ class ExampleSelectButtons extends Component {
           color="primary"
           id="example7"
           onClick={() =>
-            this.handleClick(dataOriginTypes.EXAMPLE_7, 'greys', 'reds')
+            this.handleClick(dataOriginTypes.DRB1, 'greys', 'reds')
           }
         >
           Blocks

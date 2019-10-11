@@ -20,7 +20,7 @@ class App extends Component {
         anchorTrackName: '17',
         dataPath: 'default'
       },
-      dataOrigin: dataOriginTypes.EXAMPLE_7,
+      dataOrigin: dataOriginTypes.sixref,
       visOptions: {
         removeRedundantNodes: false,
         compressedView: false,
@@ -30,7 +30,7 @@ class App extends Component {
         haplotypeColors: 'greys',
         forwardReadColors: 'reds',
         reverseReadColors: 'blues',
-        colorReadsByMappingQuality: false,
+        colorReadsByMappingQuality: true,
         mappingQualityCutoff: 0,
         blocks: false
       }
