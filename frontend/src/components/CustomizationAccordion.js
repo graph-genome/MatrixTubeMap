@@ -94,12 +94,6 @@ class VisualizationOptions extends Component {
 
                 <h5>Colors</h5>
                 <Form>
-                  <RadioRow
-                    rowHeading="Haplotypes"
-                    color={visOptions.haplotypeColors}
-                    trackType="haplotypeColors"
-                    setColorSetting={this.props.setColorSetting}
-                  />
                   {visOptions.showReads &&
                     !visOptions.colorReadsByMappingQuality && (
                       <React.Fragment>
