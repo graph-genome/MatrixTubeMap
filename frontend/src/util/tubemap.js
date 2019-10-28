@@ -47,30 +47,34 @@ const reds = [
 
 // d3 category10
 const plainColors = [
-  '#1f77b4',
-  '#ff7f0e',
-  '#2ca02c',
-  '#d62728',
-  '#9467bd',
-  '#8c564b',
-  '#e377c2',
-  '#7f7f7f',
-  '#bcbd22',
-  '#17becf'
+  '#a6cee3',
+  '#1f78b4',
+  '#b2df8a',
+  '#33a02c',
+  '#fb9a99',
+  '#e31a1c',
+  '#fdbf6f',
+  '#ff7f00',
+  '#cab2d6',
+  '#6a3d9a',
+  '#ffff99',
+  '#b15928',
 ];
 
 // d3 category10
 const lightColors = [
-  '#ABCCE3',
-  '#FFCFA5',
-  '#B0DBB0',
-  '#F0AEAE',
-  '#D7C6E6',
-  '#C6ABA5',
-  '#F4CCE8',
-  '#CFCFCF',
-  '#E6E6AC',
-  '#A8E7ED'
+  '#a6cee3',
+  '#1f78b4',
+  '#b2df8a',
+  '#33a02c',
+  '#fb9a99',
+  '#e31a1c',
+  '#fdbf6f',
+  '#ff7f00',
+  '#cab2d6',
+  '#6a3d9a',
+  '#ffff99',
+  '#b15928',
 ];
 
 let haplotypeColors = [];
@@ -115,7 +119,7 @@ const config = {
   reverseReadColors: 'reds',
   exonColors: 'lightColors',
   hideLegendFlag: false,
-  colorReadsByMappingQuality: true,
+  colorReadsByMappingQuality: false,
   mappingQualityCutoff: 0,
   blocks: false,
   node_width: 1
@@ -600,7 +604,8 @@ function placeReads() {
       }*/
       //!!! Rows sorted for sebastian 5 chromosomes, 12 individuals
       let chrN = currentRead.mapping_quality % 5;
-      currentY = 7* (chrN * 12 + Math.floor(currentRead.mapping_quality / 5) ) + 35;
+      let rowNumber = chrN * 12 + Math.floor(currentRead.mapping_quality / 5);
+      currentY = 7* rowNumber + 35;
 
       // currentY = 7 * currentRead.mapping_quality + 35; //!!! Normal rows
       currentRead.path[0].y = currentY;
@@ -2255,7 +2260,11 @@ function generateTrackColor(track, highlight) {
   if (track.hasOwnProperty('type') && track.type === 'read') {
     if (config.colorReadsByMappingQuality) {
       //qualityMapping is hacked to increment path color
-      trackColor = plainColors[track.mapping_quality % 6]//[0]//forwardReadColors.length]
+      //!!! Rows sorted for sebastian 5 chromosomes, 12 individuals
+      let chrN = track.mapping_quality % 5;
+      let rowNumber = chrN * 12 + Math.floor(track.mapping_quality / 5);
+      trackColor = plainColors[rowNumber % plainColors.length];
+      //trackColor = plainColors[track.mapping_quality % plainColors.length]//[0]//forwardReadColors.length]
     } else {
       if (track.hasOwnProperty('inversion_rate') && track.inversion_rate > 0.5) {
         trackColor = reverseReadColors[Math.floor(track.mean_pos * reverseReadColors.length)];
@@ -2510,7 +2519,8 @@ function generateSVGShapesFromPath() {
       id: track.id,
       type: track.type,
       name: track.name,
-      mean_pos: track.mean_pos
+      mean_pos: track.mean_pos,
+      inversion_rate: track.inversion_rate
     });
   });
 }
@@ -2889,7 +2899,7 @@ function getTitle(track){
     return (
       `Name: ${track.name}\n` +
       `Position:  ${track.mean_pos}\n` +
-      `Inversion: \n` +
+      `Inversion: ${track.inversion_rate}\n` +
       `Coverage:  \n`
     );
   }else{
@@ -3915,9 +3925,10 @@ function drawMismatches() {
           } else if (mm.type === 'link') {
             //restricted them to long range links and capped the quantity.
             let linkDistance = Math.abs(Number(mm.query) - mm.pos);
-            if (linkArcs.size < 1000 && linkDistance > 100) {
+            if (linkDistance > 100) {//linkArcs.size < 1000
               var end = getXCoordinateOfBaseWithinNode(node, mm.query);
               drawLink(x + 1, x+2, y + 7, node.y, "i", end);//mm.seq
+
             }
           }
         });
@@ -3960,7 +3971,10 @@ function drawSubstitution(x1, x2, y, nodeY, seq) {
 function drawLink(x1, x2, y, nodeY, seq, end) {
   let record = new LinkArc(x1, end);
   let srec = record.toString();
-  if(!linkArcs.has(srec)){ // not already seen
+  if(!linkArcs.has(srec)){ // not already seen: check for redundancies
+    if (linkArcs.size % 100 === 0){
+      console.log(linkArcs.size)
+    }
     linkArcs.add(srec);
     drawArc(x1, x2, y, nodeY, seq, end, svg)
       .on('mouseover', linkMouseOver)

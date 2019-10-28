@@ -28,9 +28,10 @@ class App extends Component {
         showReads: true,
         showSoftClips: true,
         haplotypeColors: 'greys',
-        forwardReadColors: 'reds',
-        reverseReadColors: 'blues',
-        colorReadsByMappingQuality: true,
+        forwardReadColors: 'blues',
+        reverseReadColors: 'reds',
+        exonColors: 'lightColors',
+        colorReadsByMappingQuality: false,
         mappingQualityCutoff: 0,
         blocks: false
       }
@@ -95,12 +96,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <HeaderForm
-          setFetchParams={this.setFetchParams}
-          setDataOrigin={this.setDataOrigin}
-          setColorSetting={this.setColorSetting}
-          dataOrigin={this.state.dataOrigin}
-        />
+
         <TubeMapContainer
           fetchParams={this.state.fetchParams}
           dataOrigin={this.state.dataOrigin}

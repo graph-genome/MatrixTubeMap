@@ -7,7 +7,7 @@ import { dataOriginTypes } from '../enums';
 // import DRB1 from '../odgi_data/DRB1-3123.og.bin10.json';
 // import yeast from '../odgi_data/recent-yeast.json';
 // import sixref from '../odgi_data/sixref_Chr4.og.1000.tile.json'
-import sixref from '../odgi_data/sebastian.all.50000.og.1000000.tile.json'
+import sixref from '../odgi_data/sebastian.all.50000.og.10000.tile.json'
 
 let DRB1 = {};
 // let sixref = {};
