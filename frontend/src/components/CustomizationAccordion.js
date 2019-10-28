@@ -71,64 +71,11 @@ class VisualizationOptions extends Component {
             </CardHeader>
             <Collapse isOpen={this.state.isOpenVisualizationOptions}>
               <CardBody>
-                <FormGroup>
-                  <h5>General</h5>
-                  <FormGroup check>
-                    <Label check>
-                      <Input
-                        type="checkbox"
-                        checked={visOptions.removeRedundantNodes}
-                        onChange={() => toggleFlag('removeRedundantNodes')}
-                      />
-                      Remove redundant nodes
-                    </Label>
-                  </FormGroup>
-                  <FormGroup check>
-                    <Label check>
-                      <Input
-                        type="checkbox"
-                        checked={visOptions.compressedView}
-                        onChange={() => toggleFlag('compressedView')}
-                      />
-                      Compressed view
-                    </Label>
-                  </FormGroup>
-                  <FormGroup check>
-                    <Label check>
-                      <Input
-                        type="checkbox"
-                        checked={visOptions.transparentNodes}
-                        onChange={() => toggleFlag('transparentNodes')}
-                      />
-                      Fully transparent nodes
-                    </Label>
-                  </FormGroup>
-                </FormGroup>
 
                 <FormGroup>
                   <h5>Sequence Reads</h5>
-                  <FormGroup check>
-                    <Label check>
-                      <Input
-                        type="checkbox"
-                        checked={visOptions.showReads}
-                        onChange={() => toggleFlag('showReads')}
-                      />
-                      Show sequence reads
-                    </Label>
-                  </FormGroup>
                   {visOptions.showReads && (
                     <React.Fragment>
-                      <FormGroup check>
-                        <Label check>
-                          <Input
-                            type="checkbox"
-                            checked={visOptions.showSoftClips}
-                            onChange={() => toggleFlag('showSoftClips')}
-                          />
-                          Show soft clips
-                        </Label>
-                      </FormGroup>
                       <FormGroup check>
                         <Label check>
                           <Input
@@ -138,23 +85,9 @@ class VisualizationOptions extends Component {
                               toggleFlag('colorReadsByMappingQuality')
                             }
                           />
-                          Color reads by mapping quality
+                          Color by Accession
                         </Label>
                       </FormGroup>
-                      <Form inline>
-                        <Label className="mr-sm-2 " for="dataSourceSelect">
-                          Mapping Quality Cutoff:
-                        </Label>
-                        <Input
-                          type="select"
-                          id="dataSourceSelect"
-                          className="custom-select"
-                          value={visOptions.mappingQualityCutoff}
-                          onChange={this.handleMappingQualityCutoffChange}
-                        >
-                          {mappingQualityOptions}
-                        </Input>
-                      </Form>
                     </React.Fragment>
                   )}
                 </FormGroup>

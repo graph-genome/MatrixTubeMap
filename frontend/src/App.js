@@ -95,12 +95,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <HeaderForm
-          setFetchParams={this.setFetchParams}
-          setDataOrigin={this.setDataOrigin}
-          setColorSetting={this.setColorSetting}
-          dataOrigin={this.state.dataOrigin}
-        />
+
         <TubeMapContainer
           fetchParams={this.state.fetchParams}
           dataOrigin={this.state.dataOrigin}
