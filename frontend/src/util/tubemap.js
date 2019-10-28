@@ -115,7 +115,7 @@ const config = {
   reverseReadColors: 'reds',
   exonColors: 'lightColors',
   hideLegendFlag: false,
-  colorReadsByMappingQuality: true,
+  colorReadsByMappingQuality: false,
   mappingQualityCutoff: 0,
   blocks: false,
   node_width: 1
@@ -2510,7 +2510,8 @@ function generateSVGShapesFromPath() {
       id: track.id,
       type: track.type,
       name: track.name,
-      mean_pos: track.mean_pos
+      mean_pos: track.mean_pos,
+      inversion_rate: track.inversion_rate
     });
   });
 }
@@ -2889,7 +2890,7 @@ function getTitle(track){
     return (
       `Name: ${track.name}\n` +
       `Position:  ${track.mean_pos}\n` +
-      `Inversion: \n` +
+      `Inversion: ${track.inversion_rate}\n` +
       `Coverage:  \n`
     );
   }else{
@@ -3915,9 +3916,10 @@ function drawMismatches() {
           } else if (mm.type === 'link') {
             //restricted them to long range links and capped the quantity.
             let linkDistance = Math.abs(Number(mm.query) - mm.pos);
-            if (linkArcs.size < 1000 && linkDistance > 100) {
+            if (linkDistance > 100) {//linkArcs.size < 1000
               var end = getXCoordinateOfBaseWithinNode(node, mm.query);
               drawLink(x + 1, x+2, y + 7, node.y, "i", end);//mm.seq
+
             }
           }
         });
@@ -3960,7 +3962,10 @@ function drawSubstitution(x1, x2, y, nodeY, seq) {
 function drawLink(x1, x2, y, nodeY, seq, end) {
   let record = new LinkArc(x1, end);
   let srec = record.toString();
-  if(!linkArcs.has(srec)){ // not already seen
+  if(!linkArcs.has(srec)){ // not already seen: check for redundancies
+    if (linkArcs.size % 100 === 0){
+      console.log(linkArcs.size)
+    }
     linkArcs.add(srec);
     drawArc(x1, x2, y, nodeY, seq, end, svg)
       .on('mouseover', linkMouseOver)
